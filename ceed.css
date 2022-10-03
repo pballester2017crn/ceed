@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+/* Aquí puedes escribir tu comentario */
+body{
+	height: 100vh;
+	@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
+	font-family: 'Work Sans', 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	line-height: 1.2em;
+}
+h3{
+	font-size: 1.7269rem;
+	font-weight: 400;
+	margin: 0 0 10px;
+	color: #333;
+	text-align: left;
+}
+h4{
+	font-size: 1.485rem;
+	font-weight: 400;
+	margin: 0 0 10px;
+	color: #333;
+	text-align: left;
+}
+h5{
+	font-size: calc(.9271875rem + .32625vw);
+	font-weight: 400 !important;
+	margin: 0 0 10px;
+	color: #333;
+	line-height: 1.2;
+	text-align: left;
+}
+h6{
+	font-size: 1rem;
+	line-height: 1.2;
+}
+pre{
+	font-size: 87.5%;
+	font-weight: 400 !important;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	color: #212529;
+	line-height: 28px;
+	text-align: left;
+}
+p{
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom:0;
+	color: #000;
+	line-height: 1.2rem;
+	text-align: left;
+}
+.c2{
+	width: 50%;
+}
+.c3{
+	width: 33,3%;
+}
+.c4{
+	width: 25%;
+}
+.fw3{
+	font-weight: 300;
+}
+.fw4{
+	font-weight: 400;
+}
+.fw5{
+	font-weight: 500;
+}
+.fw6{
+	font-weight: 600;
+}
+.fw7{
+	font-weight: 700;
+}
+.fw8{
+	font-weight: 800;
+}
+.fw9{
+	font-weight: 900;
+}
+
+@media screen and (max-width: 767px){
+	body{
+		background-color: red;
+	}
+	#header{
+		height: 10vh;
+		background-color: rgba(255, 255, 255,0.8);
+	}
+	#tot{
+		height: 90vh;
+	}
+
+	.bloc{
+		height: 30vh;
+		width: 90vw;
+		margin: 10px auto;
+		background-color: #ccc;
+	}
+}
+@media screen and (min-width: 768px){
+	body{
+
+	}
+	#tot{
+		height: 100vh;
+		overflow-y: auto;
+		background-color: yellow;
+	}
+	#assignatura{
+		height: 10vh;
+		background-color: rgb(58,174,108);
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: space-between;
+		border-bottom: solid 5pt #000;
+	}
+	#assignatura h4{
+		margin: 0 0 0 2rem;
+		font-size: 1.25rem;
+		line-height: 1.2rem;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	#info{
+		height: 90vh;
+		border-right: solid 20px rgb(58,174,108);
+	}
+	#icones{
+		list-style-type: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 auto;
+		padding: 0 0 0 0;
+		height: 5vh;
+		width: 90%;
+		background-color: pink;
+	}
+	.icon{
+		font-size: 0.9em;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		line-height: 0.5;
+		background-color: red;
+		padding: 0.5em 1em;
+	}
+	.icon i{
+		margin-right: 0.3em;
+		font-size: 1.5em;
+	}
+	.icon p{
+		margin: 0;
+		padding: 0;
+	}
+	.bloc{
+		background-color: lightgreen;
+		padding: 1rem 0 1rem 0em;
+
+	}
+	.bloc h5{
+		text-transform: uppercase;
+		font-weight: 900;
+		font-size: 1em;
+		margin: 0 0 0 2rem;
+		border-bottom: solid 3pt #000;
+	}
+	.bloc h6{
+		text-transform: uppercase;
+		font-weight: 600;
+		
+		margin: 0 0 0 2rem;
+		border-bottom: solid 1pt #000;
+	}
+	.bloc ul{
+		padding: 1rem 0 0rem 2em;
+		list-style-type: none;
+	}
+	.bloc p{
+		font-size: 0.85rem;
+		margin: 0 0 0 2rem;
+	}
+	.bloc div{
+
+	}
+	.bloc div ul{
+
+		margin: 0;
+		padding: 0;
+	}
+	.bloc div ul li{
+		font-weight: 500;
+	}
+	a{
+		text-decoration: none;
+	}
+	.boto{
+		width: 60%;
+		padding: 0.75em 1em;
+		margin: 0em;
+		border-radius: 5px;
+		border: solid 2pt rgb(58,174,108); background-color:rgb(58,174,108); color:#fff;
+		font-weight: 600;
+	}
+	.profe{
+		float: left;
+		width: 50%;
+		padding: 1rem;
+		margin: 0;
+		display: flex;
+	}
+	.profe img{
+		width: 18%;
+		height: auto;
+		padding: 0rem 1rem 1rem 1rem;
+		border-radius: 50%;
+	}
+	.profe ul{
+		width: 82%;
+		background-color: ;
+		list-style-type: none;
+		margin: 0;
+		padding: 0 0 0 1rem;
+	}
+	.nom{
+		font-weight:600;
+		font-size: 1em;
+	}
+	.dpt{
+		font-style: italic;
+		font-weight: 500;
+		font-size: 0.9em;
+	}
+	.correu{
+		font-size: 0.85em;
+		padding-top: 0.5em;
+	}
+	.tlf{
+		font-size: 0.85em;
+	}
+	#colectiu, #individu{
+		width: 50%;
+		float: left;
+		padding: 1rem 2rem 0rem 2rem;
+
+	}
+
+}
