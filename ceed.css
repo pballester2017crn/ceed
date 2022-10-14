@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 /* Aquí puedes escribir tu comentario */
-body{
+#ceed{
 	height: 100vh;
 	@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
 	font-family: 'Work Sans', 'Arial', sans-serif;
@@ -13,45 +13,55 @@ body{
 	font-weight: 400;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	color: #333;
 	line-height: 1.2em;
 }
-h3{
-	font-size: 1.7269rem;
-	font-weight: 400;
+#ceed h1{
+	font-size: 1.6rem;
+	font-weight: 900;
 	margin: 0 0 10px;
-	color: #333;
+	color: #000;
 	text-align: left;
 }
-h4{
-	font-size: 1.485rem;
-	font-weight: 400;
+#ceed h2{
+	font-size: 1.5rem;
+	font-weight: 800;
 	margin: 0 0 10px;
-	color: #333;
+	color: #000;
 	text-align: left;
 }
-h5{
-	font-size: calc(.9271875rem + .32625vw);
-	font-weight: 400 !important;
+#ceed h3{
+	font-size: 1.4rem;
+	font-weight: 700;
+	margin: 0 0 10px;
+	color: #111;
+	text-align: left;
+}
+#ceed h4{
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin: 0 0 10px;
+	color: #222;
+	text-align: left;
+}
+#ceed h5{
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 0 0 10px;
+	color: #222;
+	line-height: 1.2;
+	text-align: left;
+}
+#ceed h6{
+	font-size: 1.1rem;
+	font-weight: 600;
 	margin: 0 0 10px;
 	color: #333;
 	line-height: 1.2;
 	text-align: left;
 }
-h6{
-	font-size: 1rem;
-	line-height: 1.2;
-}
-pre{
-	font-size: 87.5%;
-	font-weight: 400 !important;
-	margin-top: 0;
-	margin-bottom: 1rem;
-	color: #212529;
-	line-height: 28px;
-	text-align: left;
-}
-p{
+#ceed p{
 	font-size: 1em;
 	font-weight: 400;
 	margin-top: 0;
@@ -60,66 +70,34 @@ p{
 	line-height: 1.2rem;
 	text-align: left;
 }
-.c2{
-	width: 50%;
-}
-.c3{
-	width: 33,3%;
-}
-.c4{
-	width: 25%;
-}
-.fw3{
+#ceed .fw3{
 	font-weight: 300;
 }
-.fw4{
+#ceed .fw4{
 	font-weight: 400;
 }
-.fw5{
+#ceed .fw5{
 	font-weight: 500;
 }
-.fw6{
+#ceed .fw6{
 	font-weight: 600;
 }
-.fw7{
+#ceed .fw7{
 	font-weight: 700;
 }
-.fw8{
+#ceed .fw8{
 	font-weight: 800;
 }
-.fw9{
+#ceed .fw9{
 	font-weight: 900;
 }
 
 @media screen and (max-width: 767px){
-	body{
-		background-color: red;
-	}
-	#header{
-		height: 10vh;
-		background-color: rgba(255, 255, 255,0.8);
-	}
-	#tot{
-		height: 90vh;
-	}
-
-	.bloc{
-		height: 30vh;
-		width: 90vw;
-		margin: 10px auto;
-		background-color: #ccc;
-	}
-}
-@media screen and (min-width: 768px){
-	body{
-
-	}
-	#tot{
+	#ceed{
 		height: 100vh;
 		overflow-y: auto;
-		background-color: yellow;
 	}
-	#assignatura{
+	#ceed #assignatura{
 		height: 10vh;
 		background-color: rgb(58,174,108);
 		display: flex;
@@ -128,135 +106,235 @@ p{
 		justify-content: space-between;
 		border-bottom: solid 5pt #000;
 	}
-	#assignatura h4{
-		margin: 0 0 0 2rem;
-		font-size: 1.25rem;
-		line-height: 1.2rem;
-		font-weight: 700;
+	#ceed #assignatura h4{
+		margin: 0 0 0 1rem;
+		padding: 0;
 		text-transform: uppercase;
 	}
-	#info{
-		height: 90vh;
-		border-right: solid 20px rgb(58,174,108);
+	#ceed #info{
+		/*height: 90vh;*/
+		border-right: solid 5px rgb(58,174,108);
 	}
-	#icones{
-		list-style-type: none;
+	#ceed #icones{
 		display: flex;
 		align-items: center;
+		align-content: center;
 		justify-content: space-between;
+		list-style-type: none;
 		margin: 0 auto;
-		padding: 0 0 0 0;
-		height: 5vh;
-		width: 90%;
-		background-color: pink;
+		padding: 0.5rem 0 0 0;
+		height: 7vh;
+		width: 95%;
 	}
-	.icon{
+	#ceed .icon{
+		font-size: 0.9em;
+		/*display: flex;
+		align-items: center;*/
+		cursor: pointer;
+		line-height: 0.5;
+		padding: 0.5em 0.5em;
+		color: #999;
+		/*float: left;
+		border-bottom: solid 2pt #999;*/
+	}
+	#ceed .icon p{
+		color: #333;
+		font-size: 0.75rem;
+	}
+	#ceed .icon:hover{
+		color: rgb(58,174,108);
+		background-color: rgba(58,174,108,0.1);
+		border-bottom: solid 2pt rgb(58,174,108);
+	}
+}
+@media screen and (min-width: 768px){
+	#ceed{
+		height: 100vh;
+		overflow-y: auto;
+	}
+	#ceed #assignatura{
+		height: 10vh;
+		background-color: rgb(58,174,108);
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: space-between;
+		border-bottom: solid 5pt #000;
+	}
+	#ceed #assignatura h4{
+		margin: 0 0 0 0rem;
+		text-transform: uppercase;
+	}
+	#ceed #info{
+		/*height: 90vh;*/
+		border-right: solid 10px rgb(58,174,108);
+	}
+	#ceed #icones{
+		list-style-type: none;
+		/*display: flex;
+		align-items: center;
+		justify-content: space-between;*/
+		margin: 0 auto;
+		padding: 0.5rem 0 0 0;
+		height: 7vh;
+		width: 95%;
+	}
+	#ceed .icon{
 		font-size: 0.9em;
 		display: flex;
 		align-items: center;
 		cursor: pointer;
 		line-height: 0.5;
-		background-color: red;
-		padding: 0.5em 1em;
+		padding: 0.5em 2em;
+		color: #999;
+		float: left;
+		/*border-bottom: solid 2pt #999;*/
 	}
-	.icon i{
+	#ceed .icon p{
+		color: #333;
+	}
+	#ceed .icon:hover{
+		color: rgb(58,174,108);
+		background-color: rgba(58,174,108,0.1);
+		border-bottom: solid 2pt rgb(58,174,108);
+	}
+	#ceed .icon:hover p{
+		font-weight: 600;
+		color: rgb(58,174,108);
+	}
+	#ceed .icon i{
 		margin-right: 0.3em;
 		font-size: 1.5em;
 	}
-	.icon p{
+	#ceed .icon p{
 		margin: 0;
 		padding: 0;
 	}
-	.bloc{
-		background-color: lightgreen;
+	#ceed .bloc{
 		padding: 1rem 0 1rem 0em;
-
+		clear: all;
+		overflow: hidden;
+		display: none;
 	}
-	.bloc h5{
+	#ceed .x{
 		text-transform: uppercase;
-		font-weight: 900;
-		font-size: 1em;
-		margin: 0 0 0 2rem;
-		border-bottom: solid 3pt #000;
+		float: right;
+		font-weight: 500;
+		padding: 0 2rem 0 0;
+		cursor: pointer;
 	}
-	.bloc h6{
+	#ceed .bloc h5{
 		text-transform: uppercase;
-		font-weight: 600;
-		
-		margin: 0 0 0 2rem;
-		border-bottom: solid 1pt #000;
+		font-size: 0.9em;
+		margin: 0 1rem 0.5rem 2rem;
+		padding: 0 0 0.25rem 0;
+		/*border-bottom: solid 1pt #000;*/
 	}
-	.bloc ul{
-		padding: 1rem 0 0rem 2em;
-		list-style-type: none;
-	}
-	.bloc p{
+	#ceed .bloc h6{
+		text-transform: uppercase;
+		font-weight: 500;
 		font-size: 0.85rem;
 		margin: 0 0 0 2rem;
+		padding: 0.5rem 0 0 0;
 	}
-	.bloc div{
-
+	#ceed .bloc ul{
+		padding: 0rem 0 0rem 2em;
+		list-style-type: none;
+		font-size: 0.95rem;
+		color: #000;
 	}
-	.bloc div ul{
-
+	#ceed .bloc ul li{
+		font-size: 0.85rem;
+	}
+	#ceed .bloc p{
+		font-size: 0.85rem;
+		padding: 0rem 0 0rem 2rem;
+	}
+	#ceed .bloc div ul{
+		padding: 0.5rem 0 0rem 2rem;
 		margin: 0;
-		padding: 0;
 	}
-	.bloc div ul li{
-		font-weight: 500;
+	#ceed .bloc div p{
+		padding: 0.5rem 0 0rem 2rem;
+		margin: 0;
 	}
-	a{
+	#ceed .bloc div ul li{
+		font-size: 0.85rem;
+	}
+	#ceed a{
 		text-decoration: none;
 	}
-	.boto{
-		width: 60%;
-		padding: 0.75em 1em;
+	#ceed .boto{
+		width: 50%;
+		height: 2.5rem;
+		padding: 0;
 		margin: 0em;
 		border-radius: 5px;
-		border: solid 2pt rgb(58,174,108); background-color:rgb(58,174,108); color:#fff;
+		border: solid 2pt rgb(58,174,108);
+		background-color:rgb(58,174,108); color:#fff;
 		font-weight: 600;
 	}
-	.profe{
+	#ceed .profe{
 		float: left;
 		width: 50%;
-		padding: 1rem;
+		padding: 1rem 0 1rem 2rem;
 		margin: 0;
 		display: flex;
 	}
-	.profe img{
-		width: 18%;
+	#ceed .profeimg{
+		width: 10%;
 		height: auto;
-		padding: 0rem 1rem 1rem 1rem;
+		padding: 0;
+	}
+	#ceed .profeimg img{
+		width: 100%;
+		height: auto;
 		border-radius: 50%;
 	}
-	.profe ul{
-		width: 82%;
+	#ceed .profe ul{
+		width: 90%;
 		background-color: ;
 		list-style-type: none;
 		margin: 0;
 		padding: 0 0 0 1rem;
 	}
-	.nom{
+	#ceed .nom{
 		font-weight:600;
 		font-size: 1em;
 	}
-	.dpt{
+	#ceed .dpt{
 		font-style: italic;
 		font-weight: 500;
 		font-size: 0.9em;
 	}
-	.correu{
+	#ceed .correu{
 		font-size: 0.85em;
 		padding-top: 0.5em;
 	}
-	.tlf{
+	#ceed .tlf{
 		font-size: 0.85em;
 	}
-	#colectiu, #individu{
-		width: 50%;
+	#ceed #titol, #ceed #tema{
+		background-color:rgb(58,174,108);
+		margin: 0rem 0 0 0rem;
+		padding: 1rem 1rem 0.5rem 0;
+	}
+	#ceed #titol i, #ceed #tema i{
+		padding: 0 0.25rem 0 1rem;
+	}
+	#ceed #tutories{
+		overflow: hidden;
+	}
+	#ceed #colectiu, #ceed #individu{
 		float: left;
-		padding: 1rem 2rem 0rem 2rem;
-
+		width: 49%;
+	}
+	#ceed #norma{
+		float: left;
+		width: 98%;
+	}
+	#ceed #norma p{
+		column-count: 2;
 	}
 
 }
