@@ -139,7 +139,7 @@
 	}
 	#ceed .icon:hover{
 		color: rgb(58,174,108);
-		background-color: rgba(58,174,108,0.1);
+		/*background-color: rgba(58,174,108,0.1);*/
 		border-bottom: solid 2pt rgb(58,174,108);
 	}
 	#ceed .icon:hover p{
@@ -164,7 +164,7 @@
 		text-transform: uppercase;
 		float: right;
 		font-weight: 300;
-		padding: 0 2rem 0 0;
+		padding: 0 1rem 0 0;
 		cursor: pointer;
 	}
 	#ceed .bloc h5{
@@ -189,6 +189,9 @@
 	}
 	#ceed .bloc ul li{
 		font-size: 0.85rem;
+	}
+	#ceed .bloc .tri{
+		font-weight: 500;
 	}
 	#ceed .bloc p{
 		font-size: 0.85rem;
@@ -253,7 +256,7 @@
 	}
 	#ceed .correu{
 		font-size: 0.85em;
-		padding-top: 0.5em;
+		padding-top: 0em;
 	}
 	#ceed .tlf{
 		font-size: 0.85em;
