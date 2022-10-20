@@ -1,14 +1,7 @@
-*{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	box-sizing: border-box;
-}
 /* Aquí puedes escribir tu comentario */
 #ceed{
 	height: 100vh;
-	@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
-	font-family: 'Work Sans', 'Arial', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	margin: 0;
@@ -156,7 +149,6 @@
 	}
 	#ceed .bloc{
 		padding: 1rem 0 1rem 0em;
-		clear: all;
 		overflow: hidden;
 		display: none;
 	}
@@ -240,7 +232,6 @@
 	}
 	#ceed .profe ul{
 		width: 90%;
-		background-color:;
 		list-style-type: none;
 		margin: 0;
 		padding: 0 0 0 1rem;
@@ -336,7 +327,6 @@
 	}
 	#ceed .bloc{
 		padding: 1rem 0 1rem 0em;
-		clear: all;
 		overflow: hidden;
 		display: none;
 	}
@@ -400,7 +390,7 @@
 	}
 	#ceed .profe{
 		float: left;
-		width: 50%;
+		width: 46%;
 		padding: 1rem 0 1rem 2rem;
 		margin: 0;
 		display: flex;
@@ -417,7 +407,7 @@
 	}
 	#ceed .profe ul{
 		width: 90%;
-		background-color: ;
+		/*background-color: ;*/
 		list-style-type: none;
 		margin: 0;
 		padding: 0 0 0 1rem;
@@ -460,5 +450,4 @@
 	#ceed #norma p{
 		column-count: 2;
 	}
-
 }
