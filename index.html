@@ -3,19 +3,21 @@
   <meta charset="utf/8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://pballester2017crn.github.io/ceed/ceed.css">
-  <!--<link rel="stylesheet" type="text/css" href="ceed.css">-->
+  <!--<link rel="stylesheet" type="text/css" href="ceed.css">
+  <link rel="stylesheet" type="text/css" href="ceed_no.css">-->
+
 </head>
 <body>
   <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
   <!-- Comentaris -->
-  <div id="ceed">
-      <div id="assignatura">
+  <div class="ceed">
+      <div class="assignatura">
           <h4>Nom Assignatura Batxiller</h4>
           <img src="https://portal.edu.gva.es/ceedcv/wp-content/uploads/sites/133/2022/09/distancia.svg" width="auto" height="100%">
       </div>
-      <div id="info">
+      <div class="info">
 
-        <ul id="icones">
+        <ul class="icones">
           <li id="profeicon" class="icon">
             <i class="fa fa-user"></i>
             <p id="profeiconp">Professorat</p>
@@ -38,7 +40,7 @@
           </li>
         </ul>
 
-        <div id="dades" class="bloc">
+        <div class="bloc">
           <h2 class="x">x</h2>
           <h5>Professorat</h5>
           <div class="profe">
@@ -86,7 +88,7 @@
             </ul>
           </div>
         </div>
-        <div id="horari" class="bloc">
+        <div class="bloc">
           <h2 class="x">x</h2>
           <h5>Horaris</h5>
           <ul>
@@ -98,11 +100,11 @@
           </ul>
         </div>
 
-        <div id="tutories" class="bloc">
+        <div class="bloc">
           <h2 class="x">x</h2>
           <h5>Tutories</h5>
           <p>Unix-te a les tutories</p>
-            <div id="colectiu">
+            <div class="colectiu">
               <ul>
                 <a href="">
                   <p class="boto">Col·lectives</p>
@@ -114,7 +116,7 @@
                 <li><span class="fw5">Vesprades:</span> Dilluns 20:00 - 20:55</li>
               </ul>
             </div>
-            <div id="individu">
+            <div class="individu">
               <ul>
                 <a href="">
                   <p class="boto">Individuals</p>
@@ -123,29 +125,29 @@
               <p>Per a sol·licitar les tutories individuals s'ha d'enviar un correu a nom.cognom@edu.gva.es o contactar a través de la missatgeria d'AULES.</p>
             </div>
 
-          <div id="norma">
+          <div class="norma">
             <h6 class="fw5">AVÍS LEGAL</h6>
             <p>En interés del compliment del Reglament (UE) 2016/679 del Parlament Europeu i del Consell, de 27 d’abril de 2016 relatiu a la protecció de les persones físiques pel que fa al tractament de les dades personals i a la lliure circulació d’aquestes i de la Llei Orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i Garantia dels Drets Digitals (LOPD-GDD), la reproducció d’aquestes gravacions queda limitada a l’entorn virtual en què es desenvolup aquest curs. Queda prohibida la seua descàrrega, difusió, distribució o divulgació total o parcial i particularment la seua compartició en xarxes socials o altres serveis externs.</p>
           </div>
         </div>
 
-        <div id="examens" class="bloc">
+        <div class="bloc">
           <h2 class="x">x</h2>
           <h5>Exàmens</h5>
-          <ul>Primer semestre
+          <ul><span class="tri">Primer semestre</span>
             <li>Dilluns</li>
             <li>Dimarts</li>
           </ul>
-          <ul>Segon semestre
+          <ul><span class="tri">Segon semestre</span>
             <li>Dilluns</li>
             <li>Dimarts</li>
           </ul>
-          <ul>Exàmens extraordinaris
+          <ul><span class="tri">Exàmens extraordinaris</span>
             <li>Dilluns</li>
             <li>Dimarts</li>
           </ul>
         </div>
-        <div id="avalua" class="bloc">
+        <div class="bloc">
           <h2 class="x">x</h2>
           <h5>Criteris d'avaluació</h5>
             <p>Instruments d'avaluació</p>
@@ -153,154 +155,69 @@
         </div>
       </div>
 
-      <div id="titol">
+      <div class="titol">
           <h5><i class="fa fa-chevron-right"></i>Tema 00 Títol</h5>
       </div>
-      <div id="tema">
+      <div class="tema">
           <h6><i class="fa fa-chevron-right"></i>000 Títol</h6>
       </div>
 </div>
 
   <script>
-      var dades = document.getElementById("dades");
-      var horari = document.getElementById("horari");
-      var tutories = document.getElementById("tutories");
-      var examens = document.getElementById("examens");
-      var avalua = document.getElementById("avalua");
-      var profeicon = document.getElementById("profeicon");
-      var horaicon = document.getElementById("horaicon");
-      var tutoriaicon = document.getElementById("tutoriaicon");
-      var examenicon = document.getElementById("examenicon");
-      var avaluaicon = document.getElementById("avaluaicon");
-      var ix= document.getElementsByClassName("x");
+      var blo = document.getElementsByClassName("bloc");
+      var icona = document.getElementsByClassName("icon");
 
+      icona[0].addEventListener("click", dada);
+      function dada() {
+          blo[0].style.display = "block";
+          blo[1].style.display = "none";
+          blo[2].style.display = "none";
+          blo[3].style.display = "none";
+          blo[4].style.display = "none";
+      }
+      icona[1].addEventListener("click", hora);
+      function hora() {
+          blo[0].style.display = "none";
+          blo[1].style.display = "block";
+          blo[2].style.display = "none";
+          blo[3].style.display = "none";
+          blo[4].style.display = "none";
+      }
+      icona[2].addEventListener("click", tutoria);
+      function tutoria() {
+          blo[0].style.display = "none";
+          blo[1].style.display = "none";
+          blo[2].style.display = "block";
+          blo[3].style.display = "none";
+          blo[4].style.display = "none";
+      }
+      icona[3].addEventListener("click", examen);
+      function examen() {
+          blo[0].style.display = "none";
+          blo[1].style.display = "none";
+          blo[2].style.display = "none";
+          blo[3].style.display = "block";
+          blo[4].style.display = "none";
+      }
+      icona[4].addEventListener("click", avaluacio);
+      function avaluacio() {
+          blo[0].style.display = "none";
+          blo[1].style.display = "none";
+          blo[2].style.display = "none";
+          blo[3].style.display = "none";
+          blo[4].style.display = "block";
+      }
+      var ix= document.getElementsByClassName("x");
       for (var i = 0; i < ix.length; i++) {
         ix[i].addEventListener("click", tanca);
         function tanca() {
-            dades.style.display = "none";
-            horari.style.display = "none";
-            tutories.style.display = "none";
-            examens.style.display = "none";
-            avalua.style.display = "none";
+            blo[0].style.display = "none";
+            blo[1].style.display = "none";
+            blo[2].style.display = "none";
+            blo[3].style.display = "none";
+            blo[4].style.display = "none";
         }
       }
-
-      profeicon.addEventListener("click", dada);
-      function dada() {
-          dades.style.display = "block";
-          horari.style.display = "none";
-          tutories.style.display = "none";
-          examens.style.display = "none";
-          avalua.style.display = "none";
-      }
-
-      horaicon.addEventListener("click", hora);
-      function hora() {
-          dades.style.display = "none";
-          horari.style.display = "block";
-          tutories.style.display = "none";
-          examens.style.display = "none";
-          avalua.style.display = "none";
-      }
-
-      tutoriaicon.addEventListener("click", tutoria);
-      function tutoria() {
-          dades.style.display = "none";
-          horari.style.display = "none";
-          tutories.style.display = "block";
-          examens.style.display = "none";
-          avalua.style.display = "none";
-      }
-      examenicon.addEventListener("click", examen);
-
-      function examen() {
-          dades.style.display = "none";
-          horari.style.display = "none";
-          tutories.style.display = "none";
-          examens.style.display = "block";
-          avalua.style.display = "none";
-      }
-      avaluaicon.addEventListener("click", avaluacio);
-
-      function avaluacio() {
-          dades.style.display = "none";
-          horari.style.display = "none";
-          tutories.style.display = "none";
-          examens.style.display = "none";
-          avalua.style.display = "block";
-      }
-      /*
-      profeicon.addEventListener("mouseover", noms);
-
-      function noms() {
-          profeicon.style.borderBottom = "solid 3pt #000";
-          horaicon.style.borderBottom = "solid 0pt #000";
-          tutoriaicon.style.borderBottom = "solid 0pt #000";
-          examenicon.style.borderBottom = "solid 0pt #000";
-          avaluaicon.style.borderBottom = "solid 0pt #000";
-          profeicon.style.fontWeight = "700";
-          horaicon.style.fontWeight = "500";
-          tutoriaicon.style.fontWeight = "500";
-          examenicon.style.fontWeight = "500";
-          avaluaicon.style.fontWeight = "500";
-      }
-      horaicon.addEventListener("mouseover", hores);
-
-      function hores() {
-          profeicon.style.borderBottom = "solid 0pt #000";
-          horaicon.style.borderBottom = "solid 3pt #000";
-          tutoriaicon.style.borderBottom = "solid 0pt #000";
-          examenicon.style.borderBottom = "solid 0pt #000";
-          avaluaicon.style.borderBottom = "solid 0pt #000";
-          profeicon.style.fontWeight = "500";
-          horaicon.style.fontWeight = "700";
-          tutoriaicon.style.fontWeight = "500";
-          examenicon.style.fontWeight = "500";
-          avaluaicon.style.fontWeight = "500";
-      }
-      tutoriaicon.addEventListener("mouseover", tutor);
-
-      function tutor() {
-          profeicon.style.borderBottom = "solid 0pt #000";
-          horaicon.style.borderBottom = "solid 0pt #000";
-          tutoriaicon.style.borderBottom = "solid 3pt #000";
-          examenicon.style.borderBottom = "solid 0pt #000";
-          avaluaicon.style.borderBottom = "solid 0pt #000";
-          profeicon.style.fontWeight = "500";
-          horaicon.style.fontWeight = "500";
-          tutoriaicon.style.fontWeight = "700";
-          examenicon.style.fontWeight = "500";
-          avaluaicon.style.fontWeight = "500";
-      }
-      examenicon.addEventListener("mouseover", exam);
-
-      function exam() {
-          profeicon.style.borderBottom = "solid 0pt #000";
-          horaicon.style.borderBottom = "solid 0pt #000";
-          tutoriaicon.style.borderBottom = "solid 0pt #000";
-          examenicon.style.borderBottom = "solid 3pt #000";
-          avaluaicon.style.borderBottom = "solid 0pt #000";
-          profeicon.style.fontWeight = "500";
-          horaicon.style.fontWeight = "500";
-          tutoriaicon.style.fontWeight = "500";
-          examenicon.style.fontWeight = "700";
-          avaluaicon.style.fontWeight = "500";
-      }
-      avaluaicon.addEventListener("mouseover", aval);
-
-      function aval() {
-          profeicon.style.borderBottom = "solid 0pt #000";
-          horaicon.style.borderBottom = "solid 0pt #000";
-          tutoriaicon.style.borderBottom = "solid 0pt #000";
-          examenicon.style.borderBottom = "solid 0pt #000";
-          avaluaicon.style.borderBottom = "solid 3pt #000";
-          profeicon.style.fontWeight = "500";
-          horaicon.style.fontWeight = "500";
-          tutoriaicon.style.fontWeight = "500";
-          examenicon.style.fontWeight = "500";
-          avaluaicon.style.fontWeight = "700";
-      }
-      */
   </script>
 </body>
 </html>
