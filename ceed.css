@@ -64,6 +64,9 @@
 	line-height: 1.2rem;
 	text-align: left;
 }
+.ceed ul, .ceed li{
+	list-style-type: none;
+}
 .ceed .fw3{
 	font-weight: 300;
 }
