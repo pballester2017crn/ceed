@@ -94,22 +94,29 @@
 		overflow-y: auto;
 	}
 	.ceed .assignatura{
-		height: 10vh;
+		height: 8vh;
 		background-color: rgb(58,174,108);
 		display: flex;
 		align-items: center;
-		align-content: center;
-		justify-content: space-between;
+		/*align-content: center;
+		justify-content: space-between;*/
 		border-bottom: solid 5pt #000;
+		background-image: url("https://portal.edu.gva.es/ceedcv/wp-content/uploads/sites/133/2022/09/distancia.svg");
+		background-size: auto;
+		background-position: right;
+		background-repeat: no-repeat;
 	}
 	.ceed .assignatura h4{
-		margin: 0 0 0 1rem;
+		margin: 0 0 0 0rem;
 		padding: 0;
 		text-transform: uppercase;
+		font-size: 1.1rem;
+		font-weight: 700;
 	}
 	.ceed .info{
 		/*height: 90vh;*/
 		border-right: solid 5px rgb(58,174,108);
+		box-sizing: border-box;
 	}
 	.ceed .icones{
 		display: flex;
@@ -120,7 +127,7 @@
 		margin: 0 auto;
 		padding: 0.5rem 0 0 0;
 		height: 7vh;
-		width: 95%;
+		
 	}
 	.ceed .icon{
 		font-size: 0.9em;
@@ -132,7 +139,7 @@
 	}
 	.ceed .icon p{
 		color: #333;
-		font-size: 0.75rem;
+		font-size: 0.7rem;
 	}
 	.ceed .icon:hover{
 		color: rgb(58,174,108);
@@ -155,6 +162,7 @@
 		padding: 1rem 0 1rem 0em;
 		overflow: hidden;
 		display: none;
+		box-sizing: border-box;
 	}
 	.ceed .x{
 		text-transform: uppercase;
@@ -186,6 +194,7 @@
 	}
 	.ceed .bloc ul li{
 		font-size: 0.85rem;
+		list-style-type: none;
 	}
 	.ceed .bloc .tri{
 		font-weight: 500;
@@ -197,6 +206,7 @@
 	.ceed .bloc div ul{
 		padding: 0.5rem 0.5rem 0rem 1rem;
 		margin: 0;
+		list-style-type: none;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0.5rem 0rem 1rem;
@@ -204,6 +214,7 @@
 	}
 	.ceed .bloc div ul li{
 		font-size: 0.85rem;
+		list-style-type: none;
 	}
 	.ceed a{
 		text-decoration: none;
@@ -223,6 +234,7 @@
 		padding: 0rem 0 0rem 1rem;
 		margin: 0;
 		display: flex;
+		box-sizing: border-box;
 	}
 	.ceed .profeimg{
 		width: 10%;
@@ -263,7 +275,7 @@
 		padding: 0.5rem 1rem 0.1rem 0;
 	}
 	.ceed .titol i, .ceed .tema i{
-		padding: 0 0.25rem 0 1rem;
+		padding: 0 0.25rem 0 0rem;
 	}
 
 }
@@ -273,13 +285,17 @@
 		overflow-y: auto;
 	}
 	.ceed .assignatura{
-		height: 10vh;
-		background-color: rgb(58,174,108);
+		height: 8vh;
 		display: flex;
 		align-items: center;
-		align-content: center;
-		justify-content: space-between;
+		/*align-content: center;
+		justify-content: space-between;*/
+		background-color: rgb(58,174,108);
 		border-bottom: solid 5pt #000;
+		background-image: url("https://portal.edu.gva.es/ceedcv/wp-content/uploads/sites/133/2022/09/distancia.svg");
+		background-size: auto;
+		background-position: right;
+		background-repeat: no-repeat;
 	}
 	.ceed .assignatura h4{
 		margin: 0 0 0 0rem;
@@ -288,16 +304,16 @@
 	.ceed .info{
 		/*height: 90vh;*/
 		border-right: solid 10px rgb(58,174,108);
+		box-sizing: border-box;
 	}
 	.ceed .icones{
 		list-style-type: none;
-		/*display: flex;
+		display: flex;
 		align-items: center;
-		justify-content: space-between;*/
+		/*justify-content: space-between;*/
 		margin: 0 auto;
 		padding: 0.5rem 0 0 0;
 		height: 7vh;
-		width: 95%;
 	}
 	.ceed .icon{
 		font-size: 0.9em;
@@ -315,7 +331,7 @@
 	}
 	.ceed .icon:hover{
 		color: rgb(58,174,108);
-		background-color: rgba(58,174,108,0.1);
+		/*background-color: rgba(58,174,108,0.1);*/
 		border-bottom: solid 2pt rgb(58,174,108);
 	}
 	.ceed .icon:hover p{
@@ -334,6 +350,7 @@
 		padding: 1rem 0 1rem 0em;
 		overflow: hidden;
 		display: none;
+		box-sizing: border-box;
 	}
 	.ceed .x{
 		text-transform: uppercase;
@@ -365,6 +382,7 @@
 	}
 	.ceed .bloc ul li{
 		font-size: 0.85rem;
+		list-style-type: none;
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
@@ -373,6 +391,7 @@
 	.ceed .bloc div ul{
 		padding: 0.5rem 0 0rem 2rem;
 		margin: 0;
+		list-style-type: none;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0 0rem 2rem;
@@ -380,6 +399,7 @@
 	}
 	.ceed .bloc div ul li{
 		font-size: 0.85rem;
+		list-style-type: none;
 	}
 	.ceed a{
 		text-decoration: none;
@@ -440,7 +460,7 @@
 		padding: 1rem 1rem 0.5rem 0;
 	}
 	.ceed .titol i, .ceed .tema i{
-		padding: 0 0.25rem 0 1rem;
+		padding: 0 0.25rem 0 0rem;
 	}
 	.ceed .tutories{
 		overflow: hidden;
