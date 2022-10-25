@@ -19,23 +19,28 @@
       <div class="info">
 
         <ul class="icones">
-          <li id="profeicon" class="icon">
+          <li class="icon" 
+          onclick="if (document.getElementsByClassName('bloc')[0].style.display=='none') { document.getElementsByClassName('bloc')[0].style.display='block';document.getElementsByClassName('bloc')[1].style.display='none';document.getElementsByClassName('bloc')[2].style.display='none';document.getElementsByClassName('bloc')[3].style.display='none';document.getElementsByClassName('bloc')[4].style.display='none'} else {document.getElementsByClassName('bloc')[0].style.display='none'}">
             <i class="fa fa-user"></i>
             <p id="profeiconp">Professorat</p>
           </li>
-          <li id="horaicon" class="icon">
+          <li class="icon"
+          onclick="if (document.getElementsByClassName('bloc')[1].style.display=='none') { document.getElementsByClassName('bloc')[0].style.display='none';document.getElementsByClassName('bloc')[1].style.display='block';document.getElementsByClassName('bloc')[2].style.display='none';document.getElementsByClassName('bloc')[3].style.display='none';document.getElementsByClassName('bloc')[4].style.display='none'} else {document.getElementsByClassName('bloc')[1].style.display='none'}">
             <i class="fa fa-clock"></i>
             <p id="horaiconp">Horari</p>
           </li>
-          <li id="tutoriaicon" class="icon">
+          <li class="icon"
+          onclick="if (document.getElementsByClassName('bloc')[2].style.display=='none') { document.getElementsByClassName('bloc')[0].style.display='none';document.getElementsByClassName('bloc')[1].style.display='none';document.getElementsByClassName('bloc')[2].style.display='block';document.getElementsByClassName('bloc')[3].style.display='none';document.getElementsByClassName('bloc')[4].style.display='none'} else {document.getElementsByClassName('bloc')[2].style.display='none'}">
             <i class="fa fa-users"></i>
             <p id="tutoriaiconp">Tutories</p>
           </li>
-          <li id="examenicon" class="icon">
+          <li class="icon"
+          onclick="if (document.getElementsByClassName('bloc')[3].style.display=='none') { document.getElementsByClassName('bloc')[0].style.display='none';document.getElementsByClassName('bloc')[1].style.display='none';document.getElementsByClassName('bloc')[2].style.display='none';document.getElementsByClassName('bloc')[3].style.display='block';document.getElementsByClassName('bloc')[4].style.display='none'} else {document.getElementsByClassName('bloc')[3].style.display='none'}">
             <i class="fa fa-address-book"></i>
             <p id="exameniconp">Exàmens</p>
           </li>
-          <li id="avaluaicon" class="icon">
+          <li class="icon"
+          onclick="if (document.getElementsByClassName('bloc')[4].style.display=='none') { document.getElementsByClassName('bloc')[0].style.display='none';document.getElementsByClassName('bloc')[1].style.display='none';document.getElementsByClassName('bloc')[2].style.display='none';document.getElementsByClassName('bloc')[3].style.display='none';document.getElementsByClassName('bloc')[4].style.display='block'} else {document.getElementsByClassName('bloc')[4].style.display='none'}">
             <i class="fa fa-pen"></i>
             <p id="avaluaiconp">Criteris</p>
           </li>
@@ -165,51 +170,9 @@
 </div>
 
   <script>
-      var blo= document.getElementsByClassName("bloc");
-      var icona= document.getElementsByClassName("icon");
-
-      icona[0].addEventListener("click", dada);
-      function dada() {
-          blo[0].style.display = "block";
-          blo[1].style.display = "none";
-          blo[2].style.display = "none";
-          blo[3].style.display = "none";
-          blo[4].style.display = "none";
-      }
-      icona[1].addEventListener("click", hora);
-      function hora() {
-          blo[0].style.display = "none";
-          blo[1].style.display = "block";
-          blo[2].style.display = "none";
-          blo[3].style.display = "none";
-          blo[4].style.display = "none";
-      }
-      icona[2].addEventListener("click", tutoria);
-      function tutoria() {
-          blo[0].style.display = "none";
-          blo[1].style.display = "none";
-          blo[2].style.display = "block";
-          blo[3].style.display = "none";
-          blo[4].style.display = "none";
-      }
-      icona[3].addEventListener("click", examen);
-      function examen() {
-          blo[0].style.display = "none";
-          blo[1].style.display = "none";
-          blo[2].style.display = "none";
-          blo[3].style.display = "block";
-          blo[4].style.display = "none";
-      }
-      icona[4].addEventListener("click", avaluacio);
-      function avaluacio() {
-          blo[0].style.display = "none";
-          blo[1].style.display = "none";
-          blo[2].style.display = "none";
-          blo[3].style.display = "none";
-          blo[4].style.display = "block";
-      }
-      var ix= document.getElementsByClassName("x");
-      for (var i = 0; i < ix.length; i++) {
+  var blo= document.getElementsByClassName("bloc");
+  var ix= document.getElementsByClassName("x");
+  for (var i = 0; i < ix.length; i++) {
         ix[i].addEventListener("click", tanca);
         function tanca() {
             blo[0].style.display = "none";
