@@ -349,7 +349,7 @@
 	.ceed .bloc{
 		padding: 1rem 0 1rem 0em;
 		overflow: hidden;
-		display: none;
+		/*display: none;*/
 		box-sizing: border-box;
 	}
 	.ceed .x{
