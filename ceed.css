@@ -67,7 +67,12 @@
 .ceed ul, .ceed li{
 	list-style-type: none;
 }
-
+.fw5{
+	font-weight: 500;
+}
+.fw6{
+	font-weight: 600;
+}
 @media screen and (max-width: 480px){
 	.ceed{
 		height: 100vh;
@@ -170,7 +175,6 @@
 		list-style-type: none;
 		font-size: 0.95rem;
 		color: #000;
-		background-color: violet;
 	}
 	.ceed .bloc ul li{
 		font-size: 0.85rem;
@@ -178,7 +182,6 @@
 		margin: 0;
 		padding: 0;
 		line-height: 1rem;
-		background-color: yellow;
 	}
 	.ceed .bloc .tri{
 		font-weight: 500;
@@ -191,28 +194,12 @@
 		padding: 0;
 		margin: 0;
 		list-style-type: none;
-		background-color: violet;
-	}
-	.ceed .bloc .colectiu, .ceed .bloc .colectiu{
-		padding: 0;
-		margin: 0;
-		list-style-type: none;
-	}
-	.ceed .bloc .colectiu ul, .ceed .bloc .colectiu ul{
-		padding: 0;
-		margin: 0;
-		list-style-type: none;
-	}
-	.ceed .bloc .colectiu ul li, .ceed .bloc .colectiu ul li{
-		padding: 0;
-		margin: 0;
-		list-style-type: none;
 	}
 	.ceed .bloc div ul{
 		padding: 0.5rem 0rem 0rem 0rem;
 		margin: 0;
 		list-style-type: none;
-		background-color: yellow;
+		line-height: 1rem;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0rem 0rem 0rem;
@@ -224,21 +211,22 @@
 		line-height: 1rem;
 		margin: 0;
 		padding: 0;
-		background-color: lavender;
 	}
 	.ceed a{
 		text-decoration: none;
 	}
 	.ceed .boto{
 		width: 50%;
-		height: 2.5rem;
-		padding: 0 0 0 2.5rem;
-		margin: 0rem;
+		height: 1.5rem;
+		padding: 0.5rem;
+		margin: 0;
 		border-radius: 5px;
 		border: solid 2pt rgb(58,174,108);
 		background-color: rgb(58,174,108);
 		color:#fff;
 		font-weight: 600;
+		text-decoration: none;
+		display: block;
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
@@ -418,13 +406,15 @@
 	}
 	.ceed .boto{
 		width: 50%;
-		height: 2.5rem;
-		padding: 0;
-		margin: 0em;
+		height: 1.5rem;
+		padding: 1rem;
+		margin: 0;
 		border-radius: 5px;
 		border: solid 2pt rgb(58,174,108);
 		background-color:rgb(58,174,108); color:#fff;
 		font-weight: 600;
+		text-decoration: none;
+		display: block;
 	}
 	.ceed .profe{
 		float: left;
