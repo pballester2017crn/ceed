@@ -193,6 +193,21 @@
 		list-style-type: none;
 		background-color: violet;
 	}
+	.ceed .bloc .colectiu, .ceed .bloc .colectiu{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	.ceed .bloc .colectiu ul, .ceed .bloc .colectiu ul{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	.ceed .bloc .colectiu ul li, .ceed .bloc .colectiu ul li{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
 	.ceed .bloc div ul{
 		padding: 0.5rem 0rem 0rem 0rem;
 		margin: 0;
