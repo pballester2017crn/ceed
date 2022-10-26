@@ -88,34 +88,31 @@
 .ceed .fw9{
 	font-weight: 900;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 480px){
 	.ceed{
 		height: 100vh;
 		overflow-y: auto;
 	}
 	.ceed .assignatura{
 		height: 8vh;
-		background-color: rgb(58,174,108);
 		display: flex;
 		align-items: center;
 		/*align-content: center;
 		justify-content: space-between;*/
 		border-bottom: solid 5pt #000;
-		background-image: url("https://portal.edu.gva.es/ceedcv/wp-content/uploads/sites/133/2022/09/distancia.svg");
 		background-size: auto;
 		background-position: right;
 		background-repeat: no-repeat;
 	}
 	.ceed .assignatura h4{
-		margin: 0 0 0 0rem;
+		margin: 0 0 0 0.5rem;
 		padding: 0;
 		text-transform: uppercase;
 		font-size: 1.1rem;
-		font-weight: 700;
+		font-weight: 900;
 	}
 	.ceed .info{
 		/*height: 90vh;*/
-		border-right: solid 5px rgb(58,174,108);
 		box-sizing: border-box;
 	}
 	.ceed .icones{
@@ -124,34 +121,34 @@
 		align-content: center;
 		justify-content: space-between;
 		list-style-type: none;
-		margin: 0 auto;
+		margin: 0;
 		padding: 0.5rem 0 0 0;
 		height: 7vh;
-		
+		width: 98%;
 	}
 	.ceed .icon{
 		font-size: 0.9em;
 		cursor: pointer;
 		line-height: 0.5;
-		padding: 0.5rem 1rem;
-		color: #999;
+		padding: 0.5rem;
+		color: #666;
 		text-align: center;
 	}
-	.ceed .icon:hover{
+/*	.ceed .icon:hover{
 		color: rgb(58,174,108);
 		/*background-color: rgba(58,174,108,0.1);*/
-		border-bottom: solid 2pt rgb(58,174,108);
+	/*	border-bottom: solid 2pt rgb(58,174,108);
 	}
 	.ceed .icon:hover p{
 		font-weight: 600;
 		color: rgb(58,174,108);
-	}
+	}*/
 	.ceed .icon i{
 		font-size: 1.2em;
 		text-align: center;
 	}
-	.ceed .icon p{
-		color: #333;
+	.ceed .icon .texticon{
+		color: #666;
 		font-size: 0.7rem;
 		text-align: center;
 		margin: 0;
@@ -278,7 +275,7 @@
 	}
 
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 481px){
 	.ceed{
 		height: 100vh;
 		overflow-y: auto;
@@ -338,7 +335,7 @@
 		margin-right: 0.3em;
 		font-size: 1.5em;
 	}
-	.ceed .icon p{
+	.ceed .icon .texticon{
 		color: #333;
 		margin: 0;
 		padding: 0;
