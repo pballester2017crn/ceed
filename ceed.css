@@ -181,7 +181,7 @@
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		line-height: 1rem;
+		line-height: 1.1rem;
 	}
 	.ceed .bloc .tri{
 		font-weight: 500;
@@ -199,7 +199,7 @@
 		padding: 0.5rem 0rem 0rem 0rem;
 		margin: 0;
 		list-style-type: none;
-		line-height: 1rem;
+		line-height: 1.1rem;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0rem 0rem 0rem;
@@ -208,7 +208,7 @@
 	.ceed .bloc div ul li{
 		font-size: 0.85rem;
 		list-style-type: none;
-		line-height: 1rem;
+		line-height: 1.1rem;
 		margin: 0;
 		padding: 0;
 	}
@@ -217,7 +217,7 @@
 	}
 	.ceed .boto{
 		width: 50%;
-		height: 1.5rem;
+		height: 2rem;
 		padding: 0.5rem;
 		margin: 0;
 		border-radius: 5px;
@@ -254,22 +254,22 @@
 	.ceed .nom{
 		font-weight:600;
 		font-size: 1rem;
-		line-height: 1rem;
+		line-height: 1.1rem;
 	}
 	.ceed .dpt{
 		font-style: italic;
 		font-weight: 500;
 		font-size: 0.9em;
-		line-height: 1rem;
+		line-height: 1.1rem;
 	}
 	.ceed .correu{
 		font-size: 0.85em;
 		padding-top: 0em;
-		line-height: 1rem;
+		line-height: 1.1rem;
 	}
 	.ceed .tlf{
 		font-size: 0.85em;
-		line-height: 1rem;
+		line-height: 1.1rem;
 	}
 	.ceed .titol, .ceed .tema{
 		background-color:rgb(58,174,108);
@@ -278,6 +278,10 @@
 	}
 	.ceed .titol i, .ceed .tema i{
 		padding: 0 0rem 0 0rem;
+	}
+	.norma p{
+		color: #999;
+		font-style: italic;
 	}
 
 }
