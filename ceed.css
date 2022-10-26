@@ -110,8 +110,8 @@
 	.ceed .icon{
 		font-size: 0.9em;
 		cursor: pointer;
-		line-height: 0.5;
-		padding: 0.5rem;
+		line-height: 1rem;
+		padding: 0rem;
 		color: #666;
 		text-align: center;
 		background-color: pink;
@@ -165,7 +165,8 @@
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .bloc ul{
-		padding: 0rem 0rem 0rem 0em;
+		margin: 0;
+		padding: 0;
 		list-style-type: none;
 		font-size: 0.95rem;
 		color: #000;
@@ -202,6 +203,8 @@
 		font-size: 0.85rem;
 		list-style-type: none;
 		line-height: 0.9rem;
+		margin: 0;
+		padding: 0;
 	}
 	.ceed a{
 		text-decoration: none;
@@ -210,7 +213,7 @@
 		width: 50%;
 		height: 2.5rem;
 		padding: 0 0 0 0.5rem;
-		margin: 0em;
+		margin: 0rem;
 		border-radius: 5px;
 		border: solid 2pt rgb(58,174,108);
 		background-color: rgb(58,174,108);
@@ -243,22 +246,22 @@
 	.ceed .nom{
 		font-weight:600;
 		font-size: 1rem;
-		line-height: 0.9rem;
+		line-height: 1rem;
 	}
 	.ceed .dpt{
 		font-style: italic;
 		font-weight: 500;
 		font-size: 0.9em;
-		line-height: 0.9rem;
+		line-height: 1rem;
 	}
 	.ceed .correu{
 		font-size: 0.85em;
 		padding-top: 0em;
-		line-height: 0.9rem;
+		line-height: 1rem;
 	}
 	.ceed .tlf{
 		font-size: 0.85em;
-		line-height: 0.9rem;
+		line-height: 1rem;
 	}
 	.ceed .titol, .ceed .tema{
 		background-color:rgb(58,174,108);
