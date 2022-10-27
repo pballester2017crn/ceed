@@ -388,7 +388,7 @@
 	.ceed .bloc h5{
 		text-transform: uppercase;
 		font-size: 0.9em;
-		margin: 0 1rem 0.5rem 0rem;
+		margin: 0 1rem 0.5rem 1rem;
 		padding: 0 0 0.25rem 0;
 		/*border-bottom: solid 1pt #000;*/
 	}
@@ -400,7 +400,7 @@
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .bloc ul{
-		padding: 0rem 0 0rem 0rem;
+		padding: 0rem 0 0rem 1rem;
 		list-style-type: none;
 		font-size: 0.95rem;
 		color: #000;
@@ -413,16 +413,16 @@
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
-		padding: 0rem 0 0rem 0rem;
+		padding: 0rem 0 0rem 1rem;
 	}
 	.ceed .bloc div ul{
-		padding: 0.5rem 0 0rem 0rem;
+		padding: 0.5rem 0 0rem 1rem;
 		margin: 0;
 		list-style-type: none;
 		line-height: 1.2rem;
 	}
 	.ceed .bloc div p{
-		padding: 0.5rem 0 0rem 0rem;
+		padding: 0.5rem 0 0rem 1rem;
 		margin: 0;
 	}
 	.ceed .bloc div ul li{
@@ -447,7 +447,7 @@
 	.ceed .profe{
 		float: left;
 		width: 50%;
-		padding: 1rem 0 1rem 0rem;
+		padding: 1rem 0 1rem 1rem;
 		margin: 0;
 		display: flex;
 		box-sizing: border-box;
@@ -466,7 +466,7 @@
 		width: 90%;
 		list-style-type: none;
 		margin: 0;
-		padding: 0 0 0 0rem;
+		padding: 0 0 0 1rem;
 		line-height: 1.2rem;
 	}
 	.ceed .nom{
