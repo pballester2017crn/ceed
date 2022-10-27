@@ -233,7 +233,7 @@
 	.ceed .boto{
 		width: 50%;
 		height: 2rem;
-		padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+		padding: 1.5rem 0.5rem 1.5rem 0.5rem;
 		margin: 0;
 		border-radius: 5px;
 		border: solid 2pt rgb(58,174,108);
@@ -241,10 +241,10 @@
 		color:#fff;
 		font-weight: 600;
 		text-decoration: none;
-		/*display: block;*/
+		/*display: block;
 		display: flex;
 		align-items: center;
-		align-content: center;
+		align-content: center;*/
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
@@ -310,7 +310,7 @@
 		overflow-y: auto;
 	}
 	.ceed .logos{
-		height: 5vh;
+		height: 4vh;
 	}
 	.ceed .assignatura{
 		height: 8vh;
@@ -326,7 +326,7 @@
 		background-repeat: no-repeat;
 	}
 	.ceed .assignatura h4{
-		margin: 0 0 0 0rem;
+		margin: 0 0 0 0.5rem;
 		text-transform: uppercase;
 	}
 	.ceed .info{
@@ -342,6 +342,7 @@
 		margin: 0 auto;
 		padding: 0.5rem 0 0 0;
 		height: 7vh;
+		width: 90%;
 	}
 	.ceed .icon{
 		font-size: 0.9em;
@@ -362,6 +363,7 @@
 	.ceed .icon:hover p{
 		font-weight: 600;
 		color: rgb(58,174,108);
+		padding: 0 0 0 0.5rem;
 	}
 	.ceed .icon i{
 		margin-right: 0.3em;
@@ -405,10 +407,12 @@
 		list-style-type: none;
 		font-size: 0.95rem;
 		color: #000;
+		line-height: 1.2rem;
 	}
 	.ceed .bloc ul li{
 		font-size: 0.85rem;
 		list-style-type: none;
+		line-height: 1.2rem;
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
@@ -418,6 +422,7 @@
 		padding: 0.5rem 0 0rem 2rem;
 		margin: 0;
 		list-style-type: none;
+		line-height: 1.2rem;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0 0rem 2rem;
@@ -426,6 +431,7 @@
 	.ceed .bloc div ul li{
 		font-size: 0.85rem;
 		list-style-type: none;
+		line-height: 1.2rem;
 	}
 	.ceed a{
 		text-decoration: none;
@@ -433,7 +439,7 @@
 	.ceed .boto{
 		width: 50%;
 		height: 1.5rem;
-		padding: 1rem;
+		padding: 1.5rem 1rem 1rem 1.5rem;
 		margin: 0;
 		border-radius: 5px;
 		border: solid 2pt rgb(58,174,108);
@@ -465,22 +471,27 @@
 		list-style-type: none;
 		margin: 0;
 		padding: 0 0 0 1rem;
+		line-height: 1.2rem;
 	}
 	.ceed .nom{
 		font-weight:600;
 		font-size: 1em;
+		line-height: 1.2rem;
 	}
 	.ceed .dpt{
 		font-style: italic;
 		font-weight: 500;
 		font-size: 0.9em;
+		line-height: 1.2rem;
 	}
 	.ceed .correu{
 		font-size: 0.85em;
 		padding-top: 0.5em;
+		line-height: 1.2rem;
 	}
 	.ceed .tlf{
 		font-size: 0.85em;
+		line-height: 1.2rem;
 	}
 	.ceed .titol, .ceed .tema{
 		background-color:rgb(58,174,108);
@@ -495,7 +506,7 @@
 	}
 	.ceed .colectiu, .ceed .individu{
 		float: left;
-		width: 49%;
+		width: 50%;
 	}
 	.ceed .norma{
 		float: left;
@@ -503,5 +514,6 @@
 	}
 	.ceed .norma p{
 		column-count: 2;
+		font-style: italic;
 	}
 }
