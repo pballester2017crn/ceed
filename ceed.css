@@ -80,7 +80,6 @@
 	background-size: auto;
 	background-position: 0.5rem;
 	background-repeat: no-repeat;
-	display: none;
 }
 @media screen and (max-width: 480px){
 	.ceed{
