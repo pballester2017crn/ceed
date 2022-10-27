@@ -131,7 +131,6 @@
 		padding: 0.5rem;
 		color: #666;
 		text-align: center;
-		background-color: pink;
 	}
 	.ceed .icon:hover{
 		color: #000;
@@ -143,8 +142,9 @@
 		color: #000;
 	}
 	.ceed .icon i{
-		font-size: 1.4em;
+		font-size: 1.5em;
 		text-align: center;
+		padding: 0.5rem;
 	}
 	.ceed .icon .texticon{
 		color: #666;
@@ -152,6 +152,7 @@
 		text-align: center;
 		margin: 0;
 		padding: 0;
+		display: none;
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 0em;
@@ -234,11 +235,9 @@
 	.ceed .boto{
 		width: 50%;
 		height: 2rem;
-		padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+		padding: 0.5rem 0.5rem 1rem 0.5rem;
 		margin: 0;
 		border-radius: 5px;
-		border: solid 2pt rgb(58,174,108);
-		background-color: rgb(58,174,108);
 		color:#fff;
 		font-weight: 600;
 		text-decoration: none;
@@ -289,7 +288,6 @@
 		line-height: 1.2rem;
 	}
 	.ceed .titol, .ceed .tema{
-		background-color:rgb(58,174,108);
 		margin: 0rem 0 0 0rem;
 		padding: 0.5rem 0rem 0.1rem 0;
 	}
@@ -317,9 +315,7 @@
 		align-items: center;
 		/*align-content: center;
 		justify-content: space-between;*/
-		background-color: rgb(58,174,108);
 		border-bottom: solid 5pt #000;
-		background-image: url("https://portal.edu.gva.es/ceedcv/wp-content/uploads/sites/133/2022/09/distancia.svg");
 		background-size: auto;
 		background-position: right;
 		background-repeat: no-repeat;
@@ -330,7 +326,6 @@
 	}
 	.ceed .info{
 		/*height: 90vh;*/
-		border-right: solid 10px rgb(58,174,108);
 		box-sizing: border-box;
 	}
 	.ceed .icones{
@@ -355,13 +350,13 @@
 		/*border-bottom: solid 2pt #999;*/
 	}
 	.ceed .icon:hover{
-		color: rgb(58,174,108);
+		color: #333;
 		/*background-color: rgba(58,174,108,0.1);*/
-		border-bottom: solid 2pt rgb(58,174,108);
+		border-bottom: solid 2pt #333;
 	}
 	.ceed .icon:hover p{
 		font-weight: 600;
-		color: rgb(58,174,108);
+		color: #333;
 	}
 	.ceed .icon i{
 		margin-right: 1rem;
@@ -437,11 +432,10 @@
 	.ceed .boto{
 		width: 50%;
 		height: 1.5rem;
-		padding: 0.5rem 0rem 0.5rem 1.5rem;
+		padding: 1.5rem 0rem 1.5rem 1.5rem;
 		margin: 0 0 0 0rem;
 		border-radius: 5px;
-		border: solid 2pt rgb(58,174,108);
-		background-color:rgb(58,174,108); color:#fff;
+		color:#fff;
 		font-weight: 600;
 		text-decoration: none;
 		display: block;
@@ -492,7 +486,6 @@
 		line-height: 1.2rem;
 	}
 	.ceed .titol, .ceed .tema{
-		background-color:rgb(58,174,108);
 		margin: 0rem 0 0 0rem;
 		padding: 1rem 1rem 0.5rem 0;
 	}
