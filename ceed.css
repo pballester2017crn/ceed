@@ -67,6 +67,7 @@
 }
 .ceed ul, .ceed li{
 	list-style-type: none;
+	display: block;
 }
 .fw5{
 	font-weight: 500;
@@ -74,10 +75,20 @@
 .fw6{
 	font-weight: 600;
 }
+.ceed .logos{
+	background-image: url('https://portal.edu.gva.es/ceedcv/wp-content/uploads/sites/133/2022/09/ceedH.svg');
+	background-size: auto;
+	background-position: 0.5rem;
+	background-repeat: no-repeat;
+	display: none;
+}
 @media screen and (max-width: 480px){
 	.ceed{
 		height: 100vh;
 		overflow-y: auto;
+	}
+	.ceed .logos{
+		height: 3vh;
 	}
 	.ceed .assignatura{
 		height: 8vh;
@@ -182,7 +193,7 @@
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		line-height: 1.1rem;
+		line-height: 1.2rem;
 	}
 	.ceed .bloc .tri{
 		font-weight: 500;
@@ -200,7 +211,7 @@
 		padding: 0.5rem 0rem 0rem 0rem;
 		margin: 0;
 		list-style-type: none;
-		line-height: 1.1rem;
+		line-height: 1.2rem;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0rem 0rem 0rem;
@@ -209,7 +220,7 @@
 	.ceed .bloc div ul li{
 		font-size: 0.85rem;
 		list-style-type: none;
-		line-height: 1.1rem;
+		line-height: 1.2rem;
 		margin: 0;
 		padding: 0;
 	}
@@ -255,22 +266,22 @@
 	.ceed .nom{
 		font-weight:600;
 		font-size: 1rem;
-		line-height: 1.1rem;
+		line-height: 1.2rem;
 	}
 	.ceed .dpt{
 		font-style: italic;
 		font-weight: 500;
 		font-size: 0.9em;
-		line-height: 1.1rem;
+		line-height: 1.2rem;
 	}
 	.ceed .correu{
 		font-size: 0.85em;
 		padding-top: 0em;
-		line-height: 1.1rem;
+		line-height: 1.2rem;
 	}
 	.ceed .tlf{
 		font-size: 0.85em;
-		line-height: 1.1rem;
+		line-height: 1.2rem;
 	}
 	.ceed .titol, .ceed .tema{
 		background-color:rgb(58,174,108);
@@ -290,6 +301,9 @@
 	.ceed{
 		height: 100vh;
 		overflow-y: auto;
+	}
+	.ceed .logos{
+		height: 5vh;
 	}
 	.ceed .assignatura{
 		height: 8vh;
