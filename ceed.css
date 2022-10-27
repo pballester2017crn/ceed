@@ -78,7 +78,7 @@
 .ceed .logos{
 	background-image: url('https://portal.edu.gva.es/ceedcv/wp-content/uploads/sites/133/2022/09/ceedH.svg');
 	background-size: auto;
-	background-position: 0.5rem;
+
 	background-repeat: no-repeat;
 }
 @media screen and (max-width: 480px){
@@ -88,6 +88,7 @@
 	}
 	.ceed .logos{
 		height: 3vh;
+		background-position: 0.5rem;
 	}
 	.ceed .assignatura{
 		height: 8vh;
@@ -132,14 +133,14 @@
 		text-align: center;
 		background-color: pink;
 	}
-/*	.ceed .icon:hover{
-		color: rgb(58,174,108);
+	.ceed .icon:hover{
+		color: #000;
 		/*background-color: rgba(58,174,108,0.1);*/
-	/*	border-bottom: solid 2pt rgb(58,174,108);
+		border-bottom: solid 2pt #000;
 	}
 	.ceed .icon:hover p{
 		font-weight: 600;
-		color: rgb(58,174,108);
+		color: #000;
 	}*/
 	.ceed .icon i{
 		font-size: 1.4em;
@@ -233,7 +234,7 @@
 	.ceed .boto{
 		width: 50%;
 		height: 2rem;
-		padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+		padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 		margin: 0;
 		border-radius: 5px;
 		border: solid 2pt rgb(58,174,108);
@@ -241,10 +242,7 @@
 		color:#fff;
 		font-weight: 600;
 		text-decoration: none;
-		/*display: block;
-		display: flex;
-		align-items: center;
-		align-content: center;*/
+		display: block;
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
@@ -311,6 +309,7 @@
 	}
 	.ceed .logos{
 		height: 4vh;
+		background-position: 1rem;
 	}
 	.ceed .assignatura{
 		height: 8vh;
@@ -326,7 +325,7 @@
 		background-repeat: no-repeat;
 	}
 	.ceed .assignatura h4{
-		margin: 0 0 0 2rem;
+		margin: 0 0 0 1rem;
 		text-transform: uppercase;
 	}
 	.ceed .info{
@@ -339,7 +338,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin: 0 auto;
+		margin: 0;
 		padding: 0.5rem 0 0 0;
 		height: 7vh;
 		width: 90%;
@@ -391,7 +390,7 @@
 	.ceed .bloc h5{
 		text-transform: uppercase;
 		font-size: 0.9em;
-		margin: 0 1rem 0.5rem 2rem;
+		margin: 0 1rem 0.5rem 0rem;
 		padding: 0 0 0.25rem 0;
 		/*border-bottom: solid 1pt #000;*/
 	}
@@ -403,7 +402,7 @@
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .bloc ul{
-		padding: 0rem 0 0rem 2em;
+		padding: 0rem 0 0rem 0rem;
 		list-style-type: none;
 		font-size: 0.95rem;
 		color: #000;
@@ -416,16 +415,16 @@
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
-		padding: 0rem 0 0rem 2rem;
+		padding: 0rem 0 0rem 0rem;
 	}
 	.ceed .bloc div ul{
-		padding: 0.5rem 0 0rem 2rem;
+		padding: 0.5rem 0 0rem 0rem;
 		margin: 0;
 		list-style-type: none;
 		line-height: 1.2rem;
 	}
 	.ceed .bloc div p{
-		padding: 0.5rem 0 0rem 2rem;
+		padding: 0.5rem 0 0rem 0rem;
 		margin: 0;
 	}
 	.ceed .bloc div ul li{
@@ -439,8 +438,8 @@
 	.ceed .boto{
 		width: 50%;
 		height: 1.5rem;
-		padding: 1.5rem 1rem 1rem 1.5rem;
-		margin: 0 0 0 2rem;
+		padding: 0.5rem 0rem 0.5rem 1.5rem;
+		margin: 0 0 0 0rem;
 		border-radius: 5px;
 		border: solid 2pt rgb(58,174,108);
 		background-color:rgb(58,174,108); color:#fff;
@@ -451,7 +450,7 @@
 	.ceed .profe{
 		float: left;
 		width: 50%;
-		padding: 1rem 0 1rem 2rem;
+		padding: 1rem 0 1rem 0rem;
 		margin: 0;
 		display: flex;
 		box-sizing: border-box;
@@ -470,7 +469,7 @@
 		width: 90%;
 		list-style-type: none;
 		margin: 0;
-		padding: 0 0 0 1rem;
+		padding: 0 0 0 0rem;
 		line-height: 1.2rem;
 	}
 	.ceed .nom{
