@@ -127,7 +127,7 @@
 		padding: 0;
 		text-transform: uppercase;
 		font-size: 1.1rem;
-		font-weight: 900;
+		font-weight: 900 !important;
 	}
 	.ceed .info{
 		/*height: 90vh;*/
@@ -403,6 +403,7 @@
 	.ceed .assignatura h4{
 		margin: 0 0 0 1rem;
 		text-transform: uppercase;
+		font-weight: 900 !important;
 	}
 	.ceed .info{
 		/*height: 90vh;*/
