@@ -251,18 +251,20 @@
 	}
 	.ceed .logos .dr{
 		height: 6vh;
+		padding: 0.5rem 0 0 0;
 	}
 	.ceed .logos .esq{
 		padding: 0.25rem 0 0.25rem 0.5rem;
 	}
 	.ceed .assignatura{
-		min-height: 4vh;
+		min-height: 5vh;
 	}
 	.ceed .assignatura h4{
 		margin: 0 0 0 0.5rem;
 		padding: 0;
 		text-transform: uppercase;
 		font-size: 1.1rem;
+		letter-spacing: 3px;
 		font-weight: 900 !important;
 	}
 	.ceed .icones{
@@ -350,8 +352,8 @@
 	}
 	.ceed .boto{
 		height: 2rem;
-		margin: 0.5rem 0 0 0;
-		padding: 0.5rem 0.5rem 0.75rem 0.5rem;
+		margin: 0 0 0 0;
+		padding: 0.5rem 0.5rem 1rem 0.5rem;
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
@@ -359,15 +361,31 @@
 	}
 	.ceed .profeimg{
 		width: 13%;
-		padding: 0rem 1rem 0.5rem 0.5rem !important;
+		padding: 0;
 	}
 	.ceed .profe ul{
 		width: 87%;
-		padding: 0 0 0 1rem;
+		padding: 0 0 0 2rem;
 		display: block;
 	}
+	.ceed .nom{
+		font-weight:600;
+		font-size: 1em;
+		line-height: 1.2rem;
+	}
+	.ceed .dpt{
+		font-style: italic;
+		font-weight: 500;
+		font-size: 0.9em;
+		line-height: 1rem;
+	}
 	.ceed .correu{
-		padding-top: 0em;
+		font-size: 0.85em;
+		line-height: 1rem;
+	}
+	.ceed .tlf{
+		font-size: 0.85em;
+		line-height: 1rem;
 	}
 	.ceed .titol, .ceed .tema{
 		margin: 0rem 0 0 0rem;
@@ -376,6 +394,10 @@
 	}
 	.ceed .titol i, .ceed .tema i{
 		padding: 0 0.75rem 0 0.75rem !important;
+	}
+	.ceed .norma h6{
+		padding: 0.5rem 0 0 0;
+		font-size: 0.9em;
 	}
 	.ceed .norma p{
 		color: #999;
@@ -402,11 +424,11 @@
 		line-height: 1.3em;
 	}
 	.ceed .logos{
-		height: 60px;
+		height: 50px;
 		padding: 0.5rem 0rem 0.5rem 0;
 	}
 	.ceed .logos .xarxes{
-		height: 60px;
+		height: 40px;
 		padding: 0rem 0.5rem 0.5rem 0.5rem;
 	}
 	.ceed .logos .dr{
@@ -414,13 +436,14 @@
 	.ceed .logos .esq{
 	}
 	.ceed .assignatura{
-		min-height: 60px;
+		min-height: 50px;
 	}
 	.ceed .assignatura h4{
 		margin: 0 0 0 0.5rem;
 		padding: 0;
 		text-transform: uppercase;
 		font-size: 1.1rem;
+		letter-spacing: 3px;
 		font-weight: 900 !important;
 	}
 	.ceed .icones{
@@ -431,7 +454,7 @@
 		list-style-type: none;
 		margin: 0;
 		padding: 0rem 0 0 0;
-		height: 80px;
+		height: 60px;
 		width: 90%;
 		text-align: center;
 	}
@@ -441,14 +464,14 @@
 		/*display: flex;
 		align-items: center;*/
 		cursor: pointer;
-		line-height: 1rem;
+		line-height: 0.9rem;
 		padding: 0rem;
 		color: #666;
 		/*float: left;*/
 	}
 	.ceed .icon i{
 		font-size: 1.5em;
-		padding: 0.5rem 0 0 0;
+		padding: 0rem 0 0 0;
 		text-align: center;
 		display: block;
 	}
@@ -471,7 +494,7 @@
 	.ceed .bloc h5{
 		text-transform: uppercase;
 		font-size: 0.9em;
-		margin: 0 1rem 0.5rem 1rem;
+		margin: 0 1rem 0.5rem 0rem;
 		padding: 0 0 0.25rem 0;
 		/*border-bottom: solid 1pt #000;*/
 	}
@@ -494,7 +517,7 @@
 	}
 	.ceed .boto{
 		height: 1.2rem;
-		padding: 1.0rem 0rem 1.5rem 1rem;
+		padding: 0.5rem 0rem 1.5rem 1rem;
 	}
 	.ceed .profe{
 		float: left;
