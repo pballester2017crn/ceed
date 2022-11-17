@@ -1,7 +1,6 @@
 /* Aquí puedes escribir tu comentario */
 .ceed{
-	/*height: 100vh;
-	font-family: 'Arial', sans-serif;*/
+	/*height: 100vh;*/
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -9,9 +8,170 @@
 	padding: 0;
 	border: 0;
 	box-sizing: border-box;
+	overflow-y: auto;
 	color: #333;
 	line-height: 1.2em;
 }
+.ceed .logos{
+	height: 6vh;
+	padding: 0.5rem 0rem 0.5rem 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.ceed .logos .xarxes{
+	width: 50%;
+	height: 5vh;
+	margin: 0;
+	padding: 0rem 0.5rem 0.5rem 0.5rem;
+	float: left;
+	box-sizing: border-box;
+}
+.ceed .logos .dr{
+	text-align: right;
+}
+.ceed .logos img{
+	width: auto;
+	height: 100%;
+}
+.ceed .logos svg{
+	height: auto;
+	padding: 0.5rem;
+}
+.ceed .assignatura{
+	height: 8vh;
+	display: flex;
+	align-items: center;
+	/*align-content: center;
+	justify-content: space-between;*/
+	border-bottom: solid 5pt #000;
+	background-size: auto;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.ceed .info{
+	/*height: 90vh;*/
+	box-sizing: border-box;
+}
+.ceed .icon:hover{
+	color: #000;
+	border-bottom: solid 2pt #000;
+}
+.ceed .icon:hover p{
+	font-weight: 600;
+	color: #000;
+}
+.ceed .bloc{
+	overflow: hidden;
+	display: none;
+	box-sizing: border-box;
+}
+.ceed .x{
+	text-transform: uppercase;
+	float: right;
+	cursor: pointer;
+}
+.ceed .bloc h6{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 0.85rem;
+	margin: 0 0 0 2rem;
+	padding: 0.5rem 0 0 0;
+}
+.ceed .bloc ul{
+	list-style-type: none;
+	font-size: 0.95rem;
+	color: #000;
+	line-height: 1.2rem;
+}
+.ceed .bloc ul li{
+	font-size: 0.85rem;
+	list-style-type: none;
+	line-height: 1.2rem;
+}
+.ceed .bloc div ul{
+	margin: 0;
+	list-style-type: none;
+	line-height: 1.2rem;
+}
+.ceed .bloc div p{
+	margin: 0;
+}
+.ceed a{
+	text-decoration: none;
+}
+.ceed .boto{
+	width: 50%;
+	margin: 0 0 0 0rem;
+	border-radius: 5px;
+	color:#fff;
+	font-weight: 600;
+	text-decoration: none;
+	display: block;
+}
+.ceed .profe{
+	margin: 0;
+	display: flex;
+	box-sizing: border-box;
+}
+.ceed .profeimg{
+	height: auto;
+}
+.ceed .profeimg img{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	padding: 0 0 0 0;
+}
+.ceed .profe ul{
+	list-style-type: none;
+	margin: 0;
+}
+.ceed .nom{
+	font-weight:600;
+	font-size: 1em;
+	line-height: 1.2rem;
+}
+.ceed .dpt{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 0.9em;
+	line-height: 1.2rem;
+}
+.ceed .correu{
+	font-size: 0.85em;
+	line-height: 1.2rem;
+}
+.ceed .tlf{
+	font-size: 0.85em;
+	line-height: 1.2rem;
+}
+
+.ceed .contingut{
+	box-sizing: border-box;
+}
+.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
+	box-sizing: border-box;
+}
+.ceed .contingut .mediatext p{
+	font-size: 0.85rem;
+	list-style-type: none;
+	line-height: 1.2rem;
+}
+.ceed .contingut .mediavideo{
+	position: relative;
+	overflow: hidden;
+}
+.ceed .contingut .mediavideo .responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
 .ceed h1{
 	font-size: 1.6rem;
 	font-weight: 900;
@@ -77,50 +237,11 @@
 }
 
 @media screen and (max-width: 480px){
-	.ceed{
-		/*height: 100vh;*/
-		overflow-y: auto;
-		box-sizing: border-box;
-	}
-	.ceed .logos{
-		height: 6vh;
-		padding: 0.5rem 0rem 0.5rem 0;
-		box-sizing: border-box;
-		overflow: hidden;
-	}
-	.ceed .logos .xarxes{
-		width: 50%;
-		height: 5vh;
-		margin: 0;
-		padding: 0rem 0.5rem 0.5rem 0.5rem;
-		float: left;
-		box-sizing: border-box;
-	}
-	.ceed .logos .dr{
-		text-align: right;
-	}
 	.ceed .logos .esq{
 		padding: 0.25rem 0 0.25rem 0.5rem;
 	}
-	.ceed .logos img{
-		width: auto;
-		height: 100%;
-	}
 	.ceed .logos svg{
 		width: 12%;
-		height: auto;
-		padding: 0.5rem;
-	}
-	.ceed .assignatura{
-		height: 8vh;
-		display: flex;
-		align-items: center;
-		/*align-content: center;
-		justify-content: space-between;*/
-		border-bottom: solid 5pt #000;
-		background-size: auto;
-		background-position: right;
-		background-repeat: no-repeat;
 	}
 	.ceed .assignatura h4{
 		margin: 0 0 0 0.5rem;
@@ -128,10 +249,6 @@
 		text-transform: uppercase;
 		font-size: 1.1rem;
 		font-weight: 900 !important;
-	}
-	.ceed .info{
-		/*height: 90vh;*/
-		box-sizing: border-box;
 	}
 	.ceed .icones{
 		display: flex;
@@ -154,15 +271,6 @@
 		color: #666;
 		text-align: center;
 	}
-	.ceed .icon:hover{
-		color: #000;
-		/*background-color: rgba(58,174,108,0.1);*/
-		border-bottom: solid 2pt #000;
-	}
-	.ceed .icon:hover p{
-		font-weight: 600;
-		color: #000;
-	}
 	.ceed .icon i{
 		font-size: 1.5em;
 		text-align: center;
@@ -178,17 +286,11 @@
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 0em;
-		overflow: hidden;
-		display: none;
-		box-sizing: border-box;
 	}
 	.ceed .x{
-		text-transform: uppercase;
-		float: right;
 		font-size: 1.2em;
 		font-weight: 100;
 		padding: 0 1rem 0 0;
-		cursor: pointer;
 	}
 	.ceed .bloc h5{
 		text-transform: uppercase;
@@ -197,27 +299,14 @@
 		padding: 0 0 0.25rem 0;
 		/*border-bottom: solid 1pt #000;*/
 	}
-	.ceed .bloc h6{
-		text-transform: uppercase;
-		font-weight: 500;
-		font-size: 0.85rem;
-		margin: 0 0 0 0rem;
-		padding: 0.5rem 0 0 0;
-	}
 	.ceed .bloc ul{
 		margin: 0;
 		padding: 0;
-		list-style-type: none;
-		font-size: 0.95rem;
-		color: #000;
 		display: block;
 	}
 	.ceed .bloc ul li{
-		font-size: 0.85rem;
-		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		line-height: 1.2rem;
 		display: block;
 	}
 	.ceed .bloc .tri{
@@ -234,180 +323,227 @@
 	}
 	.ceed .bloc div ul{
 		padding: 0.5rem 0rem 0rem 0rem;
-		margin: 0;
-		list-style-type: none;
-		line-height: 1.2rem;
 		display: block;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0rem 0rem 0rem;
-		margin: 0;
 	}
 	.ceed .bloc div ul li{
-		font-size: 0.85rem;
-		list-style-type: none;
-		line-height: 1.2rem;
 		margin: 0;
 		padding: 0;
 		display: block;
 	}
-	.ceed a{
-		text-decoration: none;
-	}
 	.ceed .boto{
-		width: 50%;
 		height: 2rem;
 		padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-		margin: 0;
-		border-radius: 5px;
-		color:#fff;
-		font-weight: 600;
-		text-decoration: none;
-		display: block;
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
-		margin: 0;
 		display: flex;
-		box-sizing: border-box;
 	}
 	.ceed .profeimg{
 		width: 13%;
-		height: auto;
 		padding: 0.5rem;
-	}
-	.ceed .profeimg img{
-		width: 100%;
-		height: auto;
-		border-radius: 50%;
-		padding: 0 0 0 0;
 	}
 	.ceed .profe ul{
 		width: 87%;
-		list-style-type: none;
-		margin: 0;
 		padding: 0 0 0 0rem;
 		display: block;
 	}
-	.ceed .nom{
-		font-weight:600;
-		font-size: 1rem;
-		line-height: 1.2rem;
-	}
-	.ceed .dpt{
-		font-style: italic;
-		font-weight: 500;
-		font-size: 0.9em;
-		line-height: 1.2rem;
-	}
 	.ceed .correu{
-		font-size: 0.85em;
 		padding-top: 0em;
-		line-height: 1.2rem;
-	}
-	.ceed .tlf{
-		font-size: 0.85em;
-		line-height: 1.2rem;
 	}
 	.ceed .titol, .ceed .tema{
 		margin: 0rem 0 0 0rem;
 		padding: 0.5rem 0rem 0.1rem 0;
+		font-weight: 700 !important;
 	}
 	.ceed .titol i, .ceed .tema i{
-		padding: 0 0rem 0 0rem;
+		padding: 0 0.25rem 0 0.5rem;
 	}
-	.norma p{
+	.ceed.norma p{
 		color: #999;
 		font-style: italic;
 	}
 	.ceed .contingut{
 		padding: 0.5rem 0 0 0;
-		box-sizing: border-box;
-	}
-	.ceed .contingut .media, .ceed .contingut .mediatext{
-		box-sizing: border-box;
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0 0rem;
 	}
 	.ceed .contingut .mediatext p{
-		padding: 0.5rem 0 0 0rem;
-		font-size: 0.85rem;
-		list-style-type: none;
-		line-height: 1.2rem;
+		padding: 0.5rem 0 0.5rem 0rem;
 	}
 	.ceed .contingut .mediavideo{
-		position: relative;
   	width: 100%;
-  	overflow: hidden;
   	padding-top: 56.25%;
 	}
-	.ceed .contingut .mediavideo .responsive-iframe {
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	bottom: 0;
-	  right: 0;
-  	width: 100%;
-  	height: 100%;
-  	border: none;
-	}
 }
-@media screen and (min-width: 481px){
+
+@media screen and (min-width: 481px) and (max-width: 960px){
 	.ceed{
-		/*height: 100vh;*/
-		overflow-y: auto;
-		box-sizing: border-box;
 	}
-	.ceed .logos{
-		height: 6vh;
-		padding: 0.5rem 0rem 0.5rem 0;
-		box-sizing: border-box;
+	.ceed .logos svg{
+		width: 6%;
+	}
+	.ceed .assignatura h4{
+		margin: 0 0 0 0.5rem;
+		padding: 0;
+		text-transform: uppercase;
+		font-size: 1.1rem;
+		font-weight: 900 !important;
+	}
+	.ceed .icones{
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: space-between;
+		list-style-type: none;
+		margin: 0;
+		padding: 0rem 0 0 0;
+		height: 7vh;
+		width: 90%;
+		text-align: center;
+	}
+	.ceed .icon{
+		font-size: 0.9em;
+		width: 20%;
+		/*display: flex;
+		align-items: center;*/
+		cursor: pointer;
+		line-height: 1rem;
+		padding: 0rem;
+		color: #666;
+		/*float: left;*/
+	}
+	.ceed .icon i{
+		font-size: 1.5em;
+		padding: 0.5rem 0 0 0;
+		text-align: center;
+		display: block;
+	}
+	.ceed .icon .texticon{
+		color: #666;
+		margin: 0;
+		padding: 0 0 0 0.25rem;
+		font-size: 0.7rem;
+		text-align: center;
+		display: block;
+	}
+	.ceed .bloc{
+		padding: 1rem 0 1rem 1rem;
+	}
+	.ceed .x{
+		font-size: 1.4em;
+		font-weight: 100;
+		padding: 0 2rem 0 0;
+	}
+	.ceed .bloc h5{
+		text-transform: uppercase;
+		font-size: 0.9em;
+		margin: 0 1rem 0.5rem 1rem;
+		padding: 0 0 0.25rem 0;
+		/*border-bottom: solid 1pt #000;*/
+	}
+	.ceed .bloc ul{
+		padding: 0rem 0 0rem 1rem;
+	}
+	.ceed .bloc ul li{
+	}
+	.ceed .bloc p{
+		font-size: 0.85rem;
+		padding: 0rem 0 0rem 1rem;
+	}
+	.ceed .bloc div ul{
+		padding: 0.5rem 0 0rem 1rem;
+	}
+	.ceed .bloc div p{
+		padding: 0.5rem 0 0rem 1rem;
+	}
+	.ceed .bloc div ul li{
+	}
+	.ceed .boto{
+		height: 1.5rem;
+		padding: 1.0rem 0rem 1.5rem 1.5rem;
+	}
+	.ceed .profe{
+		float: left;
+		width: 50%;
+		padding: 1rem 0 1rem 1rem;
+	}
+	.ceed .profeimg{
+		width: 15%;
+		padding: 0;
+	}
+	.ceed .profe ul{
+		width: 85%;
+		padding: 0 0 0 1rem;
+		line-height: 1.2rem;
+	}
+	.ceed .correu{
+		padding-top: 0.5em;
+	}
+	.ceed .tutories{
 		overflow: hidden;
 	}
-	.ceed .logos .xarxes{
-		width: 50%;
-		height: 5vh;
-		margin: 0;
-		padding: 0rem 0.5rem 0.5rem 0.5rem;
+	.ceed .colectiu, .ceed .individu{
 		float: left;
-		box-sizing: border-box;
+		width: 50%;
 	}
+	.ceed .norma{
+		float: left;
+		width: 98%;
+	}
+	.ceed .norma p{
+		column-count: 2;
+		font-style: italic;
+	}
+
+
+	.ceed .contingut{
+		padding: 0.5rem 0 0 0;
+	}
+	.ceed .titol, .ceed .tema{
+		margin: 0rem 0 0 0rem;
+		padding: 0.5rem 0rem 0.1rem 0;
+		font-weight: 700 !important;
+	}
+	.ceed .titol i, .ceed .tema i{
+		padding: 0 0.25rem 0 0.5rem;
+	}
+	.ceed .contingut{
+		padding: 0.5rem 0 0 0;
+	}
+	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
+		width: 50%;
+		float: left;
+	}
+	.ceed .contingut .mediatext{
+		padding: 0.5rem 0 0 1rem;
+	}
+	.ceed .contingut .mediatext p{
+		padding: 0.5rem 0 0.5rem 0rem;
+	}
+	.ceed .contingut .mediavideo{
+		width: 50%;
+		padding-top: 28.125%;
+	}
+}
+
+@media screen and (min-width: 961px){
 	.ceed .logos .dr{
-		text-align: right;
 		padding: 0 1rem 0 0;
 	}
 	.ceed .logos .esq{
 		padding: 0.25rem 0 0.25rem 1rem;
 	}
-	.ceed .logos img{
-		width: auto;
-		height: 100%;
-	}
 	.ceed .logos svg{
 		width: 6%;
-		height: auto;
-		padding: 0.5rem;
-	}
-	.ceed .assignatura{
-		height: 8vh;
-		display: flex;
-		align-items: center;
-		/*align-content: center;
-		justify-content: space-between;*/
-		border-bottom: solid 5pt #000;
-		background-size: auto;
-		background-position: right;
-		background-repeat: no-repeat;
 	}
 	.ceed .assignatura h4{
 		margin: 0 0 0 1rem;
 		text-transform: uppercase;
 		font-weight: 900 !important;
-	}
-	.ceed .info{
-		/*height: 90vh;*/
-		box-sizing: border-box;
 	}
 	.ceed .icones{
 		list-style-type: none;
@@ -429,17 +565,6 @@
 		padding: 1em 1em;
 		color: #999;
 		float: left;
-
-		/*border-bottom: solid 2pt #999;*/
-	}
-	.ceed .icon:hover{
-		color: #000;
-		/*background-color: rgba(58,174,108,0.1);*/
-		border-bottom: solid 2pt #000;
-	}
-	.ceed .icon:hover p{
-		font-weight: 600;
-		color: #000;
 	}
 	.ceed .icon i{
 		margin-right: 0.25rem;
@@ -452,17 +577,11 @@
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 1rem;
-		overflow: hidden;
-		display: none;
-		box-sizing: border-box;
 	}
 	.ceed .x{
-		text-transform: uppercase;
-		float: right;
 		font-size: 1.4em;
 		font-weight: 100;
 		padding: 0 2rem 0 0;
-		cursor: pointer;
 	}
 	.ceed .bloc h5{
 		text-transform: uppercase;
@@ -471,24 +590,10 @@
 		padding: 0 0 0.25rem 0;
 		/*border-bottom: solid 1pt #000;*/
 	}
-	.ceed .bloc h6{
-		text-transform: uppercase;
-		font-weight: 500;
-		font-size: 0.85rem;
-		margin: 0 0 0 2rem;
-		padding: 0.5rem 0 0 0;
-	}
 	.ceed .bloc ul{
 		padding: 0rem 0 0rem 1rem;
-		list-style-type: none;
-		font-size: 0.95rem;
-		color: #000;
-		line-height: 1.2rem;
 	}
 	.ceed .bloc ul li{
-		font-size: 0.85rem;
-		list-style-type: none;
-		line-height: 1.2rem;
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
@@ -496,77 +601,32 @@
 	}
 	.ceed .bloc div ul{
 		padding: 0.5rem 0 0rem 1rem;
-		margin: 0;
-		list-style-type: none;
-		line-height: 1.2rem;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0 0rem 1rem;
-		margin: 0;
 	}
 	.ceed .bloc div ul li{
-		font-size: 0.85rem;
-		list-style-type: none;
-		line-height: 1.2rem;
-	}
-	.ceed a{
-		text-decoration: none;
 	}
 	.ceed .boto{
-		width: 50%;
 		height: 1.5rem;
 		padding: 1.0rem 0rem 1.5rem 1.5rem;
-		margin: 0 0 0 0rem;
-		border-radius: 5px;
-		color:#fff;
-		font-weight: 600;
-		text-decoration: none;
-		display: block;
 	}
 	.ceed .profe{
 		float: left;
 		width: 50%;
 		padding: 1rem 0 1rem 1rem;
-		margin: 0;
-		display: flex;
-		box-sizing: border-box;
 	}
 	.ceed .profeimg{
 		width: 10%;
-		height: auto;
 		padding: 0;
-	}
-	.ceed .profeimg img{
-		width: 100%;
-		height: auto;
-		border-radius: 50%;
 	}
 	.ceed .profe ul{
 		width: 90%;
-		list-style-type: none;
-		margin: 0;
 		padding: 0 0 0 1rem;
 		line-height: 1.2rem;
 	}
-	.ceed .nom{
-		font-weight:600;
-		font-size: 1em;
-		line-height: 1.2rem;
-	}
-	.ceed .dpt{
-		font-style: italic;
-		font-weight: 500;
-		font-size: 0.9em;
-		line-height: 1.2rem;
-	}
 	.ceed .correu{
-		font-size: 0.85em;
 		padding-top: 0.5em;
-		line-height: 1.2rem;
-	}
-	.ceed .tlf{
-		font-size: 0.85em;
-		line-height: 1.2rem;
 	}
 	.ceed .tutories{
 		overflow: hidden;
@@ -586,42 +646,27 @@
 	.ceed .titol, .ceed .tema{
 		margin: 0rem 0 0 0rem;
 		padding: 1rem 1rem 0.5rem 0;
+		font-weight: 700 !important;
 	}
 	.ceed .titol i, .ceed .tema i{
-		padding: 0 0.25rem 0 0rem;
+		padding: 0 0.5rem 0 0.5rem;
 	}
 	.ceed .contingut{
 		padding: 0.5rem 0 0 0;
-		box-sizing: border-box;
 	}
 	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 		width: 50%;
 		float: left;
-		box-sizing: border-box;
 	}
 	.ceed .contingut .mediatext{
-		padding: 0.5rem 0 0 0.5rem;
+		padding: 0.5rem 0 0.5rem 1rem;
 	}
 	.ceed .contingut .mediatext p{
-		padding: 0.5rem 0 0 0.5rem;
-		font-size: 0.85rem;
-		list-style-type: none;
-		line-height: 1.2rem;
+		padding: 0.5rem 0 0 0rem;
+		column-count: 2;
 	}
 	.ceed .contingut .mediavideo{
-		position: relative;
   	width: 50%;
-  	overflow: hidden;
   	padding-top: 28.125%;
-	}
-	.ceed .contingut .mediavideo .responsive-iframe {
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	bottom: 0;
-	  right: 0;
-  	width: 100%;
-  	height: 100%;
-  	border: none;
 	}
 }
