@@ -332,7 +332,7 @@
 		padding: 0 0 0 0.5rem;
 		display: block;
 	}
-	.ceed .bloc ul .tri{
+	.ceed .bloc .tri{
 		font-weight: 600 !important;
 	}
 	.ceed .bloc p{
@@ -371,7 +371,7 @@
 	}
 	.ceed .profe ul{
 		width: 87%;
-		padding: 0 0 0 2rem !important;
+		padding: 0 0 0 0.5rem !important;
 		display: block;
 	}
 	.ceed .nom{
@@ -452,7 +452,7 @@
 	}
 	.ceed .logos svg{
 		width: auto;
-		height: 90%;
+		height: 100%;
 		padding: 1rem 0 0 1rem;
 	}
 	.ceed .assignatura{
@@ -474,7 +474,7 @@
 		list-style-type: none;
 		margin: 0;
 		padding: 0rem 0 0 0;
-		height: 65px;
+		height: 70px;
 		width: 95%;
 		text-align: center;
 	}
@@ -549,6 +549,7 @@
 	}
 	.ceed .boto{
 		height: 1.2rem;
+		margin: 0.5rem 0 0 0;
 		padding: 0.5rem 0rem 1.5rem 0.5rem;
 	}
 	.ceed .profe{
@@ -562,7 +563,7 @@
 	}
 	.ceed .profe ul{
 		width: 85%;
-		padding: 0 0 0 1rem;
+		padding: 0 0 0 1rem !important;
 		line-height: 1.2rem;
 	}
 	.ceed .correu{
@@ -599,6 +600,10 @@
 	.ceed .titol h4 .fa-chevron-right, .ceed .tema h5 .fa-chevron-right{
 		margin: 0 0.35rem 0 0.5rem !important;
 		display: inline-block;
+	}
+	.ceed .norma h6{
+		padding: 0.5rem 0 0 0;
+		font-size: 0.9em;
 	}
 	.ceed .contingut{
 		padding: 0.5rem 0 0 0;
