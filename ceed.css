@@ -247,7 +247,7 @@
 	}
 	.ceed .logos .xarxes{
 		height: 6vh;
-		padding: 0rem 0.5rem 0.5rem 3.5rem !important;
+		padding: 0rem 0.5rem 0.5rem 0.5rem !important;
 	}
 	.ceed .logos .dr{
 		height: 6vh;
@@ -258,6 +258,11 @@
 		height: 5vh;
 		padding: 0.25rem 0 0.25rem 0.25rem;
 		width: 40%;
+	}
+	.ceed .logos svg{
+		width: auto;
+		height: 80%;
+		padding: 0.25rem 0.5rem;
 	}
 	.ceed .assignatura{
 		min-height: 7vh;
@@ -324,7 +329,7 @@
 		padding: 0;
 		display: block;
 	}
-	.ceed .bloc > ul li{
+	.ceed .bloc ul > li{
 		margin: 0;
 		padding: 0 0 0 0.5rem;
 		display: block;
@@ -348,9 +353,9 @@
 	.ceed .bloc div > p{
 		padding: 0.5rem 0rem 0rem 0rem;
 	}
-	.ceed .bloc div > ul li{
+	.ceed .bloc div ul > li{
 		margin: 0;
-		padding: 0.5rem 0 0 0;
+		padding: 0rem 0 0 0;
 		display: block;
 	}
 	.ceed .boto{
@@ -375,24 +380,24 @@
 		font-weight:600;
 		font-size: 1rem;
 		line-height: 0.7rem;
-		padding: 0rem 0 0rem 0.5rem;
+		padding: 0rem 0 0rem 1.5rem;
 	}
 	.ceed .dpt{
 		font-style: italic;
 		font-weight: 500;
 		font-size: 0.9rem;
 		line-height: 0.7rem;
-		padding: 0rem 0 0rem 0.5rem;
+		padding: 0rem 0 0rem 1.5rem;
 	}
 	.ceed .correu{
 		font-size: 0.85em;
 		line-height: 0.7rem;
-		padding: 0rem 0 0rem 0.5rem;
+		padding: 0rem 0 0rem 1.5rem;
 	}
 	.ceed .tlf{
 		font-size: 0.85em;
 		line-height: 0.7rem;
-		padding: 0rem 0 0rem 0.5rem;
+		padding: 0rem 0 0rem 1.5rem;
 	}
 	.ceed .titol, .ceed .tema{
 		min-height: 5vh;
@@ -404,7 +409,7 @@
 		font-weight: 800 !important;
 	}
 	.ceed .titol h4 .fa-chevron-right, .ceed .tema h5 .fa-chevron-right{
-		margin: 0 0.25rem 0 0.25rem !important;
+		margin: 0 0.35rem 0 0.5rem !important;
 		display: inline-block;
 	}
 	.ceed .norma h6{
