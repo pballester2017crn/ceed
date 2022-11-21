@@ -246,8 +246,8 @@
 		padding: 0.5rem 0rem 0.5rem 0;
 	}
 	.ceed .logos .xarxes{
-		height: 5vh;
-		padding: 0rem 0.5rem 0.5rem 0.5rem;
+		height: 6vh;
+		padding: 0rem 0.5rem 0.5rem 0.75rem;
 	}
 	.ceed .logos .dr{
 		height: 6vh;
@@ -257,7 +257,7 @@
 		padding: 0.25rem 0 0.25rem 0.5rem;
 	}
 	.ceed .assignatura{
-		min-height: 5vh;
+		min-height: 7vh;
 	}
 	.ceed .assignatura h4{
 		margin: 0 0 0 0.5rem;
@@ -321,7 +321,7 @@
 		padding: 0;
 		display: block;
 	}
-	.ceed .bloc ul li{
+	.ceed .bloc > ul li{
 		margin: 0;
 		padding: 0 0 0 0.5rem;
 		display: block;
@@ -345,7 +345,7 @@
 	.ceed .bloc div p{
 		padding: 0.5rem 0rem 0rem 0rem;
 	}
-	.ceed .bloc div ul li{
+	.ceed .bloc > div ul li{
 		margin: 0;
 		padding: 0.5rem 0 0 0;
 		display: block;
@@ -353,7 +353,7 @@
 	.ceed .boto{
 		height: 2rem;
 		margin: 0 0 0 0;
-		padding: 0.5rem 0.5rem 1rem 0.5rem;
+		padding: 0.5rem 0.5rem 1.5rem 0.5rem;
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
@@ -370,24 +370,24 @@
 	}
 	.ceed .nom{
 		font-weight:600;
-		font-size: 1em;
-		line-height: 1.2rem;
+		font-size: 1rem;
+		line-height: 1rem;
 	}
 	.ceed .dpt{
 		font-style: italic;
 		font-weight: 500;
-		font-size: 0.9em;
-		line-height: 1rem;
+		font-size: 0.9rem;
+		line-height: 0.9rem;
 	}
 	.ceed .correu{
 		font-size: 0.85em;
-		line-height: 1rem;
+		line-height: 0.9rem;
 	}
 	.ceed .tlf{
 		font-size: 0.85em;
-		line-height: 1rem;
+		line-height: 0.9rem;
 	}
-	.ceed .titol, .ceed .tema{
+	.ceed .titol h4, .ceed .tema h5{
 		margin: 0rem 0 0 0rem;
 		padding: 0.5rem 0rem 0.1rem 0 !important;
 		font-weight: 800 !important;
@@ -556,7 +556,7 @@
 	.ceed .contingut{
 		padding: 0.5rem 0 0 0;
 	}
-	.ceed .titol, .ceed .tema{
+	.ceed .titol h4, .ceed .tema h5{
 		margin: 0rem 0 0 0rem;
 		padding: 0.5rem 0rem 0.1rem 0 !important;
 		font-weight: 800 !important;
@@ -708,7 +708,7 @@
 		column-count: 2;
 		font-style: italic;
 	}
-	.ceed .titol, .ceed .tema{
+	.ceed .titol h4, .ceed .tema h5{
 		margin: 0rem 0 0 0rem;
 		padding: 1rem 1rem 0.5rem 0 !important;
 		font-weight: 800 !important;
