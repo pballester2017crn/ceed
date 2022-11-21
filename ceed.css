@@ -333,7 +333,7 @@
 		display: block;
 	}
 	.ceed .bloc .tri{
-		font-weight: 600 !important;
+		font-weight: 500 !important;
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
@@ -345,7 +345,7 @@
 		list-style-type: none;
 	}
 	.ceed .bloc div > ul{
-		padding: 0.5rem 0rem 0rem 0rem;
+		padding: 0.75rem 0rem 0rem 0rem;
 		display: block;
 	}
 	.ceed .bloc div > p{
@@ -412,11 +412,14 @@
 	}
 	.ceed .norma h6{
 		padding: 0.5rem 0 0 0;
+		margin: 0;
 		font-size: 0.9em;
 	}
 	.ceed .norma p{
 		color: #999;
 		font-style: italic !important;
+		margin: 0;
+		padding: 0;
 	}
 	.ceed .contingut{
 		padding: 0.5rem 0 0 0;
@@ -452,8 +455,8 @@
 	}
 	.ceed .logos svg{
 		width: auto;
-		height: 100%;
-		padding: 0rem 0 0 1rem;
+		height: 90%;
+		padding: 0.25rem 0 0 1rem;
 	}
 	.ceed .assignatura{
 		min-height: 50px;
@@ -486,11 +489,11 @@
 		align-items: center;*/
 		cursor: pointer;
 		line-height: 0.9rem;
-		padding: 0rem;
+		padding: 1rem;
 		color: #666;
 		/*float: left;*/
 	}
-	.ceed .icon i{
+	.ceed .icon .fa{
 		font-size: 1.5em;
 		padding: 0rem 0 0 0;
 		text-align: center;
@@ -526,7 +529,7 @@
 		padding: 0 0 0 0.5rem;
 	}
 	.ceed .bloc .tri{
-		font-weight: 600 !important;
+		font-weight: 500 !important;
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
@@ -590,7 +593,7 @@
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .titol, .ceed .tema{
-		min-height: 5vh;
+		min-height: 4vh;
 		padding: 0rem 0rem 0.75rem 0 !important;
 	}
 	.ceed .titol h4, .ceed .tema h5{
@@ -646,8 +649,8 @@
 	}
 	.ceed .logos svg{
 		width: auto;
-		height: 80%;
-		padding: 0.5rem 0 0 1.5rem;
+		height: 75%;
+		padding: 0.75rem 0 0 1.5rem;
 	}
 	.ceed .assignatura{
 		min-height: 5vh;
@@ -674,7 +677,7 @@
 		align-items: center;
 		cursor: pointer;
 		line-height: 0.5;
-		padding: 1em 1em;
+		padding: 1rem 1rem;
 		color: #999;
 		float: left;
 	}
@@ -685,7 +688,7 @@
 	.ceed .icon .texticon{
 		color: #333;
 		margin: 0;
-		padding: 0 0 0 0.25rem !important;
+		padding: 0 0 0 0.5rem !important;
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 1rem;
@@ -721,7 +724,7 @@
 		list-style-type: none;
 	}
 	.ceed .bloc div ul{
-		padding: 0.5rem 0 0rem 0rem;
+		padding: 1rem 0 0rem 0rem;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0 0rem 0rem;
@@ -734,7 +737,7 @@
 	.ceed .boto{
 		height: 1.5rem;
 		margin: 0.5rem 0 0 0;
-		padding: 1.0rem 0rem 1.5rem 1.5rem;
+		padding: 1.0rem 0rem 2rem 1.5rem;
 	}
 	.ceed .profe{
 		float: left;
