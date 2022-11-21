@@ -247,13 +247,14 @@
 	}
 	.ceed .logos .xarxes{
 		height: 6vh;
-		padding: 0rem 0.5rem 0.5rem 0.75rem;
+		padding: 0rem 0.5rem 0.5rem 1.5rem;
 	}
 	.ceed .logos .dr{
 		height: 6vh;
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .logos .esq{
+		height: 5vh;
 		padding: 0.25rem 0 0.25rem 0.5rem;
 	}
 	.ceed .assignatura{
@@ -387,13 +388,17 @@
 		font-size: 0.85em;
 		line-height: 0.9rem;
 	}
+	.ceed .titol, .ceed .tema{
+		padding: 0.5rem 0rem 0.5rem 0 !important;
+	}
 	.ceed .titol h4, .ceed .tema h5{
 		margin: 0rem 0 0 0rem;
 		padding: 0.5rem 0rem 0.1rem 0 !important;
 		font-weight: 800 !important;
 	}
-	.ceed .titol i, .ceed .tema i{
-		padding: 0 0.75rem 0 0.75rem !important;
+	.ceed .titol .fa-chevron-right, .ceed .tema .fa-chevron-right{
+		margin: 0 1.5rem 0 1.5rem !important;
+		display: inline-block;
 	}
 	.ceed .norma h6{
 		padding: 0.5rem 0 0 0;
