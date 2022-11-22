@@ -125,21 +125,21 @@
 }
 .ceed .nom{
 	font-weight:600;
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 1.2rem;
 }
 .ceed .dpt{
 	font-style: italic;
 	font-weight: 500;
-	font-size: 0.9em;
+	font-size: 0.9rem;
 	line-height: 1.2rem;
 }
 .ceed .correu{
-	font-size: 0.85em;
+	font-size: 0.85rem;
 	line-height: 1.2rem;
 }
 .ceed .tlf{
-	font-size: 0.85em;
+	font-size: 0.85rem;
 	line-height: 1.2rem;
 }
 .ceed .norma{
@@ -239,7 +239,7 @@
 @media screen and (max-width: 480px){
 	.ceed{
 		font-size: 16px;
-		line-height: 1.4em;
+		line-height: 1.4rem;
 	}
 	.ceed .logos{
 		height: 7vh;
@@ -295,7 +295,7 @@
 		text-align: center;
 	}
 	.ceed .icon i{
-		font-size: 1.5em;
+		font-size: 1.5rem;
 		text-align: center;
 		padding: 0.5rem;
 	}
@@ -317,7 +317,7 @@
 	}
 	.ceed .bloc h5{
 		text-transform: uppercase;
-		font-size: 0.9em;
+		font-size: 0.9rem;
 		margin: 0 0rem 0.5rem 0rem;
 		padding: 0 0 0.25rem 0;
 		/*border-bottom: solid 1pt #000;*/
@@ -438,8 +438,8 @@
 
 @media screen and (min-width: 481px) and (max-width: 960px){
 	.ceed{
-		font-size: 17px;
-		line-height: 1.4em;
+		font-size: 18px;
+		line-height: 1.4rem;
 	}
 	.ceed .logos{
 		height: 50px;
@@ -494,7 +494,7 @@
 		/*float: left;*/
 	}
 	.ceed .icon .fa{
-		font-size: 1.5em;
+		font-size: 1.5rem;
 		padding: 0rem 0 0 0;
 		text-align: center;
 		display: block;
@@ -631,11 +631,11 @@
 
 @media screen and (min-width: 961px){
 	.ceed{
-		font-size: 18px;
-		line-height: 1.4em;
+		font-size: 20px;
+		line-height: 1.4rem;
 	}
 	.ceed .logos{
-		height: 7vh;
+		height: 8vh;
 		padding: 0.5rem 0rem 0.5rem 0;
 	}
 	.ceed .logos .xarxes{
@@ -652,7 +652,7 @@
 	.ceed .logos svg{
 		width: auto;
 		height: 75%;
-		padding: 0.75rem 0 0 1.5rem;
+		padding: 1.5rem 0 0 1.5rem;
 	}
 	.ceed .assignatura{
 		min-height: 5vh;
@@ -686,10 +686,11 @@
 	}
 	.ceed .icon .fa{
 		margin-right: 0.5rem !important;
-		font-size: 1.5em;
+		font-size: 2.5rem;
 	}
 	.ceed .icon .texticon{
 		color: #333;
+		font-size: 1rem;
 		margin: 0;
 		padding: 0 0 0 0.5rem !important;
 	}
@@ -697,13 +698,13 @@
 		padding: 1rem 0 1rem 1rem;
 	}
 	.ceed .x{
-		font-size: 1.4em;
+		font-size: 1.4rem;
 		font-weight: 100;
 		padding: 0 2rem 0 0;
 	}
 	.ceed .bloc h5{
 		text-transform: uppercase;
-		font-size: 0.9em;
+		font-size: 0.9rem;
 		margin: 0 1rem 0.5rem 0rem;
 		padding: 0 0 0.25rem 0;
 		/*border-bottom: solid 1pt #000;*/
@@ -715,7 +716,7 @@
 		padding: 0 0 0 0.5rem;
 	}
 	.ceed .bloc .tri{
-		font-weight: 600 !important;
+		font-weight: 500 !important;
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
