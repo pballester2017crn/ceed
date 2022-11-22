@@ -287,7 +287,7 @@
 	}
 	.ceed .icon{
 		width: 20%;
-		font-size: 0.9em;
+		font-size: 0.9rem;
 		cursor: pointer;
 		line-height: 1rem;
 		padding: 1rem;
@@ -483,7 +483,7 @@
 	}
 	.ceed .icon{
 		height: 20px;
-		font-size: 0.9em;
+		font-size: 0.9rem;
 		width: 20%;
 		/*display: flex;
 		align-items: center;*/
@@ -646,6 +646,7 @@
 		padding: 0 1rem 0 0;
 	}
 	.ceed .logos .esq{
+		height: 6vh;
 		padding: 0.25rem 0 0.25rem 1rem;
 	}
 	.ceed .logos svg{
@@ -669,17 +670,17 @@
 		justify-content: space-between;
 		margin: 0;
 		padding: 0.5rem 0 0 0;
-		height: 7vh;
+		height: 6vh;
 		width: 98%;
 	}
 	.ceed .icon{
-		font-size: 0.9em;
+		font-size: 0.9rem;
 		width: 20%;
 		display: flex;
 		align-items: center;
 		cursor: pointer;
-		line-height: 0.5;
-		padding: 1rem 1rem 0rem 1rem;
+		line-height: 0.5rem;
+		padding: 1rem 1rem 1rem 1rem;
 		color: #999;
 		float: left;
 	}
