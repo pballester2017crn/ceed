@@ -3,9 +3,9 @@
 	/*height: 100vh;*/
 	font-family: Arial, sans-serif;
 	font-weight: 400;
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
 	box-sizing: border-box !important;
 	overflow-y: auto;
 	color: #333;
@@ -271,7 +271,7 @@
 		text-transform: uppercase;
 		font-size: 1.1rem;
 		letter-spacing: 3px;
-		font-weight: 900 !important;
+		font-weight: 800 !important;
 	}
 	.ceed .icones{
 		display: flex;
@@ -345,7 +345,7 @@
 		list-style-type: none;
 	}
 	.ceed .bloc div > ul{
-		padding: 0.75rem 0rem 0rem 0rem;
+		padding: 0.75rem 0rem 0rem 0rem !important;
 		display: block;
 	}
 	.ceed .bloc div > p{
@@ -404,7 +404,7 @@
 	.ceed .titol h4, .ceed .tema h5{
 		margin: 0rem 0 0 0rem;
 		padding: 0.5rem 0rem 0.1rem 0 !important;
-		font-weight: 800 !important;
+		font-weight: 700 !important;
 	}
 	.ceed .titol h4 .fa-chevron-right, .ceed .tema h5 .fa-chevron-right{
 		margin: 0 0.35rem 0 0.5rem !important;
@@ -439,7 +439,7 @@
 @media screen and (min-width: 481px) and (max-width: 960px){
 	.ceed{
 		font-size: 17px;
-		line-height: 1.3em;
+		line-height: 1.4em;
 	}
 	.ceed .logos{
 		height: 50px;
@@ -467,7 +467,7 @@
 		text-transform: uppercase;
 		font-size: 1.1rem;
 		letter-spacing: 3px;
-		font-weight: 900 !important;
+		font-weight: 800 !important;
 	}
 	.ceed .icones{
 		display: flex;
@@ -599,7 +599,7 @@
 	.ceed .titol h4, .ceed .tema h5{
 		margin: 0rem 0 0 0rem;
 		padding: 0.5rem 0rem 0.1rem 0 !important;
-		font-weight: 800 !important;
+		font-weight: 700 !important;
 	}
 	.ceed .titol h4 .fa-chevron-right, .ceed .tema h5 .fa-chevron-right{
 		margin: 0 0.35rem 0 0.5rem !important;
@@ -607,6 +607,7 @@
 	}
 	.ceed .norma h6{
 		padding: 0.5rem 0 0 0;
+		margin: 0;
 		font-size: 0.9em;
 	}
 	.ceed .contingut{
@@ -631,7 +632,7 @@
 @media screen and (min-width: 961px){
 	.ceed{
 		font-size: 18px;
-		line-height: 1.3em;
+		line-height: 1.4em;
 	}
 	.ceed .logos{
 		height: 7vh;
@@ -658,7 +659,8 @@
 	.ceed .assignatura h4{
 		margin: 0 0 0 1rem;
 		text-transform: uppercase;
-		font-weight: 900 !important;
+		letter-spacing: 3px;
+		font-weight: 800 !important;
 	}
 	.ceed .icones{
 		list-style-type: none;
@@ -778,7 +780,7 @@
 	.ceed .titol h4, .ceed .tema h5{
 		margin: 0rem 0 0 0rem;
 		padding: 1rem 1rem 0.5rem 0 !important;
-		font-weight: 800 !important;
+		font-weight: 700 !important;
 	}
 	.ceed .titol h4 .fa-chevron-right, .ceed .tema h5 .fa-chevron-right{
 		margin: 0 0.35rem 0 0.5rem !important;
@@ -786,6 +788,7 @@
 	}
 	.ceed .norma h6{
 		padding: 0.5rem 0 0 0;
+		margin: 0;
 		font-size: 0.9em;
 	}
 	.ceed .contingut{
