@@ -6,20 +6,20 @@ html.md body {
 }
 body.moodleapp-4-0-2 {
     --core-header-toolbar-background: red;
-    --addon-calendar-event-category-color: purple;
+    --addon-calendar-event-category-color: red;
     --addon-calendar-event-course-color: red;
-    --addon-calendar-event-group-color: yellow;
-    --addon-calendar-event-user-color: blue;
-    --addon-calendar-event-site-color: green;
-    --addon-calendar-today-border-color: orange;
-    --addon-calendar-border-color: gray;
-    --addon-messages-message-bg: white;
-    --addon-messages-message-activated-bg: gray-light;
-    --addon-messages-message-note-text: gray-dark;
-    --addon-messages-message-mine-bg: gray-light;
-    --addon-messages-message-mine-activated-bg: gray;
-    --addon-messages-discussion-badge: orange;
-    --addon-messages-discussion-badge-text: white;
-    --core-send-message-input-background: gray-light;
-    --core-send-message-input-color: black;
+    --addon-calendar-event-group-color: red;
+    --addon-calendar-event-user-color: red;
+    --addon-calendar-event-site-color: red;
+    --addon-calendar-today-border-color: red
+    --addon-calendar-border-color: red;
+    --addon-messages-message-bg: red;
+    --addon-messages-message-activated-bg: red;
+    --addon-messages-message-note-text: red;
+    --addon-messages-message-mine-bg: red;
+    --addon-messages-message-mine-activated-bg: red;
+    --addon-messages-discussion-badge: red;
+    --addon-messages-discussion-badge-text: red;
+    --core-send-message-input-background: red;
+    --core-send-message-input-color: red;
 }
