@@ -1,25 +1,90 @@
-html.ios body {
-    --core-header-toolbar-background: red;
+/*
+* Estilo personalizado para a app -MOODLE MOBILE-
+*
+* Proxecto WEBS DINAMICAS
+*
+* Xerencia de Proxectos de Educación
+* Área de Solucións Tecnolóxicas Sectoriais
+* Axencia para a Modernización Tecnolóxica de Galicia (AMTEGA)
+* XUNTA DE GALICIA
+* 
+*/
+
+
+/* CABECEIRA DO MENÚ, COLUMNA LATERAL ESQUERDA */ 
+.bar-side-menu {
+background-color: #974578;
+color: #FFFFFF;
+ }
+ 
+/* MENÚ DA COLUMNA LATERAL ESQUERDA */ 
+ ion-side-menu li .item {
+background-color: #4b0e33;
+border-color: #b74f8f;
+color: #FFFFFF;
 }
-html.md body {
-    --core-header-toolbar-background: green;
+
+/* SEPARADOR DE SECCIÓNS NA COLUMNA LATERAL ESQUERDA */ 
+
+ion-side-menu li.item.item-divider {
+background-color: #bd74a1;
+border-color: #346A82;
 }
-body.moodleapp-4-0-2 {
-    --core-header-toolbar-background: red;
-    --addon-calendar-event-category-color: red;
-    --addon-calendar-event-course-color: red;
-    --addon-calendar-event-group-color: red;
-    --addon-calendar-event-user-color: red;
-    --addon-calendar-event-site-color: red;
-    --addon-calendar-today-border-color: red
-    --addon-calendar-border-color: red;
-    --addon-messages-message-bg: red;
-    --addon-messages-message-activated-bg: red;
-    --addon-messages-message-note-text: red;
-    --addon-messages-message-mine-bg: red;
-    --addon-messages-message-mine-activated-bg: red;
-    --addon-messages-discussion-badge: red;
-    --addon-messages-discussion-badge-text: red;
-    --core-send-message-input-background: red;
-    --core-send-message-input-color: red;
+
+/* CABECEIRA DO MENÚ DA ÁREA PRINCIPAL DEREITA */ 
+.bar-content {
+background-color: #b74f8f;
+ }
+ .button.button-positive {
+border-color: orange;
+background-color: blue;
+color: #FFFFFF;
+ } 
+
+ /* SEPARADOR DE SECCIÓNS */ 
+ .item-divider {
+background-color: #e7d6dd;
+color: #FFFFFF;
+border-color: #b74f8f;
+ }
+
+/* ICONA “MIS CURSOS” */ 
+.ion-ionic {
+color: #ff7f00;
+}
+/* ICONA “INICIO” */ 
+.ion-home {
+color: #e8d62c;
+}
+/* ICONA “NOTIFICACIONES” */ 
+.ion-ios-bell {
+color: #e6b348;
+}
+/* ICONA “MENSAXES” */ 
+.ion-chatbox {
+color: #b08a37;
+}
+/* ICONA “EVENTOS DE CALENDARIO” */ 
+.ion-calendar {
+color: #b6b42d;
+}
+/* ICONA “MIS ARCHIVOS” */
+.ion-folder {
+color: #787600;
+}
+/* ICONA “PÁGINA WEB” */
+.ion-earth {
+color: #15738f;
+}
+/* ICONA “AYUDA” */
+.ion-help-buoy {
+color: #128f11;
+}
+/* ICONA “CONFIGURACIÓN APLICACIÓN” */
+.ion-gear-b {
+color: #ff7f00;
+}
+/* ICONA “CAMBIAR DE SITIO” */
+.ion-log-out {
+color: #ff4419;
 }
