@@ -51,11 +51,16 @@
 }
 .ceed .icon:hover{
 	color: #000;
-	border-bottom: solid 2pt #000;
+	border-bottom: solid 2.5pt #000;
 }
 .ceed .icon:hover p{
-	font-weight: 600;
+	font-weight: 600 !important;
 	color: #000;
+}
+.ceed .active{
+	color: #000;
+	border-bottom: solid 2.5pt #000;
+	font-weight: 600 !important;
 }
 .ceed .bloc{
 	overflow: hidden;
@@ -291,7 +296,7 @@
 		cursor: pointer;
 		line-height: 1rem;
 		padding: 1rem;
-		color: #666;
+		color: #79717A;
 		text-align: center;
 	}
 	.ceed .icon i{
@@ -300,7 +305,7 @@
 		padding: 0.5rem;
 	}
 	.ceed .icon .texticon{
-		color: #666;
+		color: #79717A;
 		font-size: 0.7rem;
 		text-align: center;
 		margin: 0;
@@ -490,7 +495,7 @@
 		cursor: pointer;
 		line-height: 0.9rem;
 		padding: 1rem;
-		color: #666;
+		color: #79717A;
 		/*float: left;*/
 	}
 	.ceed .icon .fa{
@@ -500,7 +505,7 @@
 		display: block;
 	}
 	.ceed .icon .texticon{
-		color: #666;
+		color: #79717A;
 		margin: 0;
 		padding: 0 0 0.25rem 0;
 		font-size: 0.7rem;
@@ -635,18 +640,19 @@
 		line-height: 1.4rem;
 	}
 	.ceed .logos{
-		height: 8vh;
+		height: 100px;
 		padding: 0.5rem 0rem 0.5rem 0;
 	}
 	.ceed .logos .xarxes{
-		height: 5vh;
+		height: 40px;
 		padding: 0rem 0.5rem 0.5rem 0.5rem;
 	}
 	.ceed .logos .dr{
-		padding: 0 1rem 0 0;
+		padding: 1.5rem 1rem 0 0;
+		height: 60px;
 	}
 	.ceed .logos .esq{
-		height: 6vh;
+		height: 60px;
 		padding: 0.25rem 0 0.25rem 1rem;
 	}
 	.ceed .logos svg{
@@ -655,7 +661,7 @@
 		padding: 1.5rem 0 0 1.5rem;
 	}
 	.ceed .assignatura{
-		min-height: 5vh;
+		min-height: 50px;
 	}
 	.ceed .assignatura h4{
 		margin: 0 0 0 1rem;
@@ -669,9 +675,9 @@
 		align-items: center;
 		justify-content: space-between;
 		margin: 0;
-		padding: 0.5rem 0 0 0;
-		height: 6vh;
-		width: 98%;
+		padding: 0.25rem 0 0 0;
+		height: 50px;
+		width: 99%;
 	}
 	.ceed .icon{
 		font-size: 0.9rem;
@@ -679,20 +685,27 @@
 		display: flex;
 		align-items: center;
 		cursor: pointer;
-		line-height: 0.5rem;
-		padding: 1rem 1rem 1rem 1rem;
-		color: #999;
+		line-height: 0.25rem;
+		padding: 1rem 1rem 0.5rem 1.5rem;
+		color: #72736E;
 		float: left;
+		/*border-bottom: solid 1.5pt #D9D9D9;*/
 	}
-	.ceed .icon .fa{
-		margin-right: 0.5rem !important;
-		font-size: 2.5rem;
+	.ceed .icon i{
+		margin-right: 0.25rem !important;
+		padding: 0 0rem 0 0;
+		font-size: 1.2rem;
 	}
 	.ceed .icon .texticon{
-		color: #333;
+		color: #72736E;
 		font-size: 1rem;
 		margin: 0;
-		padding: 0 0 0 0.5rem !important;
+		padding: 0 0 0 0.75rem !important;
+		font-weight: 600 !important;
+	}
+	.ceed .active .texticon{
+		color: #000;
+		font-weight: 600 !important;
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 1rem;
