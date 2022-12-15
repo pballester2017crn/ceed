@@ -1,4 +1,10 @@
 /* Aquí puedes escribir tu comentario */
+.category-29 .toggle{
+
+}
+.category-29 #section-1, .category-29 #section-2, .category-29 #section-3{
+	width: 30%;
+}
 .ceed{
 	/*height: 100vh;*/
 	font-family: Arial, sans-serif;
