@@ -2,6 +2,10 @@
 .category-29 .toggle{
 
 }
+.category-29 #section-0{
+	position: fixed;
+	top: 0;
+}
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3{
 	
 }
