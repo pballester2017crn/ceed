@@ -3,7 +3,7 @@
 
 }
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3{
-	width: 30%;
+	
 }
 .ceed{
 	/*height: 100vh;*/
@@ -42,6 +42,7 @@
 	padding: 0.25rem 0.25rem;
 }
 .ceed .assignatura{
+	position: sticky;
 	display: flex;
 	align-items: center;
 	/*align-content: center;
@@ -103,6 +104,17 @@
 }
 .ceed .bloc div p{
 	margin: 0;
+}
+.ceed .bloc .sec{
+	margin: 0;
+	padding: 0;
+}
+.ceed .bloc .sec li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 10%;
+	border: solid 1px #333;
 }
 .ceed a{
 	text-decoration: none;
