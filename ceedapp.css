@@ -40,7 +40,7 @@
 	}
 	.ceed .logos svg{
 		width: auto;
-		height: 80%;
+		height: 60%;
 		padding: 0.35rem 0 0 0.5rem;
 	}
 	.ceed .assignatura{
@@ -186,6 +186,10 @@
 		font-weight: 600;
 		text-decoration: none;
 		display: block;
+	}
+	.ceed .boto:hover{
+		opacity: 0.9;
+		box-shadow: 0 0 0 1pt #333;
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
