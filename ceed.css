@@ -1,15 +1,19 @@
 /* Aquí puedes escribir tu comentario */
+.category-29 #page-wrapper{
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
 .category-29 .toggle{
-
 }
 .category-29 #main-navbar{
 	background-color: yellow;
 }
-.category-29 #nav-drawer{
+.category-29 #nav-drawer, .category-29 #nav-drawer-inner{
 	position: fixed !important;
 	top: ;
 	left: 0 !important;
-	background-color: pink;
+	background-color: green;
 	z-index: 10 !important;
 	display: block;
 	width: 200px;
