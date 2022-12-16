@@ -7,11 +7,12 @@
 }
 .category-29 #dropdownmain-navigation00{
 	position: fixed !important;
-	top: 0 !important;
+	top: ;
 	left: 0 !important;
-	background-color: red;
+	background-color: pink;
 	z-index: 10 !important;
 	display: block;
+	width: 50px;
 }
 .category-29 #section-0{
 	
