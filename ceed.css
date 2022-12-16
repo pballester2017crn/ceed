@@ -5,14 +5,17 @@
 .category-29 #main-navbar{
 	background-color: yellow;
 }
-.category-29 #dropdownmain-navigation00{
+.category-29 #nav-drawer{
 	position: fixed !important;
 	top: ;
 	left: 0 !important;
 	background-color: pink;
 	z-index: 10 !important;
 	display: block;
-	width: 50px;
+	width: 200px;
+}
+.category-29 #dropdownmain-navigation00{
+	
 }
 .category-29 #section-0{
 	
