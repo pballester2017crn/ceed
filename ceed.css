@@ -5,7 +5,7 @@
 .category-29 #main-navbar{
 	background-color: yellow;
 }
-.category-29 .navbar-collapse{
+.category-29 #navbar-drawer{
 	position: fixed;
 	top: 0;
 	left: 0,
