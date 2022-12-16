@@ -6,10 +6,11 @@
 	background-color: yellow;
 }
 .category-29 #dropdownmain-navigation00{
-	position: fixed;
-	top: 50%;
+	position: absolute;
+	top: 0;
 	left: 0;
 	background-color: pink;
+	z-index: 10;
 }
 .category-29 #section-0{
 	
