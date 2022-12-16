@@ -108,15 +108,19 @@
 .ceed .bloc div p{
 	margin: 0;
 }
-.ceed .bloc .sec{
+.ceed .seccions{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left: 0;
+}
+.ceed .seccions .sec{
 	margin: 0;
 	padding: 0;
 }
-.ceed .bloc .sec li{
+.ceed .seccions .sec li{
 	margin: 0;
 	padding: 0;
-	float: left;
-	width: 10%;
 	border: solid 1px #333;
 }
 .ceed a{
