@@ -5,7 +5,7 @@
 .category-29 #main-navbar{
 	background-color: yellow;
 }
-.category-29 .nav-item{
+.category-29 .dropdown-menu{
 	position: fixed;
 	top: 50%;
 	left: 0;
