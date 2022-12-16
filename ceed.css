@@ -11,6 +11,7 @@
 	left: 0 !important;
 	background-color: red;
 	z-index: 10 !important;
+	display: block;
 }
 .category-29 #section-0{
 	
