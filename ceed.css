@@ -5,6 +5,12 @@
 .category-29 #main-navbar{
 	background-color: yellow;
 }
+.category-29 .navbar-collapse{
+	position: fixed;
+	top: 0;
+	left: 0,
+	background-color: pink;
+}
 .category-29 #section-0{
 	
 }
