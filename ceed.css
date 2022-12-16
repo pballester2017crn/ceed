@@ -5,12 +5,17 @@
 	border: 0 !important;
 	background-color: red;
 }
+.category-29 #page{
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
 .category-29 .toggle{
 }
 .category-29 #main-navbar{
 	background-color: yellow;
 }
-.category-29 #nav-drawer, .category-29 #nav-drawer-inner, .category-29 #adaptable-page-header-nav-drawer{
+/*.category-29 #nav-drawer, .category-29 #nav-drawer-inner{
 	position: fixed !important;
 	top: ;
 	left: 0 !important;
@@ -18,11 +23,11 @@
 	z-index: 10 !important;
 	display: block;
 	width: 200px;
-}
+}*/
 .category-29 .nav-item{
 	position: fixed !important;
 	top: ;
-	right: 0 !important;
+	left: 0 !important;
 	background-color: yellow;
 	z-index: 10 !important;
 	display: block;
