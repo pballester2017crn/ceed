@@ -19,7 +19,13 @@
 	width: 200px;
 }
 .category-29 #dropdownmain-navigation00{
-	
+	position: fixed !important;
+	top: ;
+	right: 0 !important;
+	background-color: yellow;
+	z-index: 10 !important;
+	display: block;
+	width: 200px;
 }
 .category-29 #section-0{
 	
