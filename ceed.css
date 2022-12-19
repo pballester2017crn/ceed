@@ -34,7 +34,7 @@
 	left: 0 !important;
 	background-color: yellow;
 	z-index: 10 !important;*/
-	display: block;
+	display: inline-block;
 	width: 300px;	
 }
 .category-29 #section-0{
@@ -161,6 +161,7 @@
 }
 .ceed a{
 	text-decoration: none;
+	display: block;
 }
 .ceed .boto{
 	width: 50%;
