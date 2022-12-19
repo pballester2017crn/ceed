@@ -25,17 +25,17 @@
 	width: 200px;
 }
 .category-29 .nav-item{
+	
+}
+*/
+.category-29 #dropdownmain-navigation00{
 	position: fixed !important;
 	top: ;
 	left: 0 !important;
 	background-color: yellow;
 	z-index: 10 !important;
 	display: block;
-	width: 200px;
-}
-*/
-.category-29 #dropdownmain-navigation00{
-	
+	width: 200px;	
 }
 .category-29 #section-0{
 	
@@ -148,7 +148,7 @@
 	padding: 0;
 	position: fixed;
 	left: 0;
-	top: 15%;
+	top: 20%;
 }
 .ceed .seccions .sec{
 	margin: 0;
