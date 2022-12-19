@@ -29,13 +29,13 @@
 	display: block;
 }
 .category-29 #dropdownmain-navigation00{
-	position: fixed !important;
+	/*position: fixed !important;
 	top: ;
 	left: 0 !important;
 	background-color: yellow;
-	z-index: 10 !important;
+	z-index: 10 !important;*/
 	display: block;
-	width: 200px;	
+	width: 300px;	
 }
 .category-29 #section-0{
 	
