@@ -383,16 +383,13 @@
 		z-index: 10;
 		left: 0;
 		bottom: 0;
-		right: 0;
 		background-color: yellow;
 		height: 6vh;
-		width: 100%;
 		overflow-x: auto;
 	}
 	.ceed .seccions .sec{
 		margin: 0 !important;
 		padding: 0 !important;
-		width: 200%;
 		height: 6vh;
 	}
 	.ceed .seccions .sec li{
