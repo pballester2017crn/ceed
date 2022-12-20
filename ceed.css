@@ -108,17 +108,7 @@
 .ceed .bloc div p{
 	margin: 0;
 }
-.ceed .bloc .sec{
-	margin: 0;
-	padding: 0;
-}
-.ceed .bloc .sec li{
-	margin: 0;
-	padding: 0;
-	float: left;
-	width: 10%;
-	border: solid 1px #333;
-}
+
 .ceed a{
 	text-decoration: none;
 }
@@ -394,11 +384,11 @@
 		left: 0;
 		bottom: 0;
 		background-color: yellow;
-		height: 7vh;
+		height: 6vh;
 	}
 	.ceed .seccions li{
 		margin: 0 !important;
-		padding: 0px 20px;
+		padding: 10px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
@@ -606,11 +596,11 @@
 		left: 0;
 		bottom: 0;
 		background-color: yellow;
-		height: 50px;
+		height: 40px;
 	}
 	.ceed .seccions li{
 		margin: 0 !important;
-		padding: 0px 20px;
+		padding: 10px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
@@ -829,11 +819,11 @@
 
 		bottom: 0;
 		background-color: yellow;
-		height: 60px;
+		height: 50px;
 	}
 	.ceed .seccions li{
 		margin: 0 !important;
-		padding: 0px 20px;
+		padding: 10px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
