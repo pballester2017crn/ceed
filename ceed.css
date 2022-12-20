@@ -394,7 +394,7 @@
 		margin: 0 !important;
 		padding: 0 !important;
 		height: 6vh;
-		width: auto;
+		width: max-content;
 	}
 	.ceed .seccions .sec li{
 		margin: 0 !important;
