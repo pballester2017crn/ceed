@@ -385,6 +385,7 @@
 		bottom: 0;
 		height: 6vh;
 		overflow-x: auto;
+		background-color: #fff;
 		width: 100%;
 		border-top: solid 1px #333;
 		box-shadow: 0 -1px 1px #333;
@@ -393,7 +394,7 @@
 		margin: 0 !important;
 		padding: 0 !important;
 		height: 6vh;
-		width: 150%;
+		width: auto;
 	}
 	.ceed .seccions .sec li{
 		margin: 0 !important;
