@@ -386,9 +386,16 @@
 		background-color: yellow;
 		height: 6vh;
 	}
-	.ceed .seccions li{
+	.ceed .seccions .sec{
 		margin: 0 !important;
-		padding: 10px 20px;
+		padding: 0 !important;
+		overflow-x: auto;
+		width: 200%;
+		height: 6vh;
+	}
+	.ceed .seccions .sec li{
+		margin: 0 !important;
+		padding: 5px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
@@ -600,7 +607,7 @@
 	}
 	.ceed .seccions li{
 		margin: 0 !important;
-		padding: 10px 20px;
+		padding: 7px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
