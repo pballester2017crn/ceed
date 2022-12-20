@@ -393,7 +393,7 @@
 		z-index: 10;
 		left: 0;
 		bottom: 0;
-		background-color: #fff;
+		background-color: yellow;
 	}
 	.ceed .seccions .sec{
 		margin: 0;
@@ -608,7 +608,7 @@
 		z-index: 10;
 		left: 0;
 		bottom: 0;
-		background-color: #fff;
+		background-color: yellow;
 	}
 	.ceed .seccions .sec{
 		margin: 0;
@@ -831,8 +831,10 @@
 		margin: 0;
 		padding: 0;
 		position: fixed;
+		z-index: 10;
 		left: 0;
-		top: 35%;
+		bottom: 0;
+		background-color: yellow;
 	}
 	.ceed .seccions .sec{
 		margin: 0;
@@ -841,7 +843,9 @@
 	.ceed .seccions .sec li{
 		margin: 0;
 		padding: 10px;
-		border: solid 1px #333;
+		border-right: solid 1px #333;
+		float: left;
+		font-size: 1em;
 	}
 	.ceed .boto{
 		height: 1.5rem;
