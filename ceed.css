@@ -394,7 +394,7 @@
 		left: 0;
 		bottom: 0;
 		background-color: yellow;
-		height: 5vh;
+		height: 7vh;
 	}
 	.ceed .seccions .sec{
 		margin: 0;
@@ -402,7 +402,7 @@
 	}
 	.ceed .seccions .sec li{
 		margin: 0;
-		padding: 10px 20px;
+		padding: 0px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
@@ -610,7 +610,7 @@
 		left: 0;
 		bottom: 0;
 		background-color: yellow;
-		height: 40px;
+		height: 50px;
 	}
 	.ceed .seccions .sec{
 		margin: 0;
@@ -618,7 +618,7 @@
 	}
 	.ceed .seccions .sec li{
 		margin: 0;
-		padding: 10px 20px;
+		padding: 0px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
@@ -837,7 +837,7 @@
 
 		bottom: 0;
 		background-color: yellow;
-		height: 50px;
+		height: 60px;
 	}
 	.ceed .seccions .sec{
 		margin: 0;
@@ -845,7 +845,7 @@
 	}
 	.ceed .seccions .sec li{
 		margin: 0;
-		padding: 10px 20px;
+		padding: 0px 20px;
 		border-right: solid 1px #333;
 		float: left;
 		font-size: 1em;
