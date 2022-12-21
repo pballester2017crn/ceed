@@ -386,9 +386,9 @@
 		height: 6vh;
 		overflow-x: auto;
 		background-color: #fff;
-		width: 100%;
-		/*border-top: solid 1px #333;
-		box-shadow: 0 -1px 1px #333;*/
+		max-width: 100%;
+		border-top: solid 1px #333;
+		box-shadow: 0 -2px 2px #ddd;
 	}
 	.ceed .seccions .sec{
 		margin: 0 !important;
@@ -399,12 +399,13 @@
 	.ceed .seccions .sec li{
 		margin: 0 !important;
 		padding: 5px 20px;
-		border-right: solid 1px #333;
+	/*	border-right: solid 1px #333;*/
 		float: left;
 		font-size: 1em;
 	}
 	.ceed .seccions .sec li:hover{
 		background-color: #ddd;
+		border-radius: 50%;
 	}
 	.ceed .boto{
 		height: 2rem;
@@ -610,13 +611,27 @@
 		bottom: 0;
 		background-color: #fff;
 		height: 40px;
+		max-width: 100%;
+		overflow-x: auto;
+		border-top: solid 1px #333;
+		box-shadow: 0 -2px 2px #ddd;
+	}
+	.ceed .seccions .sec{
+		margin: 0 !important;
+		padding: 0 !important;
+		width: max-content;
 	}
 	.ceed .seccions .sec li{
 		margin: 0 !important;
 		padding: 7px 20px;
-		border-right: solid 1px #333;
+		/*border-right: solid 1px #333;*/
 		float: left;
 		font-size: 1em;
+		width: max-content;
+	}
+	.ceed .seccions .sec li:hover{
+		background-color: #ddd;
+		border-radius: 50%;
 	}
 	.ceed .boto{
 		height: 1.2rem;
@@ -829,17 +844,29 @@
 		padding: 0 !important;
 		position: fixed;
 		z-index: 10;
-
 		bottom: 0;
 		background-color: #fff;
 		height: 50px;
+		max-width: 100%;
+		overflow-x: auto;
+		border-top: solid 1px #333;
+		box-shadow: 0 -2px 2px #ddd;
 	}
-	.ceed .seccions li{
+	.ceed .seccions .sec{
+		margin: 0 !important;
+		padding: 0 !important;
+		width: max-content;
+	}
+	.ceed .seccions .sec li{
 		margin: 0 !important;
 		padding: 10px 20px;
-		border-right: solid 1px #333;
+		/*border-right: solid 1px #333;*/
 		float: left;
 		font-size: 1em;
+	}
+	.ceed .seccions .sec li:hover{
+		background-color: #ddd;
+		border-radius: 50%;
 	}
 	.ceed .boto{
 		height: 1.5rem;
