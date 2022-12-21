@@ -116,20 +116,23 @@
   z-index: 10;
   left: 0;
   bottom: 0;
-
-  background-color: #fff;
+	width: 100%;
+  background-color: yellow;
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
 }
+.ceed .seccent .enrere, .ceed .seccent .avant{
+  max-width: 5%;
+	background-color: purple;
+}
 .ceed .seccent .seccions{
   overflow-x: auto;
-  max-width: 100%;
-
+  max-width: 90%;
+	background-color: red;
 }
 .ceed .seccent .seccions .sec{
-
   width: max-content;
 }
 .ceed .seccent .seccions .sec li{
