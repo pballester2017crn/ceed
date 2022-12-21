@@ -137,13 +137,20 @@
 }
 .ceed .seccent .seccions .sec li{
   margin: 0 !important;
-  padding: 5px 10px 0px 20px;
+  padding: 5px 10px 0px 10px;
   float: left;
   font-size: 1em;
   font-weight: 600 !important;
 }
 .ceed .seccent .seccions .sec li:hover{
   border-bottom: solid 1px #999;
+}
+.ceed .seccent .seccions .sec li:first-child{
+  margin: 0 !important;
+  padding: 5px 5px 0px 0px;
+  float: left;
+  font-size: 1em;
+  font-weight: 600 !important;
 }
 
 .ceed a{
@@ -414,16 +421,20 @@
 		display: block;
 	}
 	.ceed .seccent{
-		height: 6vh;
+		height: 7vh;
+	}
+	.ceed .seccent .enrere, .ceed .seccent .avant{
+		font-size: 1.1rem;
 	}
 	.ceed .seccent .seccions{
-		height: 6vh;
+		height: 7vh;
 	}
 	.ceed .seccent .seccions .sec{
-		height: 6vh;
+		height: 7vh;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 5px 10px 0px 20px;
+		padding: 5px 10px 0px 10px;
+		font-size: 1.1rem;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
@@ -634,7 +645,7 @@
 		height: 40px;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 7px 10px 0px 20px;
+		padding: 7px 10px 0px 10px;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
@@ -856,7 +867,7 @@
 		height: 50px;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 10px 10px 0px 20px;
+		padding: 10px 10px 0px 10px;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
