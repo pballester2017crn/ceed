@@ -387,13 +387,13 @@
 		overflow-x: auto;
 		background-color: #fff;
 		max-width: 100%;
-		border-top: solid 1px #333;
-		box-shadow: 0 -2px 2px #ddd;
+		/*border-top: solid 1px #333;
+		box-shadow: 0 -2px 2px #ddd;*/
 	}
 	.ceed .seccions .sec{
 		margin: 0 !important;
-		padding: 5px 0 0 0 !important;
-		height: 5vh;
+		padding: 0 !important;
+		height: 6vh;
 		width: max-content;
 	}
 	.ceed .seccions .sec li{
@@ -402,10 +402,11 @@
 	/*	border-right: solid 1px #333;*/
 		float: left;
 		font-size: 1em;
+		font-weight: 600 !important;
 	}
 	.ceed .seccions .sec li:hover{
-		background-color: #ddd;
-		border-radius: 50%;
+		/*background-color: #ddd;*/
+		border-bottom: solid 1px #999;
 	}
 	.ceed .boto{
 		height: 2rem;
@@ -607,14 +608,14 @@
 		padding: 0 !important;
 		position: fixed;
 		z-index: 10;
-		left: 0;
+		left: 50%;
 		bottom: 0;
 		background-color: #fff;
 		height: 40px;
 		max-width: 100%;
 		overflow-x: auto;
-		border-top: solid 1px #333;
-		box-shadow: 0 -2px 2px #ddd;
+		/*border-top: solid 1px #333;
+		box-shadow: 0 -2px 2px #ddd;*/
 	}
 	.ceed .seccions .sec{
 		margin: 0 !important;
@@ -627,11 +628,11 @@
 		/*border-right: solid 1px #333;*/
 		float: left;
 		font-size: 1em;
+		font-weight: 600 !important;
 		width: max-content;
 	}
 	.ceed .seccions .sec li:hover{
-		background-color: #ddd;
-		border-radius: 50%;
+		border: solid 1px #999;
 	}
 	.ceed .boto{
 		height: 1.2rem;
@@ -845,12 +846,13 @@
 		position: fixed;
 		z-index: 10;
 		bottom: 0;
+		left: 50%;
 		background-color: #fff;
 		height: 50px;
 		max-width: 100%;
 		overflow-x: auto;
-		border-top: solid 1px #333;
-		box-shadow: 0 -2px 2px #ddd;
+		/*border-top: solid 1px #333;
+		box-shadow: 0 -2px 2px #ddd;*/
 	}
 	.ceed .seccions .sec{
 		margin: 0 !important;
@@ -863,10 +865,10 @@
 		/*border-right: solid 1px #333;*/
 		float: left;
 		font-size: 1em;
+		font-weight: 600 !important;
 	}
 	.ceed .seccions .sec li:hover{
-		background-color: #ddd;
-		border-radius: 50%;
+		border: solid 1px #999;
 	}
 	.ceed .boto{
 		height: 1.5rem;
