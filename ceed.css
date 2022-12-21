@@ -117,7 +117,7 @@
   left: 0;
   bottom: 0;
 	width: 100%;
-  background-color: yellow;
+  background-color: #fff;
   display: flex;
   align-items: center;
   align-content: center;
@@ -125,19 +125,19 @@
 }
 .ceed .seccent .enrere, .ceed .seccent .avant{
   max-width: 5%;
-	background-color: purple;
+	font-size: 1em;
+	font-weight: 600 !important;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
   max-width: 90%;
-	background-color: red;
 }
 .ceed .seccent .seccions .sec{
   width: max-content;
 }
 .ceed .seccent .seccions .sec li{
   margin: 0 !important;
-  padding: 5px 20px 0px 20px;
+  padding: 5px 10px 0px 20px;
   float: left;
   font-size: 1em;
   font-weight: 600 !important;
@@ -423,7 +423,7 @@
 		height: 6vh;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 5px 20px 0px 20px;
+		padding: 5px 10px 0px 20px;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
@@ -634,7 +634,7 @@
 		height: 40px;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 7px 20px 0px 20px;
+		padding: 7px 10px 0px 20px;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
@@ -856,7 +856,7 @@
 		height: 50px;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 10px 20px 0px 20px;
+		padding: 10px 10px 0px 20px;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
