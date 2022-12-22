@@ -122,26 +122,24 @@
   align-items: flex-start;
   align-content: center;
   justify-content: center;
-	background-color: yellow;
+	background-color: #fff;
 }
 .ceed .seccent .enrere, .ceed .seccent .avant{
 	margin: 0 !important;
   padding: 0 !important;
   max-width: 5%;
-	border: solid 1px #333;
+
 }
 .ceed .seccent .enrere i, .ceed .seccent .avant i{
 	font-size: 1.2rem;
 	font-weight: 600 !important;
 	padding: 5px 0px 0px 0px;
 	line-height: 1.5rem;
-	background-color: lavender;
 	display: block;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
   max-width: 90%;
-	background-color: green;
 }
 .ceed .seccent .seccions .sec{
 	margin: 0 !important;
@@ -154,8 +152,6 @@
   float: left;
   font-size: 1rem;
   font-weight: 600 !important;
-	/*border: solid 1px #333;*/
-	background-color: yellow;
 }
 .ceed .seccent .seccions .sec li:hover{
   border-bottom: solid 1px #999;
