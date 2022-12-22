@@ -119,7 +119,7 @@
 	width: 100%;
   background-color: #fff;
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   align-content: center;
   justify-content: center;
 	background-color: yellow;
@@ -131,6 +131,7 @@
 	font-size: 1.2em;
 	font-weight: 600 !important;
 	border: solid 1px #333;
+	padding: 5px 10px 0px 10px;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
@@ -138,6 +139,8 @@
 	background-color: green;
 }
 .ceed .seccent .seccions .sec{
+	margin: 0 !important;
+  padding: 0 !important;
   width: max-content;
 }
 .ceed .seccent .seccions .sec li{
@@ -429,6 +432,7 @@
 	.ceed .seccent .enrere, .ceed .seccent .avant{
 		font-size: 1.4rem;
 		height: 5vh;
+		padding: 5px 10px 0px 10px;
 	}
 	.ceed .seccent .seccions{
 
@@ -649,6 +653,7 @@
 	.ceed .seccent .enrere, .ceed .seccent .avant{
 		font-size: 1.4rem;
 		height: 30px;
+		padding: 7px 10px 0px 10px;
 	}
 	.ceed .seccent .seccions{
 		height: 30px;
@@ -879,6 +884,7 @@
 	.ceed .seccent .enrere, .ceed .seccent .avant{
 		font-size: 1.4rem;
 		height: 40px;
+		padding: 10px 10px 0px 10px;
 	}
 	.ceed .seccent .seccions{
 		height: 40px;
