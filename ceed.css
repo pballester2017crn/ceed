@@ -131,10 +131,11 @@
 	border: solid 1px #333;
 }
 .ceed .seccent .enrere i, .ceed .seccent .avant i{
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	font-weight: 600 !important;
-	padding: 5px 0px 0px 0px;
+	padding: 25px 0px 0px 0px;
 	line-height: 1.5rem;
+	background-color: lavender;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
@@ -150,7 +151,7 @@
   margin: 0 !important;
   padding: 5px 10px 0px 10px;
   float: left;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 600 !important;
 	border: solid 1px #333;
 	background-color: yellow;
