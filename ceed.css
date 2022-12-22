@@ -132,6 +132,7 @@
 	font-weight: 600 !important;
 	border: solid 1px #333;
 	padding: 5px 10px 0px 10px;
+	line-height: 1.5rem;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
@@ -433,6 +434,7 @@
 		font-size: 1.4rem;
 		height: 5vh;
 		padding: 5px 10px 0px 10px;
+		line-height: 1.5rem;
 	}
 	.ceed .seccent .seccions{
 
@@ -654,6 +656,7 @@
 		font-size: 1.4rem;
 		height: 30px;
 		padding: 7px 10px 0px 10px;
+		line-height: 1.5rem;
 	}
 	.ceed .seccent .seccions{
 		height: 30px;
@@ -885,6 +888,7 @@
 		font-size: 1.4rem;
 		height: 40px;
 		padding: 10px 10px 0px 10px;
+		line-height: 1.5rem;
 	}
 	.ceed .seccent .seccions{
 		height: 40px;
