@@ -136,6 +136,7 @@
 	padding: 25px 0px 0px 0px;
 	line-height: 1.5rem;
 	background-color: lavender;
+	display: block;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
