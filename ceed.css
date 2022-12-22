@@ -218,10 +218,10 @@
 	padding: 0.5rem 0 0 0;
 }
 .ceed .contingut{
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 }
 .ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 }
 .ceed .contingut .mediatext p{
 	font-size: 0.85rem;
@@ -435,7 +435,7 @@
 	}
 	.ceed .seccent .enrere i, .ceed .seccent .avant i{
 		font-size: 1.4rem;
-		padding: 5px 0px 0px 0px;
+		padding: 7px 0px 0px 0px;
 		line-height: 1.5rem;
 	}
 	.ceed .seccent .seccions{
@@ -532,6 +532,10 @@
 	.ceed .contingut .mediavideo{
   	width: 100%;
   	padding-top: 56.25%;
+	}
+	.ceed .contingut .cont .contin{
+		width: 50%;
+		float: left;
 	}
 }
 
@@ -659,7 +663,7 @@
 	}
 	.ceed .seccent .enrere i, .ceed .seccent .avant i{
 		font-size: 1.4rem;
-		padding: 7px 0px 0px 0px;
+		padding: 8px 0px 0px 0px;
 		line-height: 1.5rem;
 	}
 	.ceed .seccent .seccions{
@@ -754,6 +758,10 @@
 	.ceed .contingut .mediavideo{
 		width: 50%;
 		padding-top: 28.125%;
+	}
+	.ceed .contingut .cont .contin{
+		width: 50%;
+		float: left;
 	}
 }
 
@@ -894,7 +902,7 @@
 	}
 	.ceed .seccent .enrere i, .ceed .seccent .avant i{
 		font-size: 1.4rem;
-		padding: 10px 0px 0px 0px;
+		padding: 12px 0px 0px 0px;
 		line-height: 1.5rem;
 	}
 	.ceed .seccent .seccions{
@@ -987,5 +995,9 @@
 	.ceed .contingut .mediavideo{
   	width: 50%;
   	padding-top: 28.125%;
+	}
+	.ceed .contingut .cont .contin{
+		width: 25%;
+		float: left;
 	}
 }
