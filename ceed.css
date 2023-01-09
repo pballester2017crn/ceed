@@ -535,6 +535,7 @@
 	}
 	.ceed .contingut .cont{
 		clear: all;
+		background-color: yellow;
 	}
 	.ceed .contingut .cont .contin{
 		width: 50%;
@@ -751,6 +752,7 @@
 	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 		width: 50%;
 		float: left;
+		background-color: pink;
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0.5rem 1rem;
@@ -764,6 +766,7 @@
 	}
 	.ceed .contingut .cont{
 		clear: all;
+		background-color: yellow;
 	}
 	.ceed .contingut .cont .contin{
 		width: 25%;
@@ -990,6 +993,7 @@
 	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 		width: 50%;
 		float: left;
+		background-color: pink;
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0.5rem 1rem;
@@ -1004,6 +1008,7 @@
 	}
 	.ceed .contingut .cont{
 		clear: all;
+		background-color: yellow;
 	}
 	.ceed .contingut .cont .contin{
 		width: 25%;
