@@ -533,6 +533,9 @@
   	width: 100%;
   	padding-top: 56.25%;
 	}
+	.ceed .contingut .cont{
+		clear: all;
+	}
 	.ceed .contingut .cont .contin{
 		width: 50%;
 		float: left;
@@ -759,8 +762,11 @@
 		width: 50%;
 		padding-top: 28.125%;
 	}
+	.ceed .contingut .cont{
+		clear: all;
+	}
 	.ceed .contingut .cont .contin{
-		width: 50%;
+		width: 25%;
 		float: left;
 	}
 }
@@ -995,6 +1001,9 @@
 	.ceed .contingut .mediavideo{
   	width: 50%;
   	padding-top: 28.125%;
+	}
+	.ceed .contingut .cont{
+		clear: all;
 	}
 	.ceed .contingut .cont .contin{
 		width: 25%;
