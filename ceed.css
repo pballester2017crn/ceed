@@ -221,8 +221,11 @@
 	box-sizing: border-box !important;
 }
 .ceed .contingut .intro, .ceed .contingut .cont{
-	width: 100%;
-	display: block;
+	width: 100% !important;
+	display: block !important;
+	overflow: auto !important;
+	background-color: lightgreen;
+	padding: 20px 0;
 }
 .ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 	box-sizing: border-box !important;
