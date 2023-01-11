@@ -2,11 +2,13 @@
 .category-29 .toggle{
 
 }
-.category-29 #section-1, .category-29 #section-2, .category-29 #section-3{
+.category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4{
 	margin: 0 !important;
 	padding: 0 !important;
 	border: 0 !important;
 	box-sizing: border-box !important;
+	width: 25%;
+	float: left;
 }
 .ceed{
 	/*height: 100vh;*/
