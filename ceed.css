@@ -4,14 +4,14 @@
 }
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4{
 	margin: 0 !important;
-	padding: 5px !important;
+	padding: 25px !important;
 	border: solid 1px #ddd !important;
 	box-sizing: border-box !important;
 	width: 25%;
 	height: 250px;
 	overflow: auto;
 	float: left;
-	box-shadow: 10px 10px 10px #ddd;
+	/*box-shadow: 10px 10px 10px #ddd;*/
 }
 .category-29 .section-title{
 	border-bottom: solid 1px #ddd !important;
