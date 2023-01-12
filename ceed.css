@@ -19,16 +19,15 @@
 .category-29 .section-title{
 	margin: 0px !important;
 	padding: 0px !important;
-	width: 50%;
-	background-color: red;
-	float: left;
+	font-weight: 800 !important;
+}
+.category-29 .section-title a{
+	pointer-events: none;
+	cursor: default;
 }
 .category-29 .summarytext{
 	margin: 0px !important;
 	padding: 0px !important;
-	width: 50%;
-	float: left;
-	background-color: violet;
 }
 .ceed{
 	/*height: 100vh;*/
