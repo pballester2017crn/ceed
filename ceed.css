@@ -1,42 +1,23 @@
 /* Aquí puedes escribir tu comentario */
 .category-29 .toggle{
-
 }
-.category-29 .section{
-	margin: 0px !important;
-	padding: 0px !important;
-	border: 0 !important;
-	box-sizing: border-box !important;
-	width: 25%;
-	height: 250px;
-	overflow: auto;
-	float: left;
-}
-.category-29 .section:hover{
+/*.category-29 .section:hover{
 	border: solid 1px #ddd;
-}
-.category-29 #section-0{
+}*/
+.category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
 	margin: 0px !important;
 	padding: 0px !important;
-	border: 0 !important;
+	border-bottom: solid 1px #ddd !important;
 	box-sizing: border-box !important;
-	width: 100%;
-	display: block;
-}
-/*.category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4{
-	margin: 5px !important;
-	padding: 0px !important;
-	border: solid 1px #ddd !important;
-	box-sizing: border-box !important;
-	width: 25%;
+	/*width: 25%;
 	height: 250px;
 	overflow: auto;
 	float: left;
-	box-shadow: 10px 10px 10px #ddd;
-}*/
-.category-29 .section-title{
-	border-bottom: solid 1px #ddd !important;
+	box-shadow: 10px 10px 10px #ddd;*/
 }
+/*.category-29 .section-title{
+	border-bottom: solid 1px #ddd !important;
+}*/
 .ceed{
 	/*height: 100vh;*/
 	font-family: Arial, sans-serif;
