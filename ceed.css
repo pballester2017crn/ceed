@@ -18,7 +18,7 @@
 	box-shadow: 10px 10px 10px #ddd;*/
 }
 .category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
-	background-color: #ddd !important;
+	background-color: #efefef !important;
 }
 .category-29 .section-title{
 	margin: 0 0 0 5px !important;
@@ -248,7 +248,6 @@
 }
 .ceed .contingut .intro, .ceed .contingut .cont{
 	overflow: auto !important;
-	background-color: lightgreen;
 }
 .ceed .contingut .cont .contin{
 	text-align: center;
@@ -568,7 +567,7 @@
 	}
 	.ceed .contingut .cont{
 		clear: all;
-		background-color: yellow;
+
 	}
 	.ceed .contingut .cont .contin{
 		width: 50%;
@@ -785,7 +784,7 @@
 	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 		width: 50%;
 		float: left;
-		background-color: pink;
+
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0.5rem 1rem;
@@ -799,7 +798,7 @@
 	}
 	.ceed .contingut .cont{
 		clear: all;
-		background-color: yellow;
+
 	}
 	.ceed .contingut .cont .contin{
 		width: 25%;
@@ -1026,7 +1025,7 @@
 	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 		width: 50%;
 		float: left;
-		background-color: pink;
+
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0.5rem 1rem;
@@ -1041,7 +1040,7 @@
 	}
 	.ceed .contingut .cont{
 		clear: all;
-		background-color: yellow;
+
 	}
 	.ceed .contingut .cont .contin{
 		width: 25%;
