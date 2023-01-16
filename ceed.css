@@ -339,6 +339,13 @@
 .fw6{
 	font-weight: 600 !important;
 }
+.ceed .bloc .uf{
+	overflow: hidden;
+}
+.ceed .bloc .uf li{
+	width: 25%;
+	float: left;
+}
 
 @media screen and (max-width: 480px){
 	.ceed{
