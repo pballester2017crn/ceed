@@ -20,8 +20,8 @@
 	background-color: #efefef !important;
 }
 .category-29 .section-title{
-	margin: 0 0 0 10px !important;
-	padding: 0px !important;
+	margin: 0 0 0 0px !important;
+	padding: 5px 0 0 10px !important;
 	font-weight: 600 !important;
 	color: #333;
 	font-size: 1.3rem !important;
@@ -530,7 +530,7 @@
 		padding: 0rem 0 0rem 0rem !important;
 	}
 	.ceed .titol, .ceed .tema{
-		min-height: 5vh;
+		min-height: 3vh;
 		padding: 0rem 0rem 0.75rem 0 !important;
 	}
 	.ceed .titol h4, .ceed .tema h5{
@@ -762,7 +762,7 @@
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .titol, .ceed .tema{
-		min-height: 4vh;
+		min-height: 3vh;
 		padding: 0rem 0rem 0.75rem 0 !important;
 	}
 	.ceed .titol h4, .ceed .tema h5{
@@ -1003,7 +1003,7 @@
 		font-style: italic;
 	}
 	.ceed .titol, .ceed .tema{
-		min-height: 5vh;
+		min-height: 3vh;
 		padding: 0rem 0rem 0.75rem 0 !important;
 	}
 	.ceed .titol h4, .ceed .tema h5{
