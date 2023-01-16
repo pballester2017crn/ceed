@@ -9,7 +9,6 @@
 	margin: 0px !important;
 	padding: 0px !important;
 	border: 0 !important;
-	border-bottom: solid 2px #ddd !important;
 	box-sizing: border-box !important;
 	/*width: 25%;
 	height: 250px;
@@ -21,10 +20,12 @@
 	background-color: #efefef !important;
 }
 .category-29 .section-title{
-	margin: 0 0 0 5px !important;
+	margin: 0 0 0 10px !important;
 	padding: 0px !important;
 	font-weight: 600 !important;
 	color: #333;
+	font-size: 1.3rem !important;
+	border-bottom: solid 3px #333 !important;
 }
 /*.category-29 .section-title a{
 	pointer-events: none;
