@@ -530,7 +530,7 @@
 		padding: 0rem 0 0rem 0rem !important;
 	}
 	.ceed .titol, .ceed .tema{
-		min-height: 3vh;
+		min-height: 1vh;
 		padding: 0rem 0rem 0.75rem 0 !important;
 	}
 	.ceed .titol h4, .ceed .tema h5{
@@ -762,7 +762,7 @@
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .titol, .ceed .tema{
-		min-height: 3vh;
+		min-height: 1vh;
 		padding: 0rem 0rem 0.75rem 0 !important;
 	}
 	.ceed .titol h4, .ceed .tema h5{
@@ -1003,7 +1003,7 @@
 		font-style: italic;
 	}
 	.ceed .titol, .ceed .tema{
-		min-height: 3vh;
+		min-height: 1vh;
 		padding: 0rem 0rem 0.75rem 0 !important;
 	}
 	.ceed .titol h4, .ceed .tema h5{
