@@ -218,6 +218,7 @@
 	font-weight: 600;
 	text-decoration: none;
 	display: block;
+	text-transform: uppercase;
 }
 /*.ceed .boto:hover{
 	opacity: 0.9;
@@ -237,13 +238,13 @@
 }
 .ceed .verd1{
 	/*border: solid 2pt rgba(58,174,108,1);*/
-	color: rgba(58,174,108,1);
+	color: #333;
 	background-color: rgba(58,174,108,0.1);
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
 	background-color: rgba(58,174,108,0.3);
-	/*color: #fff;*/
+	color: #000;
 }
 .ceed .profe{
 	margin: 0;
@@ -537,7 +538,7 @@
 	}
 
 	.ceed .boto{
-		width: 60%;
+		width: 55%;
 		height: 2rem;
 		margin: 0.5rem 0 0 0;
 		padding: 0.5rem 0.5rem 2rem 0.5rem;
@@ -770,7 +771,7 @@
 	}
 
 	.ceed .boto{
-		width: 60%;
+		width: 65%;
 		height: 1.2rem;
 		margin: 0.5rem 0 0 0;
 		padding: 0.5rem 0rem 1.5rem 0.5rem;
