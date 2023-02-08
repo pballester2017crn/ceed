@@ -172,7 +172,13 @@
 	margin: 0 !important;
   padding: 0 !important;
   width: max-content;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+.ceed .seccent .seccions .sec::-webkit-scrollbar{
+	display: none;
+}
+
 .ceed .seccent .seccions .sec li{
   margin: 0 !important;
   padding: 5px 10px 0px 10px;
@@ -483,7 +489,6 @@
 		line-height: 1.5rem;
 	}
 	.ceed .seccent .seccions{
-
 	}
 	.ceed .seccent .seccions .sec{
 		height: 5vh;
