@@ -103,15 +103,14 @@
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 2.5pt;
     background: #000;
     transition: width .3s;
-		position: absolute;
-		top: 10px;
+		padding-top: 10px;
 }
 .ceed .icon:hover::after {
     width: 100%;
-    //transition: width .3s;
+    /*transition: width .3s;*/
 }
 .ceed .bloc{
 	overflow: hidden;
@@ -227,14 +226,14 @@
 	background-color: rgba(200,200,200,0.5);
 }*/
 .ceed .verd{
-	border: solid 2pt rgba(58,174,108,0.8);
-	border-color: rgba(58,174,108,0.8);
-	background-color: rgba(58,174,108,0.8);
+	border: solid 2pt rgba(58,174,108,1);
+	background-color: rgba(58,174,108,1);
 	color:#fff;
 }
 .ceed .verd:hover{
 	border: solid 2pt rgba(58,174,108,1);
-	background-color: rgba(58,174,108,1);
+	background-color: #fff;
+	color: rgba(58,174,108,1);
 }
 .ceed .verd1{
 	border: solid 2pt rgba(58,174,108,1);
@@ -242,8 +241,8 @@
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(58,174,108,0.2);
-	/*color: #000;*/
+	background-color: rgba(58,174,108,1);
+	color: #fff;
 }
 .ceed .profe{
 	margin: 0;
@@ -526,7 +525,7 @@
 		height: 5vh;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 5px 10px 0px 10px;
+		padding: 5px 10px 5px 10px;
 		font-size: 1.3rem;
 		height: 5vh;
 	}
@@ -759,7 +758,7 @@
 		height: 30px;
 	}
 	.ceed .seccent .seccions .sec li{
-		padding: 7px 10px 0px 10px;
+		padding: 7px 10px 5px 10px;
 		height: 30px;
 		font-size: 1.4rem;
 	}
@@ -1004,6 +1003,7 @@
 		height: 40px;
 	}
 	.ceed .seccent .seccions .sec li{
+		margin: 0;
 		padding: 5px 10px 0px 10px;
 		height: 40px;
 		font-size: 1.4rem;
