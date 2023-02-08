@@ -201,17 +201,34 @@
 	width: 50%;
 	margin: 0 0 0 0rem;
 	border-radius: 5px;
-	color:#fff;
 	font-weight: 600;
 	text-decoration: none;
 	display: block;
 }
-.ceed .boto:hover{
+/*.ceed .boto:hover{
 	opacity: 0.9;
 	box-shadow: 0 0 0 1pt #333;
 	border: solid 2pt #333;
 	color: #000;
 	background-color: rgba(200,200,200,0.5);
+}*/
+.ceed .verd{
+	border: solid 2pt rgba(58,174,108,0.8);
+	background-color: rgba(58,174,108,0.8);
+	color:#fff;
+}
+.ceed .verd:hover{
+	border: solid 2pt rgba(58,174,108,1);
+	background-color: rgba(58,174,108,1);
+}
+.ceed .verd1{
+	border: solid 2pt rgba(58,174,108,1);
+	color: rgba(58,174,108,1);
+}
+.ceed .verd1:hover{
+	border: solid 2pt #000;
+	background-color: rgba(58,174,108,0.2);
+	color: #000;
 }
 .ceed .profe{
 	margin: 0;
