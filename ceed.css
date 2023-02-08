@@ -106,8 +106,9 @@
     height: 2px;
     background: #000;
     transition: width .3s;
+		position: absolute;
+		top: 10px;
 }
-
 .ceed .icon:hover::after {
     width: 100%;
     //transition: width .3s;
@@ -226,8 +227,8 @@
 	background-color: rgba(200,200,200,0.5);
 }*/
 .ceed .verd{
+	border: solid 2pt rgba(58,174,108,0.8);
 	border-color: rgba(58,174,108,0.8);
-	border: solid 2pt;
 	background-color: rgba(58,174,108,0.8);
 	color:#fff;
 }
