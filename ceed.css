@@ -232,7 +232,7 @@
 }
 .ceed .verd:hover{
 	border: solid 2pt rgba(58,174,108,1);
-	background-color: rgba(58,174,108,0.6);
+	background-color: rgba(58,174,108,0.8);
 }
 .ceed .verd1{
 	border: solid 2pt rgba(58,174,108,1);
@@ -240,8 +240,8 @@
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(58,174,108,0.6);
-	color: #fff;
+	background-color: rgba(58,174,108,0.1);
+	/*color: #fff;*/
 }
 .ceed .profe{
 	margin: 0;
