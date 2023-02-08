@@ -1,3 +1,4 @@
+
 /* Aquí puedes escribir tu comentario */
 .category-29 .toggle{
 }
@@ -226,21 +227,22 @@
 	background-color: rgba(200,200,200,0.5);
 }*/
 .ceed .verd{
-	border: solid 2pt rgba(58,174,108,1);
-	background-color: rgba(58,174,108,1);
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(58,174,108,0.8);
 	color:#fff;
 }
 .ceed .verd:hover{
-	border: solid 2pt rgba(58,174,108,1);
-	background-color: rgba(58,174,108,0.8);
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(58,174,108,1);
 }
 .ceed .verd1{
-	border: solid 2pt rgba(58,174,108,1);
+	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: rgba(58,174,108,1);
+	background-color: rgba(58,174,108,0.1);
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(58,174,108,0.1);
+	background-color: rgba(58,174,108,0.3);
 	/*color: #fff;*/
 }
 .ceed .profe{
