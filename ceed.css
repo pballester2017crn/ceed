@@ -88,7 +88,7 @@
 }
 .ceed .icon:hover{
 	color: #000;
-	border-bottom: solid 2.5pt #000;
+	/*border-bottom: solid 2.5pt #000;*/
 }
 .ceed .icon:hover p{
 	font-weight: 800 !important;
@@ -98,6 +98,19 @@
 	color: #000;
 	border-bottom: solid 2.5pt #000;
 	font-weight: 800 !important;
+}
+.ceed .icon::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.ceed .icon:hover::after {
+    width: 100%;
+    //transition: width .3s;
 }
 .ceed .bloc{
 	overflow: hidden;
@@ -213,7 +226,8 @@
 	background-color: rgba(200,200,200,0.5);
 }*/
 .ceed .verd{
-	border: solid 2pt rgba(58,174,108,0.8);
+	border-color: rgba(58,174,108,0.8);
+	border: solid 2pt;
 	background-color: rgba(58,174,108,0.8);
 	color:#fff;
 }
@@ -226,9 +240,9 @@
 	color: rgba(58,174,108,1);
 }
 .ceed .verd1:hover{
-	border: solid 2pt #000;
+	/*border: solid 2pt #000;*/
 	background-color: rgba(58,174,108,0.2);
-	color: #000;
+	/*color: #000;*/
 }
 .ceed .profe{
 	margin: 0;
@@ -522,6 +536,7 @@
 	}
 
 	.ceed .boto{
+		width: 60%;
 		height: 2rem;
 		margin: 0.5rem 0 0 0;
 		padding: 0.5rem 0.5rem 2rem 0.5rem;
@@ -754,6 +769,7 @@
 	}
 
 	.ceed .boto{
+		width: 60%;
 		height: 1.2rem;
 		margin: 0.5rem 0 0 0;
 		padding: 0.5rem 0rem 1.5rem 0.5rem;
