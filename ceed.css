@@ -88,7 +88,7 @@
 }
 .ceed .icon:hover{
 	color: #000;
-	/*border-bottom: solid 2.5pt #000;*/
+	border-bottom: solid 2.5pt #000;
 }
 .ceed .icon:hover p{
 	font-weight: 800 !important;
@@ -99,7 +99,7 @@
 	border-bottom: solid 2.5pt #000;
 	font-weight: 800 !important;
 }
-.ceed .icon::after {
+/*.ceed .icon::after {
     content: '';
     display: block;
     width: 0;
@@ -110,8 +110,8 @@
 }
 .ceed .icon:hover::after {
     width: 100%;
-    /*transition: width .3s;*/
-}
+    transition: width .3s;
+}*/
 .ceed .bloc{
 	overflow: hidden;
 	display: none;
@@ -232,8 +232,7 @@
 }
 .ceed .verd:hover{
 	border: solid 2pt rgba(58,174,108,1);
-	background-color: #fff;
-	color: rgba(58,174,108,1);
+	background-color: rgba(58,174,108,0.6);
 }
 .ceed .verd1{
 	border: solid 2pt rgba(58,174,108,1);
@@ -241,7 +240,7 @@
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(58,174,108,1);
+	background-color: rgba(58,174,108,0.6);
 	color: #fff;
 }
 .ceed .profe{
