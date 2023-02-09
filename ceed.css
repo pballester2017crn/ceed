@@ -218,7 +218,7 @@
 	font-weight: 600;
 	text-decoration: none;
 	display: block;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 /*.ceed .boto:hover{
 	opacity: 0.9;
@@ -239,11 +239,11 @@
 .ceed .verd1{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: #333;
-	background-color: rgba(58,174,108,0.1);
+	background-color: rgba(58,174,108,0.2);
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(58,174,108,0.3);
+	background-color: rgba(58,174,108,0.4);
 	color: #000;
 }
 .ceed .profe{
