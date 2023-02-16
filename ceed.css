@@ -11,6 +11,8 @@
 	padding: 0px !important;
 	border: 0 !important;
 	box-sizing: border-box !important;
+	border-radius: 0;
+	border-bottom: solid 1px #ddd;
 	/*width: 25%;
 	height: 250px;
 	overflow: auto;
