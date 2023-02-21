@@ -1,8 +1,9 @@
 
 /* Aquí puedes escribir tu comentario */
 .category-29 .toggle{
-	border-radius: 0;
-	border-bottom: solid 1px #ddd;
+	border-radius: 0 !important;
+	border-bottom: solid 1px #ddd !important;
+	background-color: #fff !important;
 }
 /*.category-29 .section:hover{
 	border: solid 1px #ddd;
@@ -138,19 +139,25 @@
 	font-size: 0.95rem;
 	color: #000;
 	line-height: 1.2rem;
+	margin: 0;
+	padding: 0;
 }
 .ceed .bloc ul li{
 	font-size: 0.85rem;
 	list-style-type: none;
 	line-height: 1.2rem;
+	margin: 0;
+	padding: 0;
 }
 .ceed .bloc div ul{
-	margin: 0;
 	list-style-type: none;
 	line-height: 1.2rem;
+	margin: 0;
+	padding: 0;
 }
 .ceed .bloc div p{
 	margin: 0;
+	padding: 0;
 }
 
 .ceed .seccent{
@@ -221,6 +228,8 @@
 	font-weight: 600;
 	text-decoration: none;
 	display: block;
+	margin: 0;
+	padding: 0;
 	/*text-transform: uppercase;*/
 }
 /*.ceed .boto:hover{
@@ -393,6 +402,9 @@
 .ceed .bloc .uf li{
 	width: 25%;
 	float: left;
+}
+.ceed .colectiu, .ceed .individu{
+	background-color: pink;
 }
 
 @media screen and (max-width: 480px){
