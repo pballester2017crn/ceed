@@ -223,7 +223,6 @@
 }
 .ceed .boto{
 	width: 50%;
-	margin: 0 0 0 0rem;
 	border-radius: 5px;
 	font-weight: 600;
 	text-decoration: none;
@@ -967,11 +966,14 @@
 		/*border-bottom: solid 1pt #000;*/
 	}
 	.ceed .bloc ul{
-		padding: 0rem 0 0rem 0rem;
+		padding: 0rem 0 0rem 0rem !important;
+		margin: 0 !important;
 	}
 	.ceed .bloc ul li{
 		font-size: 0.9rem;
-		padding: 0 0 0 0.5rem;
+		/*padding: 0 0 0 0.5rem !important;*/
+		padding: 0 0 0 0 !important;
+		margin: 0 !important;
 		line-height: 1.3rem;
 	}
 	.ceed .bloc .tri{
@@ -981,12 +983,13 @@
 	}
 	.ceed .bloc p{
 		font-size: 0.9rem;
-		padding: 0rem 0 0rem 0rem;
+		padding: 0rem 0 0rem 0rem !important;
+		margin: 0 !important;
 		line-height: 1.3rem;
 	}
 	.ceed .bloc div{
-		padding: 0;
-		margin: 0;
+		padding: 0 !important;
+		margin: 0 !important;
 		list-style-type: none;
 	}
 	.ceed .bloc div ul{
@@ -1035,8 +1038,8 @@
 
 	.ceed .boto{
 		height: 2.5rem;
-		margin: 0rem 0 0 0;
-		padding: 1.0rem 0rem 2rem 1.5rem;
+		margin: 0rem 0 0 0 !important;
+		padding: 1.0rem 0rem 2rem 1.5rem !important;
 		font-size: 1.1rem;
 	}
 	.ceed .profe{
@@ -1061,7 +1064,7 @@
 	}
 	.ceed .colectiu, .ceed .individu{
 		float: left;
-		width: 50%;
+		width: 48%;
 	}
 	.ceed .norma{
 		float: left;
@@ -1095,7 +1098,6 @@
 	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 		width: 50%;
 		float: left;
-
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0.5rem 1rem;
@@ -1110,7 +1112,6 @@
 	}
 	.ceed .contingut .cont{
 		clear: all;
-
 	}
 	.ceed .contingut .cont .contin{
 		width: 25%;
