@@ -139,25 +139,25 @@
 	font-size: 0.95rem;
 	color: #000;
 	line-height: 1.2rem;
-	margin: 0;
-	padding: 0;
+	/*margin: 0;
+	padding: 0;*/
 }
 .ceed .bloc ul li{
 	font-size: 0.85rem;
 	line-height: 1.2rem;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+/*	margin: 0;
+	padding: 0;*/
 }
 .ceed .bloc div ul{
 	list-style-type: none;
 	line-height: 1.2rem;
 	margin: 0;
-	padding: 0;
+	/*padding: 0;*/
 }
 .ceed .bloc div p{
 	margin: 0;
-	padding: 0;
+/*	padding: 0;*/
 }
 
 .ceed .seccent{
@@ -395,8 +395,8 @@
 .ceed ul, .ceed li{
 	list-style-type: none;
 	display: block;
-	margin: 0 !important;
-	padding: 0 !important;
+	/*margin: 0 !important;
+	padding: 0 !important;*/
 }
 .fw5{
 	font-weight: 500 !important;
