@@ -228,7 +228,7 @@
 	text-decoration: none;
 	display: block;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 0.5rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -247,6 +247,8 @@
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	background-color: rgba(58,174,108,0.8);
 	color:#fff;
+	font-size: 1.1rem;
+	line-height: 1.4;
 }
 .ceed .verd:hover{
 	/*border: solid 2pt rgba(58,174,108,1);*/
@@ -256,6 +258,8 @@
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: #333;
 	background-color: rgba(58,174,108,0.2);
+	font-size: 1.1rem;
+	line-height: 1.4;
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
@@ -345,7 +349,7 @@
 .ceed h2{
 	font-size: 1.5rem;
 	font-weight: 800;
-	margin: 0 0 10px;
+	margin: 0 0 0 0px;
 	color: #000;
 	text-align: left;
 }
@@ -1047,6 +1051,7 @@
 		/*padding: 1.0rem 0rem 2rem 1.5rem !important;*/
 		padding: 0 !important;
 		font-size: 1.1rem;
+		line-height: 1.4;
 	}
 	.ceed .profe{
 		float: left;
