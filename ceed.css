@@ -395,8 +395,8 @@
 .ceed ul, .ceed li{
 	list-style-type: none;
 	display: block;
-	margin: 0;
-	padding: 0;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 .fw5{
 	font-weight: 500 !important;
@@ -507,13 +507,13 @@
 		/*border-bottom: solid 1pt #000;*/
 	}
 	.ceed .bloc > ul{
-		margin: 0;
-		padding: 0;
+		margin: 0 !important;
+		padding: 0 !important;
 		display: block;
 	}
 	.ceed .bloc ul > li{
-		margin: 0.75rem 0 0 0;
-		padding: 0 0 0 0.75rem;
+		margin: 0 0 0.75rem 0 !important;
+		padding: 0 0 0 0.75rem !important;
 		/*padding: 0 0 0 0.5rem;*/
 		display: block;
 		font-size: 1.0rem;
@@ -760,7 +760,7 @@
 	.ceed .bloc ul li{
 		/*padding: 0 0 0 0.5rem;*/
 		padding: 0 0 0 0.75rem !important;
-		margin: 0.75rem 0 0 0 !important;
+		margin: 0 0 0.75rem 0 !important;
 		font-size: 1.00rem;
 		line-height: 1.2;
 	}
@@ -1008,7 +1008,7 @@
 	.ceed .bloc ul li{
 		font-size: 1.1rem;
 		padding: 0 0 0 0.75rem !important;
-		margin: 0.75rem 0 0 0 !important;
+		margin: 0 0 0.75rem 0 !important;
 		line-height: 1.3rem;
 	}
 	.ceed .bloc .tri{
