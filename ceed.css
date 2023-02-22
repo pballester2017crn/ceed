@@ -144,8 +144,8 @@
 }
 .ceed .bloc ul li{
 	font-size: 0.85rem;
-	list-style-type: none;
 	line-height: 1.2rem;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
@@ -513,8 +513,11 @@
 	}
 	.ceed .bloc ul > li{
 		margin: 0;
-		padding: 0 0 0 0.5rem;
+		padding: 0 0 0 0rem;
+		/*padding: 0 0 0 0.5rem;*/
 		display: block;
+		font-size: 0.95rem;
+		line-height: 1.2rem;
 	}
 	.ceed .bloc .tri{
 		font-weight: 600 !important;
@@ -571,10 +574,12 @@
 	}
 
 	.ceed .boto{
-		width: 55%;
-		height: 2rem;
-		margin: 0.5rem 0 0 0;
-		padding: 0.5rem 0.5rem 2rem 0.5rem;
+		width: 60%;
+		height: 2.5rem;
+		font-size: 0.95rem;
+		line-height: 1.2rem;
+		/*margin: 0.5rem 0 0 0;
+		padding: 0.5rem 0.5rem 2rem 0.5rem;*/
 	}
 	.ceed .profe{
 		padding: 0rem 0 0rem 0rem;
@@ -753,6 +758,8 @@
 		/*padding: 0 0 0 0.5rem;*/
 		padding: 0 0 0 0rem !important;
 		margin: 0 !important;
+		font-size: 0.95rem;
+		line-height: 1.2;
 	}
 	.ceed .bloc .tri{
 		font-weight: 600 !important;
@@ -811,9 +818,9 @@
 
 	.ceed .boto{
 		width: 65%;
-		height: 80px;
-		margin: 0.5rem 0 0 0 !important;
-		padding: 0.5rem 0rem 1.5rem 0.5rem !important;
+		height: 50px;
+		/*margin: 0.5rem 0 0 0 !important;
+		padding: 0.5rem 0rem 1.5rem 0.5rem !important;*/
 	}
 	.ceed .profe{
 		float: left;
