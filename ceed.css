@@ -227,8 +227,8 @@
 	font-weight: 600;
 	text-decoration: none;
 	display: block;
-	margin: 0;
-	padding: 0 0 0 0.5rem;
+	margin: 0rem 0 0.75rem 0;
+	padding: 0 0 0 0.75rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -427,19 +427,23 @@
 	.ceed .logos .xarxes{
 		height: 6vh;
 		padding: 0rem 0.5rem 0.5rem 0.5rem !important;
+		margin: 0 !important;
 	}
 	.ceed .logos .dr{
 		height: 6vh;
 		padding: 0.5rem 0 0 0;
+		margin: 0 !important;
 	}
 	.ceed .logos .esq{
 		height: 5vh;
 		padding: 0.25rem 0 0.25rem 0.25rem;
+		margin: 0 !important;
 	}
 	.ceed .logos svg{
 		width: auto;
 		height: 80%;
 		padding: 0.35rem 0 0 0.5rem;
+		margin: 0 !important;
 	}
 	.ceed .assignatura{
 		min-height: 7vh;
@@ -488,6 +492,7 @@
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 0em;
+		margin: 0 !important;
 	}
 	.ceed .x{
 		font-size: 1.2em;
@@ -517,6 +522,7 @@
 	.ceed .bloc p{
 		font-size: 0.85rem;
 		padding: 0rem 0rem 0rem 0rem;
+		margin: 0 !important;
 	}
 	.ceed .bloc div{
 		padding: 0;
@@ -526,9 +532,11 @@
 	.ceed .bloc div > ul{
 		padding: 0.75rem 0rem 0rem 0rem !important;
 		display: block;
+		margin: 0 !important;
 	}
 	.ceed .bloc div > p{
 		padding: 0.5rem 0rem 0rem 0rem;
+		margin: 0 !important;
 	}
 	.ceed .bloc div ul > li{
 		margin: 0;
@@ -738,32 +746,38 @@
 		/*border-bottom: solid 1pt #000;*/
 	}
 	.ceed .bloc ul{
-		padding: 0rem 0 0rem 0rem;
+		padding: 0rem 0 0rem 0rem !important;
+		margin: 0 !important;
 	}
 	.ceed .bloc ul li{
-		padding: 0 0 0 0.5rem;
+		/*padding: 0 0 0 0.5rem;*/
+		padding: 0 0 0 0rem !important;
+		margin: 0 !important;
 	}
 	.ceed .bloc .tri{
 		font-weight: 600 !important;
 	}
 	.ceed .bloc p{
 		font-size: 0.85rem;
-		padding: 0rem 0 0rem 0rem;
+		padding: 0rem 0 0rem 0rem !important;
+		margin: 0 !important;
 	}
 	.ceed .bloc div{
-		padding: 0;
-		margin: 0;
+		padding: 0 !important;
+		margin: 0 !important;
 		list-style-type: none;
 	}
 	.ceed .bloc div ul{
-		padding: 0.5rem 0 0rem 0rem;
+		padding: 0.5rem 0 0rem 0rem !important;
+		margin: 0 !important;
 	}
 	.ceed .bloc div p{
-		padding: 0.5rem 0 0rem 0rem;
+		padding: 0.5rem 0 0rem 0rem !important;
+		margin: 0 !important;
 	}
 	.ceed .bloc div ul li{
-		margin: 0;
-		padding: 0rem 0 0 0;
+		margin: 0 !important;
+		padding: 0rem 0 0 0 !important;
 		display: block;
 	}
 
@@ -797,9 +811,9 @@
 
 	.ceed .boto{
 		width: 65%;
-		height: 1.2rem;
-		margin: 0.5rem 0 0 0;
-		padding: 0.5rem 0rem 1.5rem 0.5rem;
+		height: 80px;
+		margin: 0.5rem 0 0 0 !important;
+		padding: 0.5rem 0rem 1.5rem 0.5rem !important;
 	}
 	.ceed .profe{
 		float: left;
@@ -1045,7 +1059,7 @@
 	}
 
 	.ceed .boto{
-		height: 2.5rem;
+		height: 2.75rem;
 		margin: 0rem 0 0 0 !important;
 		/*padding: 1.0rem 0rem 2rem 1.5rem !important;*/
 		padding: 0 !important;
