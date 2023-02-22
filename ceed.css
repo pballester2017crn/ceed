@@ -229,9 +229,9 @@
 	display: block;
 	margin: 0rem 0 0.75rem 0;
 	padding: 0 0 0 0.75rem;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
+	display: flex !important;
+	flex-wrap: wrap !important;
+	align-items: center !important;
 	/*align-content: center;
 	justify-content: space-between;*/
 	/*text-transform: uppercase;*/
@@ -512,11 +512,11 @@
 		display: block;
 	}
 	.ceed .bloc ul > li{
-		margin: 0;
-		padding: 0 0 0 0rem;
+		margin: 0.75rem 0 0 0;
+		padding: 0 0 0 0.75rem;
 		/*padding: 0 0 0 0.5rem;*/
 		display: block;
-		font-size: 0.95rem;
+		font-size: 1.0rem;
 		line-height: 1.2rem;
 	}
 	.ceed .bloc .tri{
@@ -576,8 +576,11 @@
 	.ceed .boto{
 		width: 60%;
 		height: 2.5rem;
-		font-size: 0.95rem;
+		font-size: 1.00rem;
 		line-height: 1.2rem;
+		display: flex !important;
+		flex-wrap: wrap !important;
+		align-items: center !important;
 		/*margin: 0.5rem 0 0 0;
 		padding: 0.5rem 0.5rem 2rem 0.5rem;*/
 	}
@@ -756,9 +759,9 @@
 	}
 	.ceed .bloc ul li{
 		/*padding: 0 0 0 0.5rem;*/
-		padding: 0 0 0 0rem !important;
-		margin: 0 !important;
-		font-size: 0.95rem;
+		padding: 0 0 0 0.75rem !important;
+		margin: 0.75rem 0 0 0 !important;
+		font-size: 1.00rem;
 		line-height: 1.2;
 	}
 	.ceed .bloc .tri{
@@ -818,7 +821,10 @@
 
 	.ceed .boto{
 		width: 65%;
-		height: 50px;
+		height: 40px;
+		display: flex !important;
+		flex-wrap: wrap !important;
+		align-items: center !important;
 		/*margin: 0.5rem 0 0 0 !important;
 		padding: 0.5rem 0rem 1.5rem 0.5rem !important;*/
 	}
@@ -1001,8 +1007,8 @@
 	}
 	.ceed .bloc ul li{
 		font-size: 1.1rem;
-		padding: 0 0 0 0.5rem !important;
-		margin: 0 !important;
+		padding: 0 0 0 0.75rem !important;
+		margin: 0.75rem 0 0 0 !important;
 		line-height: 1.3rem;
 	}
 	.ceed .bloc .tri{
@@ -1072,6 +1078,9 @@
 		padding: 0 !important;
 		font-size: 1.1rem;
 		line-height: 1.4;
+		display: flex !important;
+		flex-wrap: wrap !important;
+		align-items: center !important;
 	}
 	.ceed .profe{
 		float: left;
