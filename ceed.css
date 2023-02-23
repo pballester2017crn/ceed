@@ -415,23 +415,40 @@
 	width: 20%;
 	float: left;
 	background-color: yellow;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 .ceed .bloc .horagrup{
 	width: 80%;
 	float: left;
 	overflow-x: auto;
 	background-color: pink;
+	margin: 0 !important;
+	padding: 0 !important;
 }
-.ceed .bloc .diagrup{
-	width: 150%;
+.ceed .bloc .horagrup .diagrup{
+	width: max-content;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.ceed .bloc .horagrup .diagrup::-webkit-scrollbar{
+	display: none;
+}
+.ceed .bloc .horagrup .diagrup .dia{
+	width: 20%;
+	float: left;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 .ceed .bloc .horagrup .diagrup .dia .ti, .ceed .bloc .hora .tc{
 	border: solid 1px #ccc;
-	width: 15%;
 	height: 3rem;
 	background-color: #ddd;
+	margin: 0 !important;
+	padding: 0 !important;
 }
-
 
 @media screen and (max-width: 480px){
 	.ceed{
