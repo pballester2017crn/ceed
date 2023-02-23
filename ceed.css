@@ -411,6 +411,10 @@
 	width: 25%;
 	float: left;
 }
+.ceed .bloc .horagrup .dia li, .ceed .bloc .hora li{
+	border: solid 1px #ccc;
+}
+
 
 @media screen and (max-width: 480px){
 	.ceed{
