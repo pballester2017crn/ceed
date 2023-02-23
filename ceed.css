@@ -414,16 +414,18 @@
 .ceed .bloc .hora{
 	width: 20%;
 	float: left;
+	background-color: yellow;
 }
 .ceed .bloc .horagrup{
 	width: 80%;
 	float: left;
 	overflow-x: auto;
+	background-color: pink;
 }
 .ceed .bloc .diagrup{
 	width: 150%;
 }
-.ceed .bloc .horagrup .dia li, .ceed .bloc .hora li{
+.ceed .bloc .horagrup .diagrup .dia .ti, .ceed .bloc .hora .tc{
 	border: solid 1px #ccc;
 	width: 15%;
 	height: 3rem;
