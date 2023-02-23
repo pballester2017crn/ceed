@@ -677,7 +677,7 @@
   	padding-top: 56.25%;
 	}
 	.ceed .contingut .cont{
-		clear: all;
+		clear: both;
 
 	}
 	.ceed .contingut .cont .contin{
@@ -923,7 +923,7 @@
 		padding-top: 28.125%;
 	}
 	.ceed .contingut .cont{
-		clear: all;
+		clear: both;
 
 	}
 	.ceed .contingut .cont .contin{
@@ -1176,7 +1176,7 @@
   	padding-top: 28.125%;
 	}
 	.ceed .contingut .cont{
-		clear: all;
+		clear: both;
 	}
 	.ceed .contingut .cont .contin{
 		width: 25%;
