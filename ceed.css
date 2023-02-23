@@ -22,8 +22,8 @@
 }
 .category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
 	/*box-shadow: 10px 10px 10px #ddd;*/
-	box-shadow: 0 0 0 8px #888;
-	transform: scale(1.01);
+	box-shadow: 0 0 8px #888;
+	transform: scale(1.005);
 	/*background-color: #efefef !important;*/
 }
 .category-29 .section-title{
@@ -31,6 +31,14 @@
 	padding: 5px 0 0 10px !important;
 	font-weight: 600 !important;
 	color: #333;
+	font-size: 1.3rem !important;
+	border-bottom: solid 3px #333 !important;
+}
+.category-29 .section h3{
+	margin: 0 0 0 0px !important;
+	padding: 5px 0 0 10px !important;
+	font-weight: 800 !important;
+	color: #000;
 	font-size: 1.3rem !important;
 	border-bottom: solid 3px #333 !important;
 }
@@ -216,7 +224,7 @@
 .ceed .seccent .seccions .sec li:hover{
   border-bottom: solid 2px #000;
 	color: #000;
-	font-weight: 800 !important;
+	font-weight: 700 !important;
 }
 .ceed .seccent .seccions .sec li:first-child{
   border-bottom: none;
@@ -422,7 +430,7 @@
 	padding: 0 !important;
 }
 .ceed .bloc .horagrup{
-	width: 75%;
+	width: 78%;
 	float: left;
 	overflow-x: auto;
 	margin: 0 !important;
@@ -445,7 +453,7 @@
 	padding: 0 !important;
 }
 .ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
-	border: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
 	height: 2rem;
 	font-size: 0.9rem;
 	line-height: 1;
@@ -463,6 +471,10 @@
 }
 
 @media screen and (max-width: 480px){
+	.ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
+		font-size: 0.8rem;
+		line-height: 0.9;
+	}
 	.ceed{
 		font-size: 16px;
 		line-height: 1.4rem;
