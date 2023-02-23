@@ -21,7 +21,8 @@
 	box-shadow: 10px 10px 10px #ddd;*/
 }
 .category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
-	box-shadow: 10px 10px 10px #ddd;
+	/*box-shadow: 10px 10px 10px #ddd;*/
+	box-shadow: 0 0 0 1pt #333;
 	/*background-color: #efefef !important;*/
 }
 .category-29 .section-title{
@@ -445,7 +446,7 @@
 }
 .ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
 	border: solid 1px #ddd;
-	min-height: 1rem;
+	height: 2rem;
 	/*background-color: #ddd;*/
 	margin: 0 !important;
 	padding: 0 !important;
