@@ -411,9 +411,6 @@
 	width: 25%;
 	float: left;
 }
-.ceed .colectiu, .ceed .individu{
-	background-color: pink;
-}
 
 @media screen and (max-width: 480px){
 	.ceed{
@@ -427,23 +424,23 @@
 	.ceed .logos .xarxes{
 		height: 6vh;
 		padding: 0rem 0.5rem 0.5rem 0.5rem !important;
-		margin: 0 !important;
+	/*	margin: 0 !important;*/
 	}
 	.ceed .logos .dr{
 		height: 6vh;
 		padding: 0.5rem 0 0 0;
-		margin: 0 !important;
+		/*margin: 0 !important;*/
 	}
 	.ceed .logos .esq{
 		height: 5vh;
 		padding: 0.25rem 0 0.25rem 0.25rem;
-		margin: 0 !important;
+		/*margin: 0 !important;*/
 	}
 	.ceed .logos svg{
 		width: auto;
 		height: 80%;
 		padding: 0.35rem 0 0 0.5rem;
-		margin: 0 !important;
+		/*margin: 0 !important;*/
 	}
 	.ceed .assignatura{
 		min-height: 7vh;
@@ -492,7 +489,7 @@
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 0em;
-		margin: 0 !important;
+		/*margin: 0 !important;*/
 	}
 	.ceed .x{
 		font-size: 1.2em;
@@ -517,8 +514,8 @@
 		padding: 0 0 0 0.5rem;
 		margin: 0;
 		display: block;
-		font-size: 0.85rem;
-		line-height: 1.2rem;
+		/*font-size: 0.85rem;
+		line-height: 1.2rem;*/
 	}
 	.ceed .bloc .tri{
 		font-weight: 600 !important;
@@ -526,7 +523,7 @@
 	.ceed .bloc p{
 		font-size: 0.85rem;
 		padding: 0rem 0rem 0rem 0rem;
-		margin: 0 !important;
+	/*	margin: 0 !important;*/
 	}
 	.ceed .bloc div{
 		padding: 0;
@@ -536,11 +533,11 @@
 	.ceed .bloc div > ul{
 		padding: 0.75rem 0rem 0rem 0rem !important;
 		display: block;
-		margin: 0 !important;
+	/*	margin: 0 !important;*/
 	}
 	.ceed .bloc div > p{
 		padding: 0.5rem 0rem 0rem 0rem;
-		margin: 0 !important;
+	/*	margin: 0 !important;*/
 	}
 	.ceed .bloc div ul > li{
 		margin: 0;
