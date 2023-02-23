@@ -443,11 +443,19 @@
 	padding: 0 !important;
 }
 .ceed .bloc .horagrup .diagrup .dia .ti, .ceed .bloc .hora .tc{
-	border: solid 1px #ccc;
-	height: 3rem;
-	background-color: #ddd;
+	border: solid 1px #ddd;
+	/*height: 3rem;
+	background-color: #ddd;*/
 	margin: 0 !important;
 	padding: 0 !important;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
+	font-weight: 500;
 }
 
 @media screen and (max-width: 480px){
