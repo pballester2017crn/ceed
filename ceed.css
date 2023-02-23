@@ -10,11 +10,10 @@
 }*/
 
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
-	margin: 0px !important;
+	margin: 0 0 1rem 0 !important;
 	padding: 0px !important;
 	border: solid 1px #ddd !important;
 	box-sizing: border-box !important;
-
 	/*width: 25%;
 	height: 250px;
 	overflow: auto;
@@ -22,7 +21,8 @@
 	box-shadow: 10px 10px 10px #ddd;*/
 }
 .category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
-	background-color: #efefef !important;
+	box-shadow: 10px 10px 10px #ddd;
+	/*background-color: #efefef !important;*/
 }
 .category-29 .section-title{
 	margin: 0 0 0 0px !important;
@@ -211,8 +211,9 @@
   font-weight: 600 !important;
 }
 .ceed .seccent .seccions .sec li:hover{
-  border-bottom: solid 1px #000;
+  border-bottom: solid 2px #000;
 	color: #000;
+	font-weight: 700 !important;
 }
 .ceed .seccent .seccions .sec li:first-child{
   border-bottom: none;
@@ -442,10 +443,10 @@
 	margin: 0 !important;
 	padding: 0 !important;
 }
-.ceed .bloc .horagrup .diagrup .dia .ti, .ceed .bloc .hora .tc{
+.ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
 	border: solid 1px #ddd;
-	/*height: 3rem;
-	background-color: #ddd;*/
+	min-height: 1rem;
+	/*background-color: #ddd;*/
 	margin: 0 !important;
 	padding: 0 !important;
 	display: flex;
