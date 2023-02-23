@@ -23,7 +23,7 @@
 .category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
 	/*box-shadow: 10px 10px 10px #ddd;*/
 	box-shadow: 0 0 8px #888;
-	transform: scale(1.005);
+	transform: scale(1.001);
 	/*background-color: #efefef !important;*/
 }
 .category-29 .section-title{
@@ -34,13 +34,13 @@
 	font-size: 1.3rem !important;
 	border-bottom: solid 3px #333 !important;
 }
-.category-29 .section h3{
+.category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
-	padding: 5px 0 0 10px !important;
+	padding: 10px 0 10px 10px !important;
 	font-weight: 800 !important;
 	color: #000;
 	font-size: 1.3rem !important;
-	border-bottom: solid 3px #333 !important;
+	border-bottom: solid 1px #ddd !important;
 }
 /*.category-29 .section-title a{
 	pointer-events: none;
@@ -219,7 +219,7 @@
   float: left;
   font-size: 1rem;
   font-weight: 600 !important;
-	color: #555;
+	color: #666;
 }
 .ceed .seccent .seccions .sec li:hover{
   border-bottom: solid 2px #000;
@@ -451,6 +451,7 @@
 	float: left;
 	margin: 0 !important;
 	padding: 0 !important;
+	border-left: solid 1px #ddd;
 }
 .ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
 	border-bottom: solid 1px #ddd;
@@ -472,7 +473,7 @@
 
 @media screen and (max-width: 480px){
 	.ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		line-height: 0.9;
 	}
 	.ceed{
