@@ -270,6 +270,34 @@ arrow_right
   border-bottom: none;
 }
 
+a:hover, a:active, a:focus {
+  outline: 0;
+ }
+a {
+  color: yellow;
+}
+/*THIS STYLES THE ACTIVE LINK AND FOCUSED LINK*/
+.ceed .seccent .seccions .sec > li.active > a, .ceed .seccent .seccions .sec > li.active > a:focus{
+		cursor: default;
+	  color: #fff;
+    background-color: #75A319;
+    border-style: none;
+}
+
+/*.ceed .icon::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2.5pt;
+    background: #000;
+    transition: width .3s;
+		padding-top: 10px;
+}
+.ceed .icon:hover::after {
+    width: 100%;
+    transition: width .3s;
+}*/
+
 .ceed a{
 	text-decoration: none;
 }
