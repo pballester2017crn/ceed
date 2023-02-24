@@ -366,7 +366,7 @@ arrow_right
 .ceed .groc{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	background-color: rgba(254,236,60,0.8);
-	color:#fff;
+	color:#000;
 	font-size: 1.1rem;
 	line-height: 1.4;
 }
@@ -389,7 +389,7 @@ arrow_right
 .ceed .taronja{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	background-color: rgba(237,110,81,0.8);
-	color:#fff;
+	color:#000;
 	font-size: 1.1rem;
 	line-height: 1.4;
 }
