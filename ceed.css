@@ -1,4 +1,11 @@
 
+/* Colores del CEED
+  BAT rgba(58,174,108,1)
+  GES rgba(254,236,60,1)
+  LLE rgba(65,107,178,1)
+  FP rgba(237,110,81,1)
+  PAM rgba(127,135,147,1)
+  */
 /* Aquí puedes escribir tu comentario
 arrow_right
 .category-29 #toggle-all, .category-29 #toggle-arrow,.category-29 .content{
@@ -333,6 +340,98 @@ arrow_right
 	background-color: rgba(58,174,108,0.4);
 	color: #000;
 }
+.ceed .blau{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(65,107,178,0.8);
+	color:#fff;
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .blau:hover{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(65,107,178,1);
+}
+.ceed .blau1{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	color: #333;
+	background-color: rgba(65,107,178,0.2);
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .blau1:hover{
+	/*border: solid 2pt #000;*/
+	background-color: rgba(65,107,178,0.4);
+	color: #000;
+}
+.ceed .groc{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(254,236,60,0.8);
+	color:#fff;
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .groc:hover{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(254,236,60,1);
+}
+.ceed .groc1{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	color: #333;
+	background-color: rgba(254,236,60,0.2);
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .groc1:hover{
+	/*border: solid 2pt #000;*/
+	background-color: rgba(254,236,60,0.4);
+	color: #000;
+}
+.ceed .taronja{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(237,110,81,0.8);
+	color:#fff;
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .taronja:hover{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(237,110,81,1);
+}
+.ceed .taronja1{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	color: #333;
+	background-color: rgba(237,110,81,0.2);
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .taronja1:hover{
+	/*border: solid 2pt #000;*/
+	background-color: rgba(237,110,81,0.4);
+	color: #000;
+}
+.ceed .gris{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(127,135,147,0.8);
+	color:#fff;
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .gris:hover{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(127,135,147,1);
+}
+.ceed .gris1{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	color: #333;
+	background-color: rgba(127,135,147,0.2);
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .gris1:hover{
+	/*border: solid 2pt #000;*/
+	background-color: rgba(127,135,147,0.4);
+	color: #000;
+}
 .ceed .profe{
 	margin: 0;
 	display: flex;
@@ -536,7 +635,7 @@ arrow_right
 		margin: 0 0 0rem 0 !important;
 		padding: 0rem 0rem 0rem 0rem !important;
 		border: 0 !important;
-		border-top: solid 1px #999 !important;
+		border-top: solid 2px #666 !important;
 		border-radius: 0px !important;
 		box-sizing: border-box !important;
 		/*width: 25%;
