@@ -2,7 +2,7 @@
 /* Aquí puedes escribir tu comentario */
 .category-29 .toggle{
 	border-radius: 0 !important;
-	border-bottom: solid 1px #ddd !important;
+	/*border-bottom: solid 1px #ddd !important;*/
 	background-color: #fff !important;
 }
 /*.category-29 .section:hover{
@@ -19,6 +19,7 @@
 	margin: 0 0 1rem 0 !important;
 	padding: 0px !important;
 	border: solid 1px #ccc !important;
+	border-radius: 8px;
 	box-sizing: border-box !important;
 	/*width: 25%;
 	height: 250px;
@@ -27,9 +28,10 @@
 	box-shadow: 10px 10px 10px #ddd;*/
 }
 .category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
-	/*box-shadow: 10px 10px 10px #ddd;*/
+	/*box-shadow: 10px 10px 10px #ddd;
 	box-shadow: 0 0 8px #888;
-	transform: scale(1.001);
+	transform: scale(1.001);*/
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15);
 	/*background-color: #efefef !important;*/
 }
 /*.category-29 .section-title{
