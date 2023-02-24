@@ -72,8 +72,9 @@ arrow_right
 	margin: 0px !important;
 	padding: 0px !important;
 }*/
-.category-29 .current{
-	background-color: #ccc;
+.category-29 .section .main .current{
+	background-color: #ccc !important;
+	border-left: solid 2pt red;
 }
 /*.category-29 .section-title a{
 	pointer-events: none;
@@ -206,10 +207,10 @@ arrow_right
 .ceed .seccent{
   margin: 0 !important;
   padding: 0 !important;
-  /*position: fixed;
+  position: fixed;
   z-index: 10;
   left: 0;
-  bottom: 0;*/
+  bottom: 0;
 	width: 100%;
   background-color: #fff;
   display: flex;
