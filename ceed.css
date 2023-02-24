@@ -12,7 +12,7 @@ arrow_right
 	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
 }
 .category-29 .toggle{
-	border-radius: 0 !important;
+	border-radius: 20px !important;
 	/*border-bottom: solid 1px #ddd !important;*/
 	background-color: #fff !important;
 }
@@ -28,9 +28,9 @@ arrow_right
 
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
 	margin: 0 0 1rem 0 !important;
-	padding: 0px !important;
+	padding: 1rem 0.5rem 0 0.5rem !important;
 	border: solid 1px #ccc !important;
-	border-radius: 20px;
+	border-radius: 20px !important;
 	box-sizing: border-box !important;
 	/*width: 25%;
 	height: 250px;
@@ -53,6 +53,9 @@ arrow_right
 	font-size: 1.3rem !important;
 	border-bottom: solid 3px #333 !important;
 }*/
+.category-29 .section-0 .content h3{
+	display: none;
+}
 .category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
 	padding: 10px 0 10px 10px !important;
@@ -61,6 +64,14 @@ arrow_right
 	font-size: 1.5rem !important;
 	line-height: 1.0;
 	text-align: left;
+}
+.category-29 .section .main .current{
+	background-color: #ccc !important;
+	border-left: solid 2pt red;
+}
+.category-29 .summarytext{
+	margin: 0px !important;
+	padding: 0px !important;
 }
 /*.category-29 .section_availability{
 	border-bottom: solid 1px #ccc !important;
@@ -72,18 +83,12 @@ arrow_right
 	margin: 0px !important;
 	padding: 0px !important;
 }*/
-.category-29 .section .main .current{
-	background-color: #ccc !important;
-	border-left: solid 2pt red;
-}
+
 /*.category-29 .section-title a{
 	pointer-events: none;
 	cursor: default;
 }*/
-.category-29 .summarytext{
-	margin: 0px !important;
-	padding: 0px !important;
-}
+
 .ceed{
 	/*height: 100vh;*/
 	font-family: Arial, sans-serif;
@@ -506,6 +511,33 @@ arrow_right
 }
 
 @media screen and (max-width: 480px){
+	.category-29 .toggle{
+		border-radius: 0px !important;
+		/*border-bottom: solid 1px #ddd !important;*/
+		background-color: #fff !important;
+	}
+	.category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
+		margin: 0 0 0rem 0 !important;
+		padding: 1rem 0.5rem 0 0.5rem !important;
+		border-bottom: solid 1px #ccc !important;
+		border-radius: 0px !important;
+		box-sizing: border-box !important;
+		/*width: 25%;
+		height: 250px;
+		overflow: auto;
+		float: left;
+		box-shadow: 10px 10px 10px #ddd;*/
+	}
+	.category-29 .section .content h3{
+		margin: 0 0 0 0px !important;
+		padding: 10px 0 10px 10px !important;
+		font-weight: 700 !important;
+		color: #000 !important;
+		font-size: 1.3rem !important;
+		line-height: 1.0;
+		text-align: left;
+	}
+
 	.ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
 		font-size: 0.75rem;
 		line-height: 0.9;
