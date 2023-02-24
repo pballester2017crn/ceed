@@ -60,13 +60,13 @@ arrow_right
 	color: #000 !important;
 	font-size: 1.5rem !important;
 	line-height: 1.0;
-	text-align: left;
+	/*text-align: left;*/
 }
-.category-29 .section_availability{
+/*.category-29 .section_availability{
 	border-bottom: solid 1px #ccc !important;
 	margin: 0px !important;
 	padding: 0px !important;
-}
+}*/
 /*.category-29 .sectionname{
 	border-bottom: solid 1px #ccc !important;
 	margin: 0px !important;
