@@ -59,10 +59,10 @@ arrow_right
 }
 .category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
-	padding: 10px 0 10px 10px !important;
+	padding: 1rem 0 1rem 1rem !important;
 	font-weight: 800 !important;
 	color: #000 !important;
-	font-size: 1.5rem !important;
+	font-size: 1.6rem !important;
 	line-height: 1.0;
 	text-align: left;
 }
@@ -519,9 +519,9 @@ arrow_right
 	}
 	.category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
 		margin: 0 0 0rem 0 !important;
-		padding: 0rem 0rem 0 0rem !important;
+		padding: 0rem 0rem 0rem 0rem !important;
 		border: 0 !important;
-		border-bottom: solid 1px #ccc !important;
+		border-top: solid 1px #999 !important;
 		border-radius: 0px !important;
 		box-sizing: border-box !important;
 		/*width: 25%;
@@ -533,9 +533,16 @@ arrow_right
 	.category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
 		box-shadow: 0;
 	}
+	.category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
+		/*box-shadow: 10px 10px 10px #ddd;
+		box-shadow: 0 0 8px #888;
+		transform: scale(1.001);*/
+		box-shadow: 0 0px 0px 0 rgba(255,255,255,1),0 0px 0px 0px rgba(255,255,255,1);
+		/*background-color: #efefef !important;*/
+	}
 	.category-29 .section .content h3{
 		margin: 0 0 0 0px !important;
-		padding: 0px 0 0px 0px !important;
+		padding: 0.5rem 0 0px 0.5rem !important;
 		font-weight: 600 !important;
 		color: #000 !important;
 		font-size: 1.3rem !important;
