@@ -30,7 +30,7 @@ arrow_right
 	margin: 0 0 1rem 0 !important;
 	padding: 0px !important;
 	border: solid 1px #ccc !important;
-	border-radius: 8px;
+	border-radius: 20px;
 	box-sizing: border-box !important;
 	/*width: 25%;
 	height: 250px;
@@ -62,9 +62,16 @@ arrow_right
 	line-height: 1.0;
 	text-align: left;
 }
-.category-29 .sectionname{
+.category-29 .section_availability{
 	border-bottom: solid 1px #ccc !important;
+	margin: 0px !important;
+	padding: 0px !important;
 }
+/*.category-29 .sectionname{
+	border-bottom: solid 1px #ccc !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}*/
 .category-29 .current{
 	background-color: #ccc;
 }
