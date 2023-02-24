@@ -270,19 +270,6 @@ arrow_right
   border-bottom: none;
 }
 
-.ceed a:hover, .ceed a:active, .ceed a:focus {
-  outline: 0;
- }
-.ceed a {
-  color: yellow;
-}
-/*THIS STYLES THE ACTIVE LINK AND FOCUSED LINK*/
-.ceed .seccent .seccions .sec > li.active > a, .ceed .seccent .seccions .sec > li.active > a:focus{
-		cursor: default;
-	  color: #fff;
-    background-color: #75A319;
-    border-style: none;
-}
 
 /*.ceed .icon::after {
     content: '';
