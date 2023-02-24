@@ -12,7 +12,7 @@ arrow_right
 	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
 }
 .category-29 .toggle{
-	border-radius: 20px !important;
+	border-radius: 5px !important;
 	/*border-bottom: solid 1px #ddd !important;*/
 	background-color: #fff !important;
 }
@@ -28,9 +28,10 @@ arrow_right
 
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
 	margin: 0 0 1rem 0 !important;
-	padding: 1rem 0.5rem 0 0.5rem !important;
+	/*padding: 1rem 0.5rem 0 0.5rem !important;*/
+	padding: 0 !important;
 	border: solid 1px #ccc !important;
-	border-radius: 20px !important;
+	border-radius: 5px !important;
 	box-sizing: border-box !important;
 	/*width: 25%;
 	height: 250px;
@@ -518,7 +519,8 @@ arrow_right
 	}
 	.category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
 		margin: 0 0 0rem 0 !important;
-		padding: 1rem 0.5rem 0 0.5rem !important;
+		padding: 0rem 0rem 0 0rem !important;
+		border: 0 !important;
 		border-bottom: solid 1px #ccc !important;
 		border-radius: 0px !important;
 		box-sizing: border-box !important;
@@ -528,10 +530,13 @@ arrow_right
 		float: left;
 		box-shadow: 10px 10px 10px #ddd;*/
 	}
+	.category-29 #section-1:hover, .category-29 #section-2:hover, .category-29 #section-3:hover, .category-29 #section-4:hover, .category-29 #section-5:hover{
+		box-shadow: 0;
+	}
 	.category-29 .section .content h3{
 		margin: 0 0 0 0px !important;
-		padding: 10px 0 10px 10px !important;
-		font-weight: 700 !important;
+		padding: 0px 0 0px 0px !important;
+		font-weight: 600 !important;
 		color: #000 !important;
 		font-size: 1.3rem !important;
 		line-height: 1.0;
