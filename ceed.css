@@ -270,10 +270,10 @@ arrow_right
   border-bottom: none;
 }
 
-a:hover, a:active, a:focus {
+.ceed a:hover, .ceed a:active, .ceed a:focus {
   outline: 0;
  }
-a {
+.ceed a {
   color: yellow;
 }
 /*THIS STYLES THE ACTIVE LINK AND FOCUSED LINK*/
@@ -570,7 +570,7 @@ a {
 	}
 	.category-29 .section .content h3{
 		margin: 0 0 0 0px !important;
-		padding: 0.5rem 0 0px 0.5rem !important;
+		padding: 1.0rem 0 1.0rem 0.5rem !important;
 		font-weight: 600 !important;
 		color: #000 !important;
 		font-size: 1.3rem !important;
