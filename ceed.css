@@ -1,5 +1,16 @@
 
-/* Aquí puedes escribir tu comentario */
+/* Aquí puedes escribir tu comentario
+arrow_right
+.category-29 #toggle-all, .category-29 #toggle-arrow,.category-29 .content{
+	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_right);
+	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
+}*/
+.category-29 #toggle-all-opened{
+	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
+}
+.category-29 #toggle-all-closed{
+	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
+}
 .category-29 .toggle{
 	border-radius: 0 !important;
 	/*border-bottom: solid 1px #ddd !important;*/
@@ -49,7 +60,13 @@
 	color: #000 !important;
 	font-size: 1.5rem !important;
 	line-height: 1.0;
+	text-align: left;
+}
+.category-29 .sectionname{
 	border-bottom: solid 1px #ccc !important;
+}
+.category-29 .current{
+	background-color: #ccc;
 }
 /*.category-29 .section-title a{
 	pointer-events: none;
