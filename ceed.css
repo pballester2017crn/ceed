@@ -12,10 +12,7 @@ arrow_right
 	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_right);
 	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
 }*/
-.category-29 #page-wrapper{
-	height: 70vh;
-	background-color: pink;
-}
+
 .category-29 #toggle-all-opened{
 	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
 }
@@ -630,6 +627,10 @@ arrow_right
 }
 
 @media screen and (max-width: 480px){
+	.category-29 body{
+		height: 70vh;
+		background-color: pink;
+	}
 	.category-29 .toggle{
 		border-radius: 0px !important;
 		/*border-bottom: solid 1px #ddd !important;*/
