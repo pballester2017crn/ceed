@@ -840,6 +840,7 @@ arrow_right
 	}
 	.ceed .seccent{
 		height: 7vh;
+		display: none;
 	}
 	.ceed .seccent .enrere, .ceed .seccent .avant{
 		height: 5vh;
