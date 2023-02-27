@@ -627,7 +627,7 @@ arrow_right
 }
 
 @media screen and (max-width: 480px){
-	.category-29 body{
+	.category-29 #page{
 		height: 70vh;
 		background-color: pink;
 	}
