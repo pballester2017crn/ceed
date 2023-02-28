@@ -188,28 +188,28 @@ arrow_right
 .ceed .bloc h5{
 	text-transform: uppercase;
 	font-weight: 600 !important;
-	font-size: 0.85rem;
+	font-size: 0.9rem;
 	margin: 0 0 0 2rem;
 	padding: 0.5rem 0 0 0;
 }
 .ceed .bloc ul{
 	list-style-type: none;
-	font-size: 0.95rem;
+	font-size: 1.1rem;
 	color: #000;
-	line-height: 1.2rem;
+	line-height: 1.2;
 	/*margin: 0;
 	padding: 0;*/
 }
 .ceed .bloc ul li{
-	font-size: 0.85rem;
-	line-height: 1.2rem;
+	font-size: 1.0rem;
+	line-height: 1.2;
 	list-style-type: none;
 /*	margin: 0;
 	padding: 0;*/
 }
 .ceed .bloc div ul{
 	list-style-type: none;
-	line-height: 1.2rem;
+	line-height: 1.2;
 	margin: 0;
 	/*padding: 0;*/
 }
@@ -1032,8 +1032,8 @@ arrow_right
 	.ceed .icon .texticon{
 		color: #79717A;
 		margin: 0;
-		padding: 0 0 0.25rem 0;
-		font-size: 0.7rem;
+		padding: 0 0 0.5rem 0;
+		font-size: 0.8rem;
 		text-align: center;
 		display: block;
 	}
@@ -1141,7 +1141,7 @@ arrow_right
 	}
 	.ceed .profe ul{
 		width: 83%;
-		padding: 0 0 0 1rem !important;
+		padding: 0 0 0 1.0rem !important;
 		line-height: 1.2rem;
 	}
 	.ceed .correu{
@@ -1185,12 +1185,11 @@ arrow_right
 		font-size: 0.9em;
 	}
 	.ceed .contingut{
-		padding: 0.5rem 0 0 0;
+		padding: 0.5rem 0.5rem 0 0.5rem;
 	}
 	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 		width: 50%;
 		float: left;
-
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0.5rem 1rem;
@@ -1410,7 +1409,7 @@ arrow_right
 	.ceed .profe ul{
 		width: 87%;
 		margin: 0 !important;
-		padding: 0 0 0 0rem !important;
+		padding: 0 0 0 1.0rem !important;
 	}
 	.ceed .correu{
 		padding-top: 0.5em;
@@ -1438,7 +1437,7 @@ arrow_right
 		font-size: 0.8em;
 	}
 	.ceed .contingut{
-		padding: 0.5rem 0 0 0;
+		padding: 0.5rem 0.5rem 0 0.5rem;
 	}
 	.ceed .contingut .media, .ceed .contingut .mediavideo{
 		width: 33.33%;
