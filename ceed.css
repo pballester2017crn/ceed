@@ -487,9 +487,9 @@ arrow_right
 	box-sizing: border-box !important;
 }
 .ceed .contingut .mediatext p{
-	font-size: 0.85rem;
+	font-size: 1.0rem;
 	list-style-type: none;
-	line-height: 1.2rem;
+	line-height: 1.2;
 }
 .ceed .contingut .mediavideo{
 	position: relative;
@@ -551,12 +551,12 @@ arrow_right
 	text-align: left;
 }
 .ceed p{
-	font-size: 1em;
+	font-size: 1rem;
 	font-weight: 400;
 	margin-top: 0;
 	margin-bottom:0;
 	color: #000;
-	line-height: 1.2rem;
+	line-height: 1.2;
 	text-align: left;
 }
 .ceed ul, .ceed li{
@@ -627,12 +627,7 @@ arrow_right
 }
 
 @media screen and (max-width: 480px){
-	.category-29 #page-course-view-topcoll{
-		height: 90vh !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		border: 0 !important;
-	}
+
 	/*.category-29 #page-wrapper{
 		height: 100vh;
 		background-color: yellow;
@@ -848,7 +843,6 @@ arrow_right
 	}
 	.ceed .seccent{
 		height: 7vh;
-		display: none;
 	}
 	.ceed .seccent .enrere, .ceed .seccent .avant{
 		height: 5vh;
