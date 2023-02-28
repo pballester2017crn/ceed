@@ -82,6 +82,10 @@ arrow_right
 	margin: 0px !important;
 	padding: 0px !important;
 }
+.category-29 #region-main{
+	margin: 0px !important;
+	padding: 0px !important;
+}
 /*.category-29 .section_availability{
 	border-bottom: solid 1px #ccc !important;
 	margin: 0px !important;
@@ -296,6 +300,13 @@ arrow_right
 .ceed a{
 	text-decoration: none;
 }
+.ceed .bloc .colectiu li{
+	padding: 0 0 0 0;
+	font-size: 1.0rem;
+	line-height: 1.45;
+	list-style-type: none;
+
+}
 .ceed .bloc .colectiu .boto, .ceed .bloc .individu .boto{
 	width: 50%;
 	border-radius: 5px;
@@ -473,6 +484,12 @@ arrow_right
 .ceed .norma{
 	margin: 0;
 	padding: 0.5rem 0 0 0;
+}
+.ceed .norma p{
+	color: #999;
+	font-style: italic !important;
+	margin: 0;
+	padding: 0;
 }
 .ceed .contingut{
 	box-sizing: border-box !important;
