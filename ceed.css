@@ -627,6 +627,12 @@ arrow_right
 }
 
 @media screen and (max-width: 480px){
+	.category-29 #page-course-view-topcoll{
+		height: 90vh !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		border: 0 !important;
+	}
 	/*.category-29 #page-wrapper{
 		height: 100vh;
 		background-color: yellow;
