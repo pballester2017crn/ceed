@@ -489,7 +489,7 @@ arrow_right
 .ceed .contingut .mediatext p{
 	font-size: 1.0rem;
 	list-style-type: none;
-	line-height: 1.2;
+	line-height: 1.25;
 }
 .ceed .contingut .mediavideo{
 	position: relative;
@@ -508,35 +508,39 @@ arrow_right
 
 .ceed h1{
 	font-size: 1.6rem;
-	font-weight: 900;
+	line-height: 1.0;
+	font-weight: 900 !important;
 	margin: 0 0 10px;
 	color: #000;
 	text-align: left;
 }
 .ceed h2{
 	font-size: 1.5rem;
-	font-weight: 800;
+	line-height: 1.05;
+	font-weight: 800 !important;
 	margin: 0 0 0 0px;
 	color: #000;
 	text-align: left;
 }
 .ceed h3{
 	font-size: 1.4rem;
-	font-weight: 700;
+	line-height: 1.1;
+	font-weight: 700 !important;
 	margin: 0 0 10px;
 	color: #111;
 	text-align: left;
 }
 .ceed h4{
 	font-size: 1.3rem;
-	font-weight: 700;
+	line-height: 1.15;
+	font-weight: 700 !important;
 	margin: 0 0 10px;
 	color: #222;
 	text-align: left;
 }
 .ceed h5{
 	font-size: 1.2rem;
-	font-weight: 600;
+	font-weight: 600 !important;
 	margin: 0 0 10px;
 	color: #222;
 	line-height: 1.2;
@@ -544,19 +548,19 @@ arrow_right
 }
 .ceed h6{
 	font-size: 1.1rem;
-	font-weight: 600;
+	font-weight: 600 !important;
 	margin: 0 0 10px;
 	color: #333;
-	line-height: 1.2;
+	line-height: 1.25;
 	text-align: left;
 }
 .ceed p{
 	font-size: 1rem;
-	font-weight: 400;
+	font-weight: 400 !important;
 	margin-top: 0;
 	margin-bottom:0;
 	color: #000;
-	line-height: 1.2;
+	line-height: 1.25;
 	text-align: left;
 }
 .ceed ul, .ceed li{
@@ -1436,19 +1440,21 @@ arrow_right
 	.ceed .contingut{
 		padding: 0.5rem 0 0 0;
 	}
-	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
-		width: 50%;
+	.ceed .contingut .media, .ceed .contingut .mediavideo{
+		width: 33.33%;
 		float: left;
 	}
 	.ceed .contingut .mediatext{
 		padding: 0.5rem 0 0.5rem 1rem;
+		width: 66.66%;
+		float: left;
 	}
 	.ceed .contingut .mediatext p{
 		padding: 0rem 0 0 0rem;
 		column-count: 2;
 	}
 	.ceed .contingut .mediavideo{
-  	width: 50%;
+  	width: 33.33%;
   	padding-top: 28.125%;
 	}
 	.ceed .contingut .cont{
