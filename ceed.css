@@ -38,8 +38,9 @@ arrow_right
 }
 
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
-	margin: 0 0 0.75rem 0 !important;
+	margin: 0 auto !important;
 	width: 90% !important;
+	margin-bottom: 0.75rem !important;
 	/*padding: 1rem 0.5rem 0 0.5rem !important;*/
 	padding: 0 !important;
 	/*margin: 0 0 0rem 0 !important;
@@ -704,7 +705,7 @@ arrow_right
 	}
 	.category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
 		width: 95% !important;
-		margin: 0 0 0rem 0 !important;
+		margin: 0 auto !important;
 		padding: 0rem 0rem 0rem 0rem !important;
 		border: 0 !important;
 		border-top: solid 1px #999 !important;
