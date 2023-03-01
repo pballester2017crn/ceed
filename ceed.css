@@ -13,7 +13,7 @@ arrow_right
 	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
 }*/
 .category-29 #region-main{
-	margin: 0 0.5rem 0 0.5rem !important;
+	margin: 0 auto !important;
 	padding: 0px !important;
 }
 .category-29 #toggle-all-opened{
@@ -77,7 +77,7 @@ arrow_right
 .category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
 	padding: 1rem 0 1rem 1rem !important;
-	font-weight: 600 !important;
+	font-weight: 500 !important;
 	color: #111 !important;
 	font-size: 1.5rem !important;
 	line-height: 1.0;
@@ -512,7 +512,7 @@ arrow_right
 .ceed .contingut .mediatext p{
 	font-size: 1.0rem;
 	list-style-type: none;
-	line-height: 1.4;
+	line-height: 1.35;
 }
 .ceed .contingut .mediavideo{
 	position: relative;
@@ -583,7 +583,7 @@ arrow_right
 	margin-top: 0;
 	margin-bottom:0;
 	color: #000;
-	line-height: 1.4;
+	line-height: 1.35;
 	text-align: left;
 }
 .ceed ul, .ceed li{
@@ -1016,7 +1016,7 @@ arrow_right
 	.category-29 .section .content h3{
 		margin: 0 0 0 0px !important;
 		padding: 1rem 0 1rem 1rem !important;
-		font-weight: 600 !important;
+		font-weight: 500 !important;
 		color: #111 !important;
 		font-size: 1.4rem !important;
 		line-height: 1.0;
