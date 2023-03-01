@@ -39,6 +39,7 @@ arrow_right
 	/*padding: 1rem 0.5rem 0 0.5rem !important;*/
 	padding: 0 !important;
 	margin: 0 0 0rem 0 !important;
+	border: 0;
 	border-top: solid 1px #ccc !important;
 	border-bottom: solid 1px #ccc !important;
 	border-radius: 0;
@@ -73,7 +74,7 @@ arrow_right
 	margin: 0 0 0 0px !important;
 	padding: 1rem 0 1rem 1rem !important;
 	font-weight: 600 !important;
-	color: #000 !important;
+	color: #111 !important;
 	font-size: 1.5rem !important;
 	line-height: 1.0;
 	text-align: left;
@@ -649,6 +650,7 @@ arrow_right
 }
 .ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
 	font-weight: 600;
+	text-transform: capitalize;
 }
 
 @media screen and (max-width: 480px){
@@ -900,12 +902,13 @@ arrow_right
 	  /*padding: 5px 5px 0px 0px;*/
 	}
 	.ceed .bloc .individu{
-		padding: 0.5rem 0 0 0;
+		padding: 0.5rem 0 0 0 !important;
 	}
+
 	.ceed .bloc .colectiu .boto, .ceed .bloc .individu .boto{
 		width: 60%;
 		height: 2.5rem;
-		margin: 0 0 0.75rem 0 !important;
+		margin: 0.35 0 0.4rem 0 !important;
 		/*padding: 1.0rem 0rem 2rem 1.5rem !important;*/
 		padding: 0 0 0 0.75rem !important;
 		font-size: 1.1rem;
@@ -978,7 +981,7 @@ arrow_right
 		padding: 0.5rem 0 0 0;
 	}
 	.ceed .contingut .mediatext{
-		padding: 0rem 0.5rem 0 0.5rem;
+		padding: 0.5rem 0.5rem 0 0.75rem;
 	}
 	.ceed .contingut .mediatext p{
 		font-size: 1rem;
@@ -1013,7 +1016,7 @@ arrow_right
 		margin: 0 0 0 0px !important;
 		padding: 1rem 0 1rem 1rem !important;
 		font-weight: 600 !important;
-		color: #000 !important;
+		color: #111 !important;
 		font-size: 1.4rem !important;
 		line-height: 1.0;
 		text-align: left;
