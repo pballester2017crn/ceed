@@ -27,10 +27,7 @@ arrow_right
 	/*border-bottom: solid 1px #ddd !important;*/
 	background-color: #fff !important;
 }
-.category-29 .tc-medium{
-	padding: 0.5rem !important;
-}
-.category-29 .toggle_closed, .category-29 .the_toggle{
+.category-29 .toggle_closed, .category-29 .the_toggle,.category-29 .tc-medium{
 	/*margin: 0 0 0rem 0 !important;*/
 	margin-right: 0rem !important;
 	margin-left: 1.0rem !important;
@@ -42,6 +39,7 @@ arrow_right
 }
 .category-29 .tc-medium:focus{
 	box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.5);
+	padding: 0.5rem !important;
 }
 
 /*.category-29 .section:hover{
