@@ -37,6 +37,9 @@ arrow_right
 	border: 0 !important;
 	box-sizing: border-box !important;
 }
+.category-29 .tc-medium:focus{
+	box-shadow: 0 0 0 0.2rem rgba(0,0,0,1);
+}
 /*.category-29 .section:hover{
 	border: solid 1px #ddd;
 }*/
@@ -103,9 +106,9 @@ arrow_right
 	line-height: 1.0;
 	text-align: left;
 }
-.category-29 .section .main .current{
+.category-29 .course-content .current::before{
 	background-color: #ccc !important;
-	border-left: solid 2pt red;
+	border-left: solid 2pt #000 !important;
 }
 .category-29 .summarytext{
 	margin: 0px !important;
