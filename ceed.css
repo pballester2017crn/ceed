@@ -106,6 +106,9 @@ arrow_right
 	line-height: 1.0;
 	text-align: left;
 }
+.category-29 .li.section.main.current{
+	background-color: #ccc !important;
+}
 .category-29 .course-content .current::before{
 	background-color: #ccc !important;
 	border-left: solid 2pt #000 !important;
