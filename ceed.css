@@ -29,6 +29,7 @@ arrow_right
 }
 .category-29 .toggle_closed, .category-29 .the_toggle, .category-29 .tc-medium{
 	/*margin: 0 0 0rem 0 !important;*/
+	margin-left: 0.5rem !important;
 	padding-top: 0px !important;
 	padding-bottom: 0px !important;
 	/*padding: 0 0.5rem 0 2.5rem !important;*/
