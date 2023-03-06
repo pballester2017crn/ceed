@@ -544,7 +544,7 @@ arrow_right
 }
 .ceed .contingut .mediatext p{
 	font-size: 1.0rem;
-	list-style-type: none;
+	/*list-style-type: none;*/
 	line-height: 1.35;
 }
 .ceed .contingut .mediavideo{
@@ -1070,7 +1070,7 @@ arrow_right
 	}
 	.ceed .contingut .mediatext p{
 		font-size: 1.1rem;
-		list-style-type: none;
+		/*list-style-type: none;*/
 		line-height: 1.45;
 		padding: 0rem 0 0.5rem 0rem;
 	}
@@ -1359,7 +1359,7 @@ arrow_right
 	}
 	.ceed .contingut .mediatext p{
 		font-size: 1rem;
-		list-style-type: none;
+		/*list-style-type: none;*/
 		line-height: 1.4;
 		padding: 0rem 0 0rem 0rem;
 	}
