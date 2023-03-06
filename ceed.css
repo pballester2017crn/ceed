@@ -34,6 +34,7 @@ arrow_right
 	/*margin: 0 0 0rem 0 !important;*/
 	margin-right: 0rem !important;
 	margin-left: 1.0rem !important;
+	padding-left: 1rem !important;
 	padding-top: 0px !important;
 	padding-bottom: 0px !important;
 	/*padding: 0 0.5rem 0 2.5rem !important;*/
@@ -101,24 +102,15 @@ arrow_right
 .category-29 .section-0 .content h3{
 	display: none;
 }
-.category-29 .section .content h3 .inplaceeditable, .category-29 .section .content h3 .inplaceeditable-text{
+.category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
-	padding: 1rem 0 1rem 1rem !important;
+	padding: 1rem 0 1rem 0rem !important;
 	font-weight: 700 !important;
 	color: #111 !important;
 	font-size: 1.5rem !important;
 	line-height: 1.0;
 	text-align: left;
 }
-/*.category-29 .section .content h3{
-	margin: 0 0 0 0px !important;
-	padding: 1rem 0 1rem 1rem !important;
-	font-weight: 500 !important;
-	color: #111 !important;
-	font-size: 1.5rem !important;
-	line-height: 1.0;
-	text-align: left;
-}*/
 .category-29 .li.section.main.current{
 	background-color: #ccc !important;
 }
