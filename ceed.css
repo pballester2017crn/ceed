@@ -245,7 +245,7 @@ arrow_right
 	font-size: 1.0rem;
 	line-height: 1.35;
 	list-style-type: none;
-/*	margin: 0;
+	/*margin: 0;
 	padding: 0;*/
 }
 .ceed .bloc div ul{
@@ -588,7 +588,7 @@ arrow_right
 .ceed h4{
 	font-size: 1.4rem;
 	line-height: 1.15;
-	font-weight: 700 !important;
+	font-weight: 600 !important;
 	margin: 0 0 10px;
 	color: #222;
 	text-align: left;
@@ -619,7 +619,7 @@ arrow_right
 	text-align: left;
 }
 .ceed ul, .ceed li{
-	list-style-type: none;
+	/*list-style-type: none;*/
 	display: block;
 	/*margin: 0 !important;
 	padding: 0 !important;*/
