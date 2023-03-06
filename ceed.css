@@ -699,7 +699,9 @@ arrow_right
 	padding: 0 !important;
 
 }
-.ceed .titolconte h4, .ceed .titolconte i{
+.ceed .titolconte h4, .ceed .titolconte .fa{
+	margin: 0 !important;
+	padding: 0 !important;
 	padding: 0 0 0 0.75rem;
 }
 @media screen and (max-width: 480px){
