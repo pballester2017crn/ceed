@@ -105,7 +105,7 @@ arrow_right
 .category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
 	padding: 1rem 0 1rem 0rem !important;
-	font-weight: 700 !important;
+	font-weight: 800 !important;
 	color: #111 !important;
 	font-size: 1.65rem !important;
 	line-height: 1.05;
@@ -583,7 +583,7 @@ arrow_right
 .ceed h3{
 	font-size: 1.65rem;
 	line-height: 1.05;
-	font-weight: 700 !important;
+	font-weight: 800 !important;
 	margin: 0 0 10px;
 	color: #111;
 	text-align: left;
@@ -642,6 +642,7 @@ arrow_right
 	line-height: 1.35;
 	text-align: left;
 	font-family: Arial, sans-serif;
+	list-style-type: disc;
 }
 .fw5{
 	font-weight: 500 !important;
