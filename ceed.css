@@ -235,7 +235,7 @@ arrow_right
 	padding: 0.5rem 0 0 0;
 }
 .ceed .bloc ul{
-	list-style-type: none;
+	list-style-type: none !important;
 	font-size: 1.1rem;
 	color: #000;
 	line-height: 1.35;
@@ -245,12 +245,12 @@ arrow_right
 .ceed .bloc ul li{
 	font-size: 1.0rem;
 	line-height: 1.35;
-	list-style-type: none;
+	list-style-type: none !important;
 	/*margin: 0;
 	padding: 0;*/
 }
 .ceed .bloc div ul{
-	list-style-type: none;
+	list-style-type: none !important;
 	line-height: 1.35;
 	margin: 0;
 	/*padding: 0;*/
@@ -299,7 +299,7 @@ arrow_right
   scrollbar-width: none;  /* Firefox */
 }
 .ceed .seccent .seccions .sec::-webkit-scrollbar{
-	display: none;
+	display: none !important;
 }
 .ceed .seccent .seccions .sec li{
   margin: 0 !important;
@@ -343,7 +343,7 @@ arrow_right
 	padding: 0 0 0 0;
 	font-size: 1.0rem;
 	line-height: 1.45;
-	list-style-type: none;
+	list-style-type: none !important;
 
 }
 .ceed .bloc .colectiu .boto, .ceed .bloc .individu .boto{
@@ -498,7 +498,7 @@ arrow_right
 	padding: 0.45rem 0 0 0;
 }
 .ceed .profe ul{
-	list-style-type: none;
+	list-style-type: none !important;
 	margin: 0;
 }
 .ceed .nom{
@@ -627,7 +627,7 @@ arrow_right
 	font-family: Arial, sans-serif;
 }
 .ceed ul{
-	list-style-type: disc !important;
+	list-style-type: none !important;
 	display: list-item !important;
 	font-family: Arial, sans-serif;
 	/*margin: 0 !important;
