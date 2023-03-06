@@ -692,12 +692,12 @@ arrow_right
 	color: #333  !important;
 	display: flex !important;
 	flex-wrap: wrap !important;
-	align-items: flex-end !important;
-	align-content: flex-end !important;
+	align-items: center !important;
+	align-content: center !important;
 	justify-content: flex-start !important;
 	margin: 0 !important;
 	padding: 0 !important;
-
+	padding: 0 0 0 0.75rem !important;
 }
 .ceed .titolconte h4, .ceed .titolconte .fa{
 	margin: 0 !important;
