@@ -642,7 +642,7 @@ arrow_right
 	line-height: 1.35;
 	text-align: left;
 	font-family: Arial, sans-serif;
-	list-style-type: disc !important;
+	list-style-type: none !important;
 	/*display: list-item !important;*/
 }
 .fw5{
