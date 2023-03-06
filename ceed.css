@@ -24,7 +24,7 @@ arrow_right
 }
 .category-29 .toggle{
 	border-radius: 5px !important;
-	/*border-bottom: solid 1px #ddd !important;*/
+	border-bottom: solid 1px #ddd !important;
 	background-color: #fff !important;
 }
 .category-29 .tc-medium{
@@ -688,13 +688,13 @@ arrow_right
 	background-color: #f2f2f2;
 }
 .ceed .titolconte{
-	border-bottom: solid 1px #666;
-	color: #333;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-end;
-	align-content: flex-end;
-	justify-content: flex-start;
+	border-bottom: solid 1px #666  !important;
+	color: #333  !important;
+	display: flex !important;
+	flex-wrap: wrap !important;
+	align-items: flex-end !important;
+	align-content: flex-end !important;
+	justify-content: flex-start !important;
 	margin: 0 !important;
 	padding: 0 !important;
 
@@ -702,7 +702,7 @@ arrow_right
 .ceed .titolconte h4, .ceed .titolconte .fa{
 	margin: 0 !important;
 	padding: 0 !important;
-	padding: 0 0 0 0.75rem;
+	padding: 0 0 0 0.75rem !important;
 }
 @media screen and (max-width: 480px){
 
