@@ -689,13 +689,16 @@ arrow_right
 }
 .ceed .titolconte{
 	border-bottom: solid 1px #666;
+	color: #333;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: baseline;
 	align-content: center;
 	justify-content: flex-start;
 }
-
+.ceed .titolconte h4{
+	padding: 0 0 0 0.5rem;
+}
 @media screen and (max-width: 480px){
 
 	/*.category-29 #page-wrapper{
