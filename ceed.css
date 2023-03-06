@@ -105,10 +105,10 @@ arrow_right
 .category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
 	padding: 1rem 0 1rem 0rem !important;
-	font-weight: 800 !important;
+	font-weight: 300 !important;
 	color: #111 !important;
-	font-size: 1.65rem !important;
-	line-height: 1.05;
+	font-size: 1.8rem !important;
+	line-height: 1.0;
 	text-align: left;
 	font-family: Arial, sans-serif;
 }
@@ -581,26 +581,26 @@ arrow_right
 	font-family: Arial, sans-serif;
 }
 .ceed h3{
-	font-size: 1.65rem;
-	line-height: 1.05;
-	font-weight: 800 !important;
+	font-size: 1.8rem;
+	line-height: 1.0;
+	font-weight: 300 !important;
 	margin: 0 0 10px;
 	color: #111;
 	text-align: left;
 	font-family: Arial, sans-serif;
 }
 .ceed h4{
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	line-height: 1.1;
-	font-weight: 600 !important;
+	font-weight: 700 !important;
 	margin: 0 0 10px;
 	color: #222;
 	text-align: left;
 	font-family: Arial, sans-serif;
 }
 .ceed h5{
-	font-size: 1.35rem;
-	font-weight: 500 !important;
+	font-size: 1.4rem;
+	font-weight: 600 !important;
 	margin: 0 0 10px;
 	color: #222;
 	line-height: 1.2;
@@ -718,7 +718,7 @@ arrow_right
 	justify-content: flex-start !important;
 	margin: 0 !important;
 	padding: 0 !important;
-	padding: 0.5rem 0 0.5rem 0.5rem !important;
+	padding: 1.0rem 0 0.5rem 0.5rem !important;
 }
 .ceed .titolconte h4, .ceed .titolconte .fa{
 	margin: 0 !important;
