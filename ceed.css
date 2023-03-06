@@ -687,6 +687,14 @@ arrow_right
 .ceed .bloc .horagrup .diagrup .dia:nth-child(odd){
 	background-color: #f2f2f2;
 }
+.ceed .titolconte{
+	border-bottom: solid 1px #666;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+}
 
 @media screen and (max-width: 480px){
 
