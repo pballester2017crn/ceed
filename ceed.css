@@ -628,7 +628,7 @@ arrow_right
 }
 .ceed ul{
 	list-style-type: none !important;
-	display: list-item !important;
+	/*display: list-item !important;*/
 	font-family: Arial, sans-serif;
 	/*margin: 0 !important;
 	padding: 0 !important;*/
@@ -643,7 +643,7 @@ arrow_right
 	text-align: left;
 	font-family: Arial, sans-serif;
 	list-style-type: disc !important;
-	display: list-item !important;
+	/*display: list-item !important;*/
 }
 .fw5{
 	font-weight: 500 !important;
