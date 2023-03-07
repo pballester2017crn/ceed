@@ -283,7 +283,7 @@ arrow_right
 .ceed .seccent .enrere i, .ceed .seccent .avant i{
 	font-size: 1.2rem;
 	font-weight: 600 !important;
-	padding: 5px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	line-height: 1.5rem;
 	display: block;
 }
@@ -721,9 +721,9 @@ arrow_right
 	justify-content: flex-start !important;
 	margin: 0 !important;
 	padding: 0 !important;
-	padding: 2.0rem 0 0.5rem 0.15rem !important;
+	padding: 2.0rem 0 0.5rem 0.0rem !important;
 }
-.ceed .titolconte h4, .ceed .titolconte .fa{
+.ceed .titolconte h4,.ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
 	padding: 0 !important;
 	padding: 0 0 0 1.0rem !important;
@@ -1645,7 +1645,7 @@ arrow_right
 		float: left;
 	}
 	.ceed .bloc .horari{
-		width: 70%;
-		margin: 0 auto;
+		width: 70% !important;
+		margin: 0 auto !important;
 	}
 }
