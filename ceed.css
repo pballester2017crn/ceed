@@ -127,7 +127,7 @@ arrow_right
 	margin: 0px !important;
 	padding: 0px !important;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 50% 50%;
 	grid-auto-flow: column;
 	/*display: flex !important;
 	flex-flow: column wrap !important;
