@@ -308,6 +308,7 @@ arrow_right
   font-size: 1rem;
   font-weight: 600 !important;
 	color: #666;
+	list-style-type: none !important;
 }
 .ceed .seccent .seccions .sec li:hover{
   border-bottom: solid 2px #000;
@@ -538,6 +539,7 @@ arrow_right
 }
 .ceed .contingut .cont .contin{
 	text-align: center;
+	list-style-type: none;
 }
 .ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
 	box-sizing: border-box !important;
@@ -1641,5 +1643,9 @@ arrow_right
 	.ceed .contingut .cont .contin{
 		width: 25%;
 		float: left;
+	}
+	.ceed .bloc .horari{
+		width: 70%;
+		margin: 0 auto;
 	}
 }
