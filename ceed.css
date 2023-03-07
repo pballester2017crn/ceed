@@ -131,7 +131,7 @@ arrow_right
 	grid-template-rows: auto;*/
 	gap: 0.5rem !important;
 	grid-auto-flow: column !important;
-	grid-template: repeat(10, 1fr) / repeat(2, 1fr) !important;
+	grid-template: repeat(auto-fill, 1fr) / repeat(2, 1fr) !important;
 	/*display: flex !important;
 	flex-flow: column wrap !important;
 	justify-content: flex-start !important;
