@@ -126,8 +126,8 @@ arrow_right
 .category-29 .img-text{
 	margin: 0px !important;
 	padding: 0px !important;
-	column-count: 2;
-	column-fill: balance;
+	column-count: 2 !important;
+	column-fill: balance !important;
 	/*display: grid !important;
 	grid-template-columns: repeat(2, 1fr) !important;
 	grid-template-rows: repeat(auto-fill, 1fr) !important;
@@ -144,7 +144,7 @@ arrow_right
 }
 .category-29 .img-text li{
 	margin: 0 !important;
-	padding: 0.15rem 0px !important;
+	padding: 0.1rem 0px !important;
 	/*width: 40% !important;
 	float: left !important;
 	display: inline-block !important;
@@ -306,14 +306,14 @@ arrow_right
 	margin: 0 !important;
   padding: 0 !important;
   max-width: 5%;
-	background-color: yellow;
 }
 .ceed .seccent .enrere i, .ceed .seccent .avant i{
-	font-size: 1.2rem;
+	font-size: 1.2rem !important;
 	font-weight: 600 !important;
-	padding: 0px 0px 0px 0px;
-	line-height: 1.0;
-	display: block;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0 !important;
+	line-height: 0.5 !important;
+	display: block !important;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
