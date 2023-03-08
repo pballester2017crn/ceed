@@ -65,7 +65,8 @@ arrow_right
 	margin: 0.5rem 0 0 0;
 }
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
-	width: 95% !important;
+	width: 75% !important;
+	background-color: pink;
 	margin: 0 auto !important;
   /*width: 90% !important;*/
 	margin-bottom: 0.75rem !important;
