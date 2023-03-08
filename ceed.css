@@ -45,7 +45,10 @@ arrow_right
 .category-29 .tc-medium:focus{
 	box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.5);
 }
-
+.category-29 .row, .category-29 .topics, .category-29 .ctopics,.category-29 .bsnewgrid{
+	width: 90% !important;
+	margin: 0 auto !important;
+}
 /*.category-29 .section:hover{
 	border: solid 1px #ddd;
 }*/
@@ -65,8 +68,8 @@ arrow_right
 	margin: 0.5rem 0 0 0;
 }
 .category-29 #section-1, .category-29 #section-2, .category-29 #section-3, .category-29 #section-4, .category-29 #section-5{
-	background-color: pink !important;
-	width: 90% !important;
+	/*background-color: pink !important;
+	width: 90% !important;*/
 	margin: 0 auto !important;
 	margin-bottom: 0.75rem !important;
 	/*padding: 1rem 0.5rem 0 0.5rem !important;*/
