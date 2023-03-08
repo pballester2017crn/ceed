@@ -154,6 +154,7 @@ arrow_right
 .category-29 .img-text li{
 	margin: 0 !important;
 	padding: 0.01rem 0px !important;
+	border-top: 0 !important;
 	/*width: 40% !important;
 	float: left !important;
 	display: inline-block !important;
@@ -752,6 +753,7 @@ arrow_right
 }
 .ceed .titolconte{
 	border-bottom: solid 1px #cdcdcd  !important;
+	border-top: 0 !important;
 	color: #1b1b1b  !important;
 	display: flex !important;
 	flex-wrap: wrap !important;
