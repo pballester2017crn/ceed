@@ -126,9 +126,9 @@ arrow_right
 .category-29 .img-text{
 	margin: 0px !important;
 	padding: 0px !important;
-	column-count: 2 !important;
+	/*column-count: 2 !important;
 	column-fill: balance !important;
-	/*display: grid !important;
+	display: grid !important;
 	grid-template-columns: repeat(2, 1fr) !important;
 	grid-template-rows: repeat(auto-fill, 1fr) !important;
 	gap: 0.5rem !important;
@@ -947,7 +947,7 @@ arrow_right
 		margin: 0 !important;
 		padding: 0 !important;
 		display: block;
-		list-style-type: none;
+		list-style-type: none !important;
 		font-size: 1.05rem;
 		color: #000;
 		line-height: 1.4;
@@ -960,7 +960,7 @@ arrow_right
 		display: block;
 		font-size: 1.05rem;
 		line-height: 1.4;
-		list-style-type: none;
+		list-style-type: none !important;
 		/*font-size: 0.85rem;
 		line-height: 1.2rem;*/
 	}
@@ -990,6 +990,7 @@ arrow_right
 		margin: 0;
 		padding: 0rem 0 0 0;
 		display: block;
+		list-style-type: none !important;
 	}
 	.ceed .seccent{
 		height: 7vh;
@@ -1011,6 +1012,7 @@ arrow_right
 		padding: 5px 10px 5px 10px;
 		font-size: 1.3rem;
 		height: 5vh;
+		list-style-type: none !important;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
@@ -1045,6 +1047,7 @@ arrow_right
 		width: 85%;
 		padding: 0 0 0 1.0rem !important;
 		display: block;
+		list-style-type: none !important;
 	}
 	.ceed .nom{
 		font-weight:600;
@@ -1226,7 +1229,7 @@ arrow_right
 	.ceed .bloc ul{
 		padding: 0rem 0 0rem 0rem !important;
 		margin: 0 !important;
-		list-style-type: none;
+		list-style-type: none !important;
 		font-size: 1.05rem;
 		color: #000;
 		line-height: 1.35;
@@ -1238,11 +1241,11 @@ arrow_right
 		margin: 0 0 0.75rem 0 !important;*/
 		font-size: 1.0rem;
 		line-height: 1.35;
-		list-style-type: none;
+		list-style-type: none !important;
 	}
 	.ceed .bloc .tri{
 		font-weight: 600 !important;
-		padding: 0.5rem 0 0 0  !important;
+		padding: 0.5rem 0 0 0 !important;
 		font-size: 1.0rem;
 		line-height: 1.3;
 	}
@@ -1259,6 +1262,7 @@ arrow_right
 	.ceed .bloc div ul{
 		padding: 0.5rem 0 0rem 0rem !important;
 		margin: 0 !important;
+		list-style-type: none !important;
 	}
 	.ceed .bloc div p{
 		padding: 0.5rem 0 0rem 0rem !important;
@@ -1268,6 +1272,7 @@ arrow_right
 		margin: 0 !important;
 		padding: 0rem 0 0 0 !important;
 		display: block;
+		list-style-type: none !important;
 	}
 
 	.ceed .seccent{
@@ -1291,6 +1296,7 @@ arrow_right
 		padding: 7px 10px 5px 10px;
 		height: 30px;
 		font-size: 1.4rem;
+		list-style-type: none !important;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
@@ -1322,6 +1328,7 @@ arrow_right
 		width: 83%;
 		padding: 0 0 0 1.5rem !important;
 		line-height: 1.2rem;
+		list-style-type: none !important;
 	}
 	.ceed .tutories{
 		overflow: hidden;
@@ -1415,6 +1422,12 @@ arrow_right
 	.ceed .contingut .cont .contin{
 		width: 25%;
 		float: left;
+	}
+	.category-29 .img-text{
+		margin: 0px !important;
+		padding: 0px !important;
+		column-count: 2 !important;
+		column-fill: balance !important;
 	}
 }
 
@@ -1512,6 +1525,7 @@ arrow_right
 	.ceed .bloc ul{
 		padding: 0rem 0 0rem 0rem !important;
 		margin: 0 !important;
+		list-style-type: none !important;
 	}
 	.ceed .bloc ul li{
 		font-size: 1.0rem;
@@ -1520,6 +1534,7 @@ arrow_right
 		/*padding: 0 0 0 0.75rem !important;
 		margin: 0 0 0.75rem 0 !important;*/
 		line-height: 1.35;
+		list-style-type: none !important;
 	}
 	.ceed .bloc .tri{
 		font-weight: 600 !important;
@@ -1535,11 +1550,12 @@ arrow_right
 	.ceed .bloc div{
 		padding: 0 !important;
 		margin: 0 !important;
-		list-style-type: none;
+		list-style-type: none !important;
 	}
 	.ceed .bloc div ul{
 		margin: 0 !important;
 		padding: 1rem 0 0rem 0rem !important;
+		list-style-type: none !important;
 	}
 	.ceed .bloc div p{
 		margin: 0 !important;
@@ -1550,6 +1566,7 @@ arrow_right
 		padding: 0rem 0 0 0 !important;
 		display: block;
 		font-size: 0.9rem;
+		list-style-type: none !important;
 	}
 
 	.ceed .seccent{
@@ -1574,6 +1591,7 @@ arrow_right
 		padding: 5px 10px 0px 10px;
 		height: 40px;
 		font-size: 1.4rem;
+		list-style-type: none !important;
 	}
 	.ceed .seccent .seccions .sec li:hover{
 	}
@@ -1617,6 +1635,7 @@ arrow_right
 		width: 87%;
 		margin: 0 !important;
 		padding: 0 0 0 3.0rem !important;
+		list-style-type: none !important;
 	}
 	.ceed .correu{
 		padding-top: 0.5rem;
@@ -1676,5 +1695,11 @@ arrow_right
 	.ceed .bloc .horari{
 		width: 70% !important;
 		margin: 0 auto !important;
+	}
+	.category-29 .img-text{
+		margin: 0px !important;
+		padding: 0px !important;
+		column-count: 3 !important;
+		column-fill: balance !important;
 	}
 }
