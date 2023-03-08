@@ -625,7 +625,7 @@ arrow_right
 .ceed h3{
 	font-size: 1.75rem;
 	line-height: 1.0;
-	font-weight: 400 !important;
+	font-weight: 600 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	text-align: left;
@@ -642,7 +642,7 @@ arrow_right
 }
 .ceed h5{
 	font-size: 1.25rem;
-	font-weight: 600 !important;
+	font-weight: 400 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	line-height: 1.2;
