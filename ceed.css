@@ -135,9 +135,9 @@ arrow_right
 	margin: 0px !important;
 	padding: 1.0rem 0.75rem 1.0rem 0 !important;
 	border-top: solid 1px #cdcdcd !important;
-	-webkit-columns: 320px 2;
-  -moz-columns: 320px 2;
-  columns: 320px 2;
+	-webkit-columns: 320px 4;
+  -moz-columns: 320px 4;
+  columns: 320px 4;
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
   column-gap: 0;
@@ -230,7 +230,8 @@ arrow_right
 	width: 20px;
 	height: 20px;
 	text-align: center;
-	display: inline-block;
+	display: block;
+	float: left;
 }
 .ceed .logos .dr a:hover{
 	background-color: yellow;
