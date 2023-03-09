@@ -165,9 +165,9 @@ arrow_right
 	margin: 0 !important;
 	padding: 0.01rem 0px !important;
 	border-top: 0 !important;
-	-webkit-column-break-inside: avoid;
+	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
-  break-inside: avoid;
+  break-inside: avoid;*/
 	/*width: 40% !important;
 	float: left !important;
 	display: inline-block !important;
