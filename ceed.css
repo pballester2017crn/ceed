@@ -135,9 +135,9 @@ arrow_right
 	margin: 0px !important;
 	padding: 1.0rem 0.75rem 1.0rem 0 !important;
 	border-top: solid 1px #cdcdcd !important;
-	-webkit-columns: 320px 3;
-  -moz-columns: 320px 3;
-  columns: 320px 3;
+	-webkit-columns: 280px 3;
+  -moz-columns: 280px 3;
+  columns: 280px 3;
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
   column-gap: 0;
