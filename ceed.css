@@ -135,9 +135,9 @@ arrow_right
 	margin: 0px !important;
 	padding: 1.0rem 0.75rem 1.0rem 0 !important;
 	border-top: solid 1px #cdcdcd !important;
-	-webkit-columns: 320px 2;
-  -moz-columns: 320px 2;
-  columns: 320px 2;
+	-webkit-columns: 320px 3;
+  -moz-columns: 320px 3;
+  columns: 320px 3;
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
   column-gap: 0;
@@ -1734,7 +1734,7 @@ arrow_right
 	}
 	.ceed .contingut .mediatext p{
 		padding: 0rem 0 0 0rem;
-		column-count: 2;
+		/*column-count: 2;*/
 	}
 	.ceed .contingut .mediavideo{
   	/*width: 33.33%;
