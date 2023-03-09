@@ -135,9 +135,9 @@ arrow_right
 	margin: 0px !important;
 	padding: 1.0rem 0.75rem 1.0rem 0 !important;
 	border-top: solid 1px #cdcdcd !important;
-	-webkit-columns: 320px 3;
-  -moz-columns: 320px 3;
-  columns: 320px 3;
+	-webkit-columns: 320px 2;
+  -moz-columns: 320px 2;
+  columns: 320px 2;
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
   column-gap: 0;
@@ -649,7 +649,7 @@ arrow_right
 .ceed h3{
 	font-size: 1.75rem;
 	line-height: 1.0;
-	font-weight: 600 !important;
+	font-weight: 700 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	text-align: left;
@@ -658,7 +658,7 @@ arrow_right
 .ceed h4{
 	font-size: 1.5rem;
 	line-height: 1.1;
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	text-align: left;
@@ -666,7 +666,7 @@ arrow_right
 }
 .ceed h5{
 	font-size: 1.25rem;
-	font-weight: 400 !important;
+	font-weight: 500 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	line-height: 1.2;
