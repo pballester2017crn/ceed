@@ -211,6 +211,9 @@ arrow_right
 	width: auto;
 	height: 100%;
 }
+.ceed .logos .dr a{
+	background-color: yellow;
+}
 .ceed .logos svg{
 	width: auto;
 	height: 80%;
@@ -764,6 +767,9 @@ arrow_right
 	margin-top: 1rem !important;
 	padding: 0 !important;
 	padding: 0 0 0rem 0.5rem !important;
+	-webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
 }
 .ceed .titolconte h4,.ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
