@@ -169,7 +169,7 @@ arrow_right
 	display: inline-block !important;
 	background-color: pink !important;*/
 }
-.category-29 .img-text li:first-child{
+.category-29 .img-text li:first-child, .category-29 .img-text .label{
 	-webkit-column-span: all;
  	-moz-column-span: all;
  	column-span: all;
@@ -349,8 +349,9 @@ arrow_right
 	font-weight: 600 !important;
 	padding: 0px 0px 0px 0px !important;
 	margin: 0 !important;
-	line-height: 0.8 !important;
+	line-height: 1.2 !important;
 	display: block !important;
+	background-color: yellow;
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
