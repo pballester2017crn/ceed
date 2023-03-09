@@ -141,9 +141,9 @@ arrow_right
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
   column-gap: 0;
-  -webkit-column-rule: 1px solid #1a242f;
-  -moz-column-rule: 1px solid #1a242f;
-  column-rule: 1px solid #1a242f;
+  -webkit-column-rule: 1px solid #cdcdcd;
+  -moz-column-rule: 1px solid #cdcdcd;
+  column-rule: 1px solid #cdcdcd;
 	/*column-count: 2 !important;
 	column-fill: balance !important;
 	display: grid !important;
@@ -793,7 +793,8 @@ arrow_right
 	margin: 0 !important;
 	margin-top: 1rem !important;
 	padding: 0 !important;
-	padding: 0 0 0rem 0.5rem !important;
+	padding: 0.5rem !important;
+	border-radius: 0.25rem;
 	-webkit-column-span: all;
   -moz-column-span: all;
   column-span: all;
@@ -802,6 +803,7 @@ arrow_right
 	margin: 0 !important;
 	padding: 0 !important;
 	padding: 0 0 0 1.0rem !important;
+	color: #1b1b1b  !important;
 }
 @media screen and (max-width: 480px){
 
@@ -1216,9 +1218,9 @@ arrow_right
 		margin: 0 0 0 0.5rem;
 		padding: 0;
 		text-transform: uppercase;
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 		letter-spacing: 3px;
-		font-weight: 700 !important;
+		font-weight: 800 !important;
 	}
 	.ceed .icones{
 		display: flex;
@@ -1248,16 +1250,16 @@ arrow_right
 	.ceed .icon .fa{
 		font-size: 1.75rem;
 		padding: 0rem 0 0 0;
-		text-align: center;
-		display: block;
+		text-align: center !important;
+		display: block !important;
 	}
 	.ceed .icon .texticon{
 		color: #4e4e4e;
 		margin: 0;
 		padding: 0.15rem 0 0.15rem 0;
 		font-size: 0.95rem;
-		text-align: center;
-		display: block;
+		text-align: center !important;
+		display: block !important;
 	}
 	.ceed .bloc{
 		padding: 1rem 0 1rem 1rem;
