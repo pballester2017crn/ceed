@@ -236,7 +236,7 @@ arrow_right
 	width: auto;
 	height: 100%;
 }
-.ceed .logos .dr a{
+/*.ceed .logos .dr a{
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
@@ -246,7 +246,7 @@ arrow_right
 }
 .ceed .logos .dr a:hover{
 	background-color: yellow;
-}
+}*/
 .ceed .logos svg{
 	width: auto;
 	height: 80%;
@@ -362,7 +362,7 @@ arrow_right
 	margin: 0 !important;
 	line-height: 1.2 !important;
 	display: block !important;
-	background-color: yellow;
+
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
