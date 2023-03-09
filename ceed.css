@@ -160,6 +160,11 @@ arrow_right
 	display: inline-block !important;
 	background-color: pink !important;*/
 }
+.category-29 .img-text li:first-child{
+	-webkit-column-span: all;
+ 	-moz-column-span: all;
+ 	column-span: all;
+}
 .category-29 .img-text li:hover{
 	background-color: #f2f1f1;
 }
@@ -212,6 +217,12 @@ arrow_right
 	height: 100%;
 }
 .ceed .logos .dr a{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+.ceed .logos .dr a:hover{
 	background-color: yellow;
 }
 .ceed .logos svg{
