@@ -789,7 +789,7 @@ arrow_right
 .ceed .bloc .horagrup .diagrup .dia:nth-child(odd){
 	background-color: #f2f2f2;
 }
-.titolconte{
+.ceed .titolconte{
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
 	border-top: 0 !important;*/
@@ -809,7 +809,7 @@ arrow_right
   -moz-column-span: all;
   column-span: all;
 }
-.titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
+.ceed .titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
 	padding: 0 !important;
 	padding: 0 0 0 1.0rem !important;
