@@ -167,9 +167,9 @@ arrow_right
 	margin: 0 !important;
 	padding: 0.01rem 0px !important;
 	border-top: 0 !important;
-	-webkit-column-break-inside: avoid;
+	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
-  break-inside: avoid;
+  break-inside: avoid;*/
 	/*width: 40% !important;
 	float: left !important;
 	display: inline-block !important;
@@ -177,9 +177,9 @@ arrow_right
 }
 .category-29 .img-text .label{
 	/*border: solid 1px #cdcdcd !important;*/
-	-webkit-column-span: all;
+	/*-webkit-column-span: all;
  	-moz-column-span: all;
- 	column-span: all;
+ 	column-span: all;*/
 }
 .category-29 .img-text li:first-child{
 	/*-webkit-column-span: all;
@@ -789,7 +789,7 @@ arrow_right
 .ceed .bloc .horagrup .diagrup .dia:nth-child(odd){
 	background-color: #f2f2f2;
 }
-.ceed .titolconte{
+.titolconte{
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
 	border-top: 0 !important;*/
@@ -808,7 +808,7 @@ arrow_right
   -moz-column-span: all;
   column-span: all;
 }
-.ceed .titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
+.titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
 	padding: 0 !important;
 	padding: 0 0 0 1.0rem !important;
