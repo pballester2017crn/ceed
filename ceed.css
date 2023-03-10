@@ -175,15 +175,14 @@ arrow_right
 }
 .category-29 .img-text .label{
 	/*border: solid 1px #cdcdcd !important;*/
+	-webkit-column-span: all;
+ 	-moz-column-span: all;
+ 	column-span: all;
 }
 .category-29 .img-text li:first-child{
-	-webkit-column-span: all;
+	/*-webkit-column-span: all;
  	-moz-column-span: all;
- 	column-span: all;
-}{
-	-webkit-column-span: all;
- 	-moz-column-span: all;
- 	column-span: all;
+ 	column-span: all;*/
 }
 .category-29 .img-text li:hover{
 	/*background-color: #f2f1f1;*/
