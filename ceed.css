@@ -809,7 +809,7 @@ arrow_right
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
 	border-top: 0 !important;*/
-	/*width: 100%;*/
+	width: 100%  !important;
 	color: #1b1b1b  !important;
 	display: flex !important;
 	flex-wrap: wrap !important;
