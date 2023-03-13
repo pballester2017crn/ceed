@@ -180,8 +180,9 @@ arrow_right
 	clear: none !important;
 }
 .category-29 .img-text .label{
-	/*display: block;
-	width: 100%;*/
+	display: block !important;
+	width: 100% !important;
+	clear: none !important;
 	/*border: solid 1px #cdcdcd !important;*/
 	/*-webkit-column-span: all;
  	-moz-column-span: all;
@@ -796,15 +797,7 @@ arrow_right
 .ceed .bloc .horagrup .diagrup .dia:nth-child(odd){
 	background-color: #f2f2f2;
 }
-.titolconte{
-	border: solid 1px #cdcdcd  !important;
-	color: #1b1b1b  !important;
-	/*display: block !important;*/
-	/*width: 100%;*/
-	/*-webkit-column-span: all;
-	-moz-column-span: all;
-	column-span: all;*/
-}
+
 .ceed .titolconte{
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
