@@ -790,12 +790,19 @@ arrow_right
 .ceed .bloc .horagrup .diagrup .dia:nth-child(odd){
 	background-color: #f2f2f2;
 }
+.titolconte{
+	border: solid 1px #cdcdcd  !important;
+	color: #1b1b1b  !important;
+	display: block !important;
+	-webkit-column-span: all;
+	-moz-column-span: all;
+	column-span: all;
+}
 .ceed .titolconte{
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
 	border-top: 0 !important;*/
 	color: #1b1b1b  !important;
-	display: block !important;
 	display: flex !important;
 	flex-wrap: wrap !important;
 	align-items: flex-start !important;
@@ -806,9 +813,6 @@ arrow_right
 	padding: 0 !important;
 	padding: 0.5rem !important;
 	border-radius: 0.25rem;
-	-webkit-column-span: all;
-  -moz-column-span: all;
-  column-span: all;
 }
 .ceed .titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
