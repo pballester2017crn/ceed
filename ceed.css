@@ -136,6 +136,7 @@ arrow_right
 	padding: 1.0rem 0.75rem 1.0rem 0 !important;
 	border-top: solid 1px #cdcdcd !important;
 	background-color: lavender;
+	overflow: hidden;
 
 	/*-webkit-columns: 280px 2 !important;
   -moz-columns: 280px 2 !important;
@@ -146,12 +147,7 @@ arrow_right
 	-moz-column-fill: balance !important;
 	column-fill: balance !important;*/
 
-  /*-webkit-column-rule: 1px solid #cdcdcd;
-  -moz-column-rule: 1px solid #cdcdcd;
-  column-rule: 1px solid #cdcdcd;
-	column-count: 2 !important;
-	column-fill: balance !important;
-	display: grid !important;
+/*	display: grid !important;
 	grid-template-columns: repeat(2, 1fr) !important;
 	grid-template-rows: repeat(auto-fill, 1fr) !important;
 	gap: 0.5rem !important;
@@ -175,7 +171,7 @@ arrow_right
   break-inside: avoid;*/
 	width: 40% !important;
 	float: left !important;
-	display: inline-block !important;
+	display: block !important;
 	background-color: pink !important;
 }
 .category-29 .img-text .label{
@@ -816,7 +812,7 @@ arrow_right
 	align-content: center !important;
 	justify-content: flex-start !important;*/
 	margin: 0 !important;
-	margin-top: 1rem !important;
+	margin-top: 1.5rem !important;
 	padding: 0 !important;
 	padding: 0.5rem !important;
 	border-radius: 0.25rem;
