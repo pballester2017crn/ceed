@@ -135,6 +135,7 @@ arrow_right
 	margin: 0px !important;
 	padding: 1.0rem 0.75rem 1.0rem 0 !important;
 	border-top: solid 1px #cdcdcd !important;
+	background-color: lavender;
 
 	/*-webkit-columns: 280px 2 !important;
   -moz-columns: 280px 2 !important;
@@ -172,7 +173,7 @@ arrow_right
 	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;*/
-	width: 45% !important;
+	width: 40% !important;
 	float: left !important;
 	display: inline-block !important;
 	background-color: pink !important;
@@ -798,7 +799,7 @@ arrow_right
 	border: solid 1px #cdcdcd  !important;
 	color: #1b1b1b  !important;
 	/*display: block !important;*/
-	width: 100%;
+	/*width: 100%;*/
 	/*-webkit-column-span: all;
 	-moz-column-span: all;
 	column-span: all;*/
@@ -807,7 +808,7 @@ arrow_right
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
 	border-top: 0 !important;*/
-	width: 100%;
+	/*width: 100%;*/
 	color: #1b1b1b  !important;
 	display: flex !important;
 	flex-wrap: wrap !important;
