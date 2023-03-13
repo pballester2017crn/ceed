@@ -169,7 +169,7 @@ arrow_right
 	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;*/
-	width: 45% !important;
+	width: 48% !important;
 	clear: none !important;
 	float: left !important;
 	/*display: block !important;*/
@@ -809,8 +809,9 @@ arrow_right
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
 	border-top: 0 !important;*/
-	width: 100%  !important;
-	color: #1b1b1b  !important;
+	width: 100% !important;
+	clear: both !important;
+	color: #1b1b1b !important;
 	display: flex !important;
 	flex-wrap: wrap !important;
 	align-items: flex-start !important;
