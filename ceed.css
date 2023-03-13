@@ -163,13 +163,13 @@ arrow_right
 	flex-wrap: wrap;*/
 }
 .category-29 .img-text li{
-	margin: 0 !important;
+	margin: 0.5rem 0 !important;
 	padding: 0.01rem 0px !important;
 	border-top: 0 !important;
 	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;*/
-	width: 48% !important;
+	width: 50% !important;
 	clear: none !important;
 	float: left !important;
 	/*display: block !important;*/
