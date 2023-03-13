@@ -169,7 +169,7 @@ arrow_right
 	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;*/
-	width: 40% !important;
+	width: 45% !important;
 	clear: none !important;
 	float: left !important;
 	/*display: block !important;*/
@@ -815,7 +815,7 @@ arrow_right
 	flex-wrap: wrap !important;
 	align-items: flex-start !important;
 	align-content: center !important;
-	justify-content: flex-start !important;*/
+	justify-content: flex-start !important;
 	margin: 0 !important;
 	margin-top: 1.5rem !important;
 	padding: 0 !important;
