@@ -170,11 +170,12 @@ arrow_right
   page-break-inside: avoid;
   break-inside: avoid;*/
 	width: 40% !important;
+	clear: none !important;
 	float: left !important;
-	display: block !important;
+	/*display: block !important;*/
 	background-color: pink !important;
 }
-.category-29 .img-text li .activity{
+.category-29 .img-text li.activity{
 	float: left !important;
 	clear: none !important;
 }
