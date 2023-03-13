@@ -135,14 +135,15 @@ arrow_right
 	margin: 0px !important;
 	padding: 1.0rem 0.75rem 1.0rem 0 !important;
 	border-top: solid 1px #cdcdcd !important;
-	-webkit-columns: 280px 2 !important;
+
+	/*-webkit-columns: 280px 2 !important;
   -moz-columns: 280px 2 !important;
   columns: 280px 2 !important;
   -webkit-column-gap: 0 !important;
   -moz-column-gap: 0 !important;
   column-gap: 0 !important;
 	-moz-column-fill: balance !important;
-	column-fill: balance !important;
+	column-fill: balance !important;*/
 
   /*-webkit-column-rule: 1px solid #cdcdcd;
   -moz-column-rule: 1px solid #cdcdcd;
@@ -154,33 +155,35 @@ arrow_right
 	grid-template-rows: repeat(auto-fill, 1fr) !important;
 	gap: 0.5rem !important;
 	grid-auto-flow: column !important;
-	grid-template: repeat(8, 1fr) / repeat(2, 1fr) !important;
-	/*display: flex !important;
+	grid-template: repeat(8, 1fr) / repeat(2, 1fr) !important;*/
+	display: flex !important;
 	flex-flow: column wrap !important;
 	justify-content: flex-start !important;
 	align-items: flex-start !important;
 	align-content: flex-start !important;
 	flex-direction: column;
-	flex-wrap: wrap;*/
+	flex-wrap: wrap;
 }
 .category-29 .img-text li{
 	margin: 0 !important;
 	padding: 0.01rem 0px !important;
 	border-top: 0 !important;
-	-webkit-column-break-inside: avoid;
+	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
-  break-inside: avoid;
-	/*width: 40% !important;
-	float: left !important;
+  break-inside: avoid;*/
+	width: 45% !important;
+	/*float: left !important;
 	display: inline-block !important;
 	background-color: pink !important;*/
 }
 .category-29 .img-text .label{
+	display: block;
+	width: 100%;
 	/*border: solid 1px #cdcdcd !important;*/
-	-webkit-column-span: all;
+	/*-webkit-column-span: all;
  	-moz-column-span: all;
  	column-span: all;
-	break-before: column;
+	break-before: column;*/
 }
 .category-29 .img-text li:first-child{
 	/*-webkit-column-span: all;
@@ -794,14 +797,16 @@ arrow_right
 	border: solid 1px #cdcdcd  !important;
 	color: #1b1b1b  !important;
 	display: block !important;
-	-webkit-column-span: all;
+	width: 100%;
+	/*-webkit-column-span: all;
 	-moz-column-span: all;
-	column-span: all;
+	column-span: all;*/
 }
 .ceed .titolconte{
 	border: solid 1px #cdcdcd  !important;
 /*	border-bottom: solid 1px #cdcdcd  !important;
 	border-top: 0 !important;*/
+	width: 100%;
 	color: #1b1b1b  !important;
 	display: flex !important;
 	flex-wrap: wrap !important;
