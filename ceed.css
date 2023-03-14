@@ -15,8 +15,7 @@ arrow_right
 .category-29 #region-main, .category-29 #page, .category-29 #page-wrapper{
 	margin: 0 auto !important;
 	padding: 0px !important;
-	/*background-color: #f9fbfd !important;*/
-	background-color: lavender !important;
+	background-color: #f8f9fa !important;
 }
 .category-29 #toggle-all-opened{
 	background-image: url(/ed/theme/image.php/adaptable/format_topcoll/1676372498/arrow_down);
@@ -817,12 +816,16 @@ arrow_right
 	padding: 0.5rem !important;
 	border-radius: 0.25rem;
 }
+.ceed .titolconte:hover{
+	box-shadow: 0 0 0.3rem #999;
+}
 .ceed .titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
 	padding: 0 !important;
 	padding: 0 0 0 1.0rem !important;
 	color: #1b1b1b  !important;
 }
+
 @media screen and (max-width: 480px){
 
 	/*.category-29 #page-wrapper{
