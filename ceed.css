@@ -179,7 +179,7 @@ arrow_right
 	clear: none !important;
 }
 .category-29 .img-text li.activity .mod-indent-outer{
-	
+
 }
 .category-29 .img-text .label{
 	display: block !important;
@@ -919,7 +919,7 @@ arrow_right
 		padding: 0.75rem 0 0.75rem 0.5rem !important;
 		font-weight: 700 !important;
 		color: #1b1b1b !important;
-		font-size: 1.7rem !important;
+		font-size: 1.6rem !important;
 		line-height: 1.0;
 		text-align: left;
 	}
@@ -949,6 +949,33 @@ arrow_right
 	.ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
 		font-size: 0.75rem;
 		line-height: 0.9;
+	}
+	.ceed h3{
+		font-size: 1.6rem;
+		line-height: 1.0;
+		font-weight: 600 !important;
+		margin: 0 0 10px;
+		color: #1b1b1b;
+		text-align: left;
+		font-family: Arial, sans-serif;
+	}
+	.ceed h4{
+		font-size: 1.4rem;
+		line-height: 1.1;
+		font-weight: 500 !important;
+		margin: 0 0 10px;
+		color: #1b1b1b;
+		text-align: left;
+		font-family: Arial, sans-serif;
+	}
+	.ceed h5{
+		font-size: 1.2rem;
+		font-weight: 500 !important;
+		margin: 0 0 10px;
+		color: #1b1b1b;
+		line-height: 1.2;
+		text-align: left;
+		font-family: Arial, sans-serif;
 	}
 	.ceed{
 		font-size: 16px;
@@ -1282,7 +1309,7 @@ arrow_right
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		letter-spacing: 3px;
-		font-weight: 800 !important;
+		font-weight: 700 !important;
 	}
 	.ceed .icones{
 		display: flex;
