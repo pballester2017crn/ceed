@@ -113,9 +113,9 @@ arrow_right
 .category-29 .section .content h3{
 	margin: 0 0 0 0px !important;
 	padding: 1rem 0 1rem 0rem !important;
-	font-weight: 600 !important;
+	font-weight: 800 !important;
 	color: #1b1b1b !important;
-	font-size: 1.8rem !important;
+	font-size: 1.75rem !important;
 	line-height: 1.0;
 	text-align: left;
 	font-family: Arial, sans-serif;
@@ -177,6 +177,10 @@ arrow_right
 .category-29 .img-text li.activity{
 	float: left !important;
 	clear: none !important;
+}
+.category-29 .img-text li.activity .mod-indent-outer{
+	margin: 0 !important;
+	padding: 0 !important;
 }
 .category-29 .img-text .label{
 	display: block !important;
@@ -670,7 +674,7 @@ arrow_right
 .ceed h3{
 	font-size: 1.75rem;
 	line-height: 1.0;
-	font-weight: 700 !important;
+	font-weight: 800 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	text-align: left;
@@ -679,7 +683,7 @@ arrow_right
 .ceed h4{
 	font-size: 1.5rem;
 	line-height: 1.1;
-	font-weight: 600 !important;
+	font-weight: 700 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	text-align: left;
@@ -687,7 +691,7 @@ arrow_right
 }
 .ceed h5{
 	font-size: 1.25rem;
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 	margin: 0 0 10px;
 	color: #1b1b1b;
 	line-height: 1.2;
@@ -909,7 +913,7 @@ arrow_right
 	.category-29 .section .content h3{
 		margin: 0 0 0 0px !important;
 		padding: 0.75rem 0 0.75rem 0.5rem !important;
-		font-weight: 500 !important;
+		font-weight: 700 !important;
 		color: #1b1b1b !important;
 		font-size: 1.35rem !important;
 		line-height: 1.0;
@@ -934,7 +938,10 @@ arrow_right
 		/*display: block !important;
 		background-color: pink !important;*/
 	}
-
+	.category-29 .img-text li.activity .mod-indent-outer{
+		margin: 0 !important;
+		padding: 0 !important;
+	}
 	.ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
 		font-size: 0.75rem;
 		line-height: 0.9;
@@ -1222,9 +1229,9 @@ arrow_right
 	.category-29 .section .content h3{
 		margin: 0 0 0 0px !important;
 		padding: 1rem 0 1rem 1rem !important;
-		font-weight: 500 !important;
+		font-weight: 800 !important;
 		color: #1b1b1b !important;
-		font-size: 1.4rem !important;
+		font-size: 1.5rem !important;
 		line-height: 1.0;
 		text-align: left;
 	}
