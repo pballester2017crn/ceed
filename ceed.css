@@ -468,13 +468,13 @@ arrow_right
 .ceed .verd1{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: #333;
-	background-color: rgba(58,174,108,0.2);
+	background-color: rgba(58,174,108,0.3);
 	font-size: 1.1rem;
 	line-height: 1.4;
 }
 .ceed .verd1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(58,174,108,0.4);
+	background-color: rgba(58,174,108,0.5);
 	color: #000;
 }
 .ceed .blau{
@@ -491,13 +491,13 @@ arrow_right
 .ceed .blau1{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: #333;
-	background-color: rgba(65,107,178,0.2);
+	background-color: rgba(65,107,178,0.3);
 	font-size: 1.1rem;
 	line-height: 1.4;
 }
 .ceed .blau1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(65,107,178,0.4);
+	background-color: rgba(65,107,178,0.5);
 	color: #000;
 }
 .ceed .groc{
@@ -514,13 +514,13 @@ arrow_right
 .ceed .groc1{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: #333;
-	background-color: rgba(254,236,60,0.2);
+	background-color: rgba(254,236,60,0.3);
 	font-size: 1.1rem;
 	line-height: 1.4;
 }
 .ceed .groc1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(254,236,60,0.4);
+	background-color: rgba(254,236,60,0.5);
 	color: #000;
 }
 .ceed .taronja{
@@ -537,13 +537,13 @@ arrow_right
 .ceed .taronja1{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: #333;
-	background-color: rgba(237,110,81,0.2);
+	background-color: rgba(237,110,81,0.3);
 	font-size: 1.1rem;
 	line-height: 1.4;
 }
 .ceed .taronja1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(237,110,81,0.4);
+	background-color: rgba(237,110,81,0.5);
 	color: #000;
 }
 .ceed .gris{
@@ -560,13 +560,13 @@ arrow_right
 .ceed .gris1{
 	/*border: solid 2pt rgba(58,174,108,1);*/
 	color: #333;
-	background-color: rgba(127,135,147,0.2);
+	background-color: rgba(127,135,147,0.3);
 	font-size: 1.1rem;
 	line-height: 1.4;
 }
 .ceed .gris1:hover{
 	/*border: solid 2pt #000;*/
-	background-color: rgba(127,135,147,0.4);
+	background-color: rgba(127,135,147,0.5);
 	color: #000;
 }
 .ceed .profe{
@@ -813,12 +813,10 @@ arrow_right
 	margin: 0 !important;
 	margin-top: 1.5rem !important;
 	padding: 0 !important;
-	padding: 0.5rem !important;
+	padding: 0.5rem 0.5rem 0.5rem 0.75rem !important;
 	border-radius: 0.25rem;
 }
-.ceed .titolconte:hover{
-	box-shadow: 0 0 0.3rem #999;
-}
+
 .ceed .titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
 	padding: 0 !important;
@@ -916,6 +914,25 @@ arrow_right
 		font-size: 1.35rem !important;
 		line-height: 1.0;
 		text-align: left;
+	}
+	.category-29 .img-text{
+		margin: 0px !important;
+		padding: 0.75rem 0rem 0.75rem 0 !important;
+		border-top: solid 1px #cdcdcd !important;
+		overflow: hidden;
+	}
+	.category-29 .img-text li{
+		margin: 0 !important;
+		padding: 0.1rem 0px !important;
+		border-top: 0 !important;
+		/*-webkit-column-break-inside: avoid;
+	  page-break-inside: avoid;
+	  break-inside: avoid;*/
+		width: 100% !important;
+		clear: none !important;
+		float: left !important;
+		/*display: block !important;
+		background-color: pink !important;*/
 	}
 
 	.ceed .bloc .horagrup .diagrup .dia .ti,.ceed .bloc .horagrup .diagrup .dia .tc, .ceed .bloc .hora .tc{
@@ -1210,6 +1227,19 @@ arrow_right
 		font-size: 1.4rem !important;
 		line-height: 1.0;
 		text-align: left;
+	}
+	.category-29 .img-text li{
+		margin: 0 !important;
+		padding: 0.1rem 0px !important;
+		border-top: 0 !important;
+		/*-webkit-column-break-inside: avoid;
+	  page-break-inside: avoid;
+	  break-inside: avoid;*/
+		width: 50% !important;
+		clear: none !important;
+		float: left !important;
+		/*display: block !important;
+		background-color: pink !important;*/
 	}
 	.ceed{
 		font-size: 18px;
