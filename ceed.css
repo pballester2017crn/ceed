@@ -823,7 +823,7 @@ arrow_right
 .ceed .titolconte h4, .ceed .titolconte h5, .ceed .titolconte .fa{
 	margin: 0 !important;
 	padding: 0 !important;
-	padding: 0 0 0 1.0rem !important;
+	padding: 0 0 0 0.75rem !important;
 	color: #1b1b1b  !important;
 }
 
@@ -976,6 +976,9 @@ arrow_right
 		line-height: 1.2;
 		text-align: left;
 		font-family: Arial, sans-serif;
+	}
+	.ceed .titolconte{
+		margin-top: 1.0rem !important;
 	}
 	.ceed{
 		font-size: 16px;
