@@ -1257,6 +1257,10 @@ arrow_right
 		width: 50%;
 		float: left;
 	}
+	.ceed .bloc .uf li{
+		width: 50%;
+		float: left;
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 960px){
