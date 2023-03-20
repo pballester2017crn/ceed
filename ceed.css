@@ -745,12 +745,11 @@ arrow_right
 	overflow: hidden;
 }
 .ceed .bloc .uf li{
-	width: 25%;
+	width: 22%;
 	height: auto;
 	float: left;
 	border-radius: 0.25rem;
-	padding: 0.25rem;
-	border: solid 5px #000;
+	margin: 0.25rem;
 }
 .ceed .bloc .hora{
 	width: 20%;
