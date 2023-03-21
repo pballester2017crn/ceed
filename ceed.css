@@ -1346,9 +1346,9 @@ arrow_right
 		font-weight: 700 !important;
 	}
 	.ceed .icones{
-		display: flex;
-		align-items: center;
-		align-content: center;
+		display: flex !important;
+		align-items: center !important;
+		align-content: center !important;
 		justify-content: space-evenly !important;
 		list-style-type: none !important;
 		margin: 0;
@@ -1642,8 +1642,8 @@ arrow_right
 	}
 	.ceed .icones{
 		list-style-type: none !important;
-		display: flex;
-		align-items: center;
+		display: flex !important;
+		align-items: center !important;
 		justify-content: space-evenly !important;
 		margin: 0;
 		padding: 0.25rem 0 0 0;
