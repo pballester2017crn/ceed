@@ -750,7 +750,6 @@ arrow_right
 	float: left !important;
 	border-radius: 0.25rem !important;
 	padding: 0.25rem !important;
-	border: solid 1pt #333;
 }
 /*.ceed .bloc .uf li .mediaplugin{
 	margin: 0 !important;
@@ -1049,10 +1048,10 @@ arrow_right
 		font-weight: 700 !important;
 	}
 	.ceed .icones{
-		display: flex;
-		align-items: center;
-		align-content: center;
-		justify-content: space-between;
+		display: flex !important;
+		align-items: center !important;
+		align-content: center !important;
+		justify-content: center !important;
 		list-style-type: none !important;
 		margin: 0;
 		padding: 0rem 0 0 0;
