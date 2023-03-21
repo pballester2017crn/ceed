@@ -1597,6 +1597,13 @@ arrow_right
 		width: 25%;
 		float: left;
 	}
+	.ceed .bloc .uf li{
+		width: 50% !important;
+		height: auto !important;
+		float: left !important;
+		border-radius: 0.25rem !important;
+		padding: 0.25rem !important;
+	}
 	.category-29 .img-text{
 		/*margin: 0px !important;
 		padding: 0px !important;*/
