@@ -746,11 +746,17 @@ arrow_right
 }
 .ceed .bloc .uf li{
 	width: 25% !important;
-	height: auto;
-	float: left;
+	height: auto !important;
+	float: left !important;
 	border-radius: 0.25rem !important;
 	padding: 0.25rem !important;
 	border: solid 1pt #333;
+}
+.ceed .bloc .uf li .mediaplugin{
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	height: auto !important;
 }
 .ceed .bloc .hora{
 	width: 20%;
