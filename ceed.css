@@ -1051,7 +1051,7 @@ arrow_right
 		display: flex !important;
 		align-items: center !important;
 		align-content: center !important;
-		justify-content: center !important;
+		justify-content: space-evenly !important;
 		list-style-type: none !important;
 		margin: 0;
 		padding: 0rem 0 0 0;
@@ -1349,7 +1349,7 @@ arrow_right
 		display: flex;
 		align-items: center;
 		align-content: center;
-		justify-content: space-between;
+		justify-content: space-evenly !important;
 		list-style-type: none !important;
 		margin: 0;
 		padding: 0rem 0 0 0;
@@ -1644,7 +1644,7 @@ arrow_right
 		list-style-type: none !important;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-evenly !important;
 		margin: 0;
 		padding: 0.25rem 0 0 0;
 		height: 50px;
