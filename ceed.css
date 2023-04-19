@@ -1275,7 +1275,7 @@ arrow_right
 	}
 	.ceed .contingut .mediavideo{
   	width: 100%;
-  	padding-top: 56.25%;
+  	padding-bottom: 56.25%;
 	}
 	.ceed .contingut .cont{
 		clear: both;
@@ -1587,7 +1587,7 @@ arrow_right
 	}
 	.ceed .contingut .mediavideo{
 		width: 50%;
-		padding-top: 28.125%;
+		padding-bottom: 28.125%;
 	}
 	.ceed .contingut .cont{
 		clear: both;
@@ -1868,7 +1868,7 @@ arrow_right
   	/*width: 33.33%;
   	padding-top: 18.748%;*/
 		width: 50%;
-		padding-top: 28.125%;
+		padding-bottom: 28.125%;
 	}
 	.ceed .contingut .cont{
 		clear: both;
