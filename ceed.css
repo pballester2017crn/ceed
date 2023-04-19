@@ -572,6 +572,29 @@ arrow_right
 	background-color: rgba(127,135,147,0.5);
 	color: #000;
 }
+.ceed .negre{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(0,0,0,0.8);
+	color:#fff;
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .negre:hover{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	background-color: rgba(0,0,0,1);
+}
+.ceed .negre1{
+	/*border: solid 2pt rgba(58,174,108,1);*/
+	color: #333;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.ceed .negre1:hover{
+	/*border: solid 2pt #000;*/
+	background-color: rgba(0,0,0,0.5);
+	color: #000;
+}
 .ceed .profe{
 	margin: 0;
 	display: flex;
