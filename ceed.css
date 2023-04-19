@@ -168,15 +168,15 @@ arrow_right
 	/*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;*/
-	width: 33.33% !important;
+	/*width: 33.33% !important;
 	clear: none !important;
-	float: left !important;
+	float: left !important;*/
 	/*display: block !important;
 	background-color: pink !important;*/
 }
 .category-29 .img-text li.activity{
-	float: left !important;
-	clear: none !important;
+/*	float: left !important;
+	clear: none !important;*/
 }
 .category-29 .img-text li.activity .mod-indent-outer{
 
