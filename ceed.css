@@ -640,8 +640,9 @@ arrow_right
 .ceed .contingut .mediavideo{
 	position: relative;
 	overflow: hidden;
+	height: 0;
 }
-.ceed .contingut .mediavideo .responsive-iframe {
+.ceed .contingut .mediavideo iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
