@@ -632,6 +632,9 @@ arrow_right
 	font-size: 0.9rem;
 	line-height: 1.25;
 }
+.ceed .norma2{
+	clear: both !important;
+}
 .ceed .norma{
 	margin: 0;
 	padding: 0.5rem 0 0 0;
