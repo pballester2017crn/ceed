@@ -1634,6 +1634,7 @@ arrow_right
 		display: block;
 		padding: 0.15rem;
 		float: none;
+		clear: both;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .media6{
@@ -1662,8 +1663,8 @@ arrow_right
 	.ceed .contingut .mediavideo{
 		/*width: 50%;
 		padding-bottom: 28.125%;*/
-		width: 49.50%;
-		padding-bottom: 27.84375%;
+		width: 49.25%;
+		padding-bottom: 27.703125%;
 		box-sizing: border-box !important;
 		float: left;
 		margin: 0.15rem;
@@ -1940,6 +1941,7 @@ arrow_right
 		padding: 0.15rem;
 		display: block;
 		float: none;
+		clear: both;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .media6{
@@ -1989,8 +1991,8 @@ arrow_right
 	.ceed .contingut .mediavideo{
 		/*width: 50%;
 		padding-bottom: 28.125%;*/
-		width: 49.50%;
-		padding-bottom: 27.84375%;
+		width: 49.25%;
+		padding-bottom: 27.703125%;
 		margin: 0.15rem;
 		box-sizing: border-box !important;
 		float: left;
