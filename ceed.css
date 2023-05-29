@@ -1660,6 +1660,15 @@ arrow_right
 		float: left;
 		margin: 0.15rem;
 	}
+	.ceed .contingut .mediavideo1{
+		/*width: 50%;
+		padding-bottom: 28.125%;*/
+		width: 99%;
+		padding-bottom: 55.6875%;
+		margin: 0.15rem;
+		box-sizing: border-box !important;
+		float: left;
+	}
 	.ceed .contingut .mediavideo{
 		/*width: 50%;
 		padding-bottom: 28.125%;*/
@@ -1984,6 +1993,15 @@ arrow_right
   	padding-top: 18.75%;*/
   	width: 32.50%;
   	padding-top: 18.28125%;
+		margin: 0.15rem;
+		box-sizing: border-box !important;
+		float: left;
+	}
+	.ceed .contingut .mediavideo1{
+		/*width: 50%;
+		padding-bottom: 28.125%;*/
+		width: 99%;
+		padding-bottom: 55.6875%;
 		margin: 0.15rem;
 		box-sizing: border-box !important;
 		float: left;
