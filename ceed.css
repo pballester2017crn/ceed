@@ -1300,6 +1300,11 @@ arrow_right
 		line-height: 1.45;
 		text-align: left;
 	}
+	.ceed .contingut .media, .ceed .contingut .media3, .ceed .contingut .media4, .media6{
+		width: 100%;
+		margin-top: 0.25rem;
+		box-sizing: border-box !important;
+	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
   	padding-bottom: 56.25%;
@@ -1673,11 +1678,11 @@ arrow_right
 	.ceed .contingut .mediavideo{
 		/*width: 50%;
 		padding-bottom: 28.125%;*/
-		width: 49%;
-		padding-bottom: 27.5625%;
+		width: 48.5%;
+		padding-bottom: 27.28125%;
 		box-sizing: border-box !important;
 		float: left;
-		margin: 0.15rem;
+		margin: 0.1rem;
 	}
 	.ceed .contingut .cont{
 		clear: both;
@@ -2011,9 +2016,9 @@ arrow_right
 	.ceed .contingut .mediavideo{
 		/*width: 50%;
 		padding-bottom: 28.125%;*/
-		width: 49%;
-		padding-bottom: 27.5625%;
-		margin: 0.15rem;
+		width: 48.5%;
+		padding-bottom: 27.28125%;
+		margin: 0.1rem;
 		box-sizing: border-box !important;
 		float: left;
 	}
