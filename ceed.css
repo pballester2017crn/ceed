@@ -1302,6 +1302,7 @@ arrow_right
 	}
 	.ceed .contingut .media, .ceed .contingut .media3, .ceed .contingut .media4, .media6{
 		width: 100%;
+		display: block !important;
 		margin-top: 0.25rem;
 		box-sizing: border-box !important;
 	}
@@ -1309,6 +1310,7 @@ arrow_right
   	width: 100%;
   	padding-bottom: 56.25%;
 		margin-top: 0.25rem;
+		display: block !important;
 	}
 	.ceed .contingut .cont{
 		clear: both;
