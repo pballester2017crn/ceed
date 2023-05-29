@@ -1591,22 +1591,22 @@ arrow_right
 	.ceed .contingut{
 		padding: 0rem 1.0rem 0 1.0rem;
 	}
-	.ceed .contingut .media4, .ceed .contingut .mediatext4, .ceed .contingut .mediavideo4{
+	.ceed .contingut .media4, .ceed .contingut .mediatext4{
 		width: 25%;
 		float: left;
-		padding: 0.1rem;
+		padding: 0.15rem;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .media3, .ceed .contingut .mediatext3, .ceed .contingut .mediavideo3{
+	.ceed .contingut .media3, .ceed .contingut .mediatext3{
 		width: 33.33%;
 		float: left;
-		padding: 0.1rem;
+		padding: 0.15rem;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
+	.ceed .contingut .media, .ceed .contingut .mediatext{
 		width: 50%;
 		float: left;
-		padding: 0.1rem;
+		padding: 0.15rem;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4{
@@ -1631,6 +1631,8 @@ arrow_right
 	}
 	.ceed .contingut .media1{
 		width: 100%;
+		display: block;
+		padding: 0.15rem;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .media6{
@@ -1639,19 +1641,31 @@ arrow_right
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .mediavideo4{
-		width: 25%;
-		padding-bottom: 14.0625%;
+		/*width: 25%;
+		padding-bottom: 14.0625%;*/
+		width: 24.5%;
+		padding-bottom: 13.78125%;
 		box-sizing: border-box !important;
+		float: left;
+		margin: 0.15rem;
 	}
 	.ceed .contingut .mediavideo3{
-		width: 33.33%;
-		padding-bottom: 18.75%;
+		/*width: 33.33%;
+		padding-bottom: 18.75%;*/
+		width: 33.00%;
+		padding-bottom: 18.5625%;
 		box-sizing: border-box !important;
+		float: left;
+		margin: 0.15rem;
 	}
 	.ceed .contingut .mediavideo{
-		width: 50%;
-		padding-bottom: 28.125%;
+		/*width: 50%;
+		padding-bottom: 28.125%;*/
+		width: 49.50%;
+		padding-bottom: 27.84375%;
 		box-sizing: border-box !important;
+		float: left;
+		margin: 0.15rem;
 	}
 	.ceed .contingut .cont{
 		clear: both;
@@ -1914,15 +1928,16 @@ arrow_right
 	.ceed .contingut{
 		padding: 0rem 1.0rem 0 1.0rem;
 	}
-	.ceed .contingut .media4, .ceed .contingut .mediatext4, .ceed .contingut .mediavideo4{
+	.ceed .contingut .media4, .ceed .contingut .mediatext4{
 		width: 25%;
 		float: left;
-		padding: 0.1rem;
+		padding: 0.15rem;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .media1{
 		width: 100%;
-		padding: 0.1rem;
+		padding: 0.15rem;
+		display: block;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .media6{
@@ -1930,16 +1945,16 @@ arrow_right
 		float: left;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .media3, .ceed .contingut .mediatext3, .ceed .contingut .mediavideo3{
+	.ceed .contingut .media3, .ceed .contingut .mediatext3{
 		width: 33.33%;
 		float: left;
-		padding: 0.1rem;
+		padding: 0.15rem;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo{
+	.ceed .contingut .media, .ceed .contingut .mediatext{
 		width: 50%;
 		float: left;
-		padding: 0.1rem;
+		padding: 0.15rem;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4{
@@ -1954,19 +1969,29 @@ arrow_right
 		/*column-count: 2;*/
 	}
 	.ceed .contingut .mediavideo4{
-  	width: 25%;
-  	padding-top: 14.0625%;
+  	width: 24.5%;
+  	padding-top: 13.78125%;
+		margin: 0.15rem;
 		box-sizing: border-box !important;
+		float: left;
 	}
 	.ceed .contingut .mediavideo3{
-  	width: 33.33%;
-  	padding-top: 18.75%;
+		/*width: 33.33%;
+  	padding-top: 18.75%;*/
+  	width: 33.00%;
+  	padding-top: 18.5625%;
+		margin: 0.15rem;
 		box-sizing: border-box !important;
+		float: left;
 	}
 	.ceed .contingut .mediavideo{
-		width: 50%;
-		padding-bottom: 28.125%;
+		/*width: 50%;
+		padding-bottom: 28.125%;*/
+		width: 49.50%;
+		padding-bottom: 27.84375%;
+		margin: 0.15rem;
 		box-sizing: border-box !important;
+		float: left;
 	}
 	.ceed .contingut .cont{
 		clear: both;
