@@ -2023,6 +2023,7 @@ arrow_right
 		margin: 0.1rem;
 		box-sizing: border-box !important;
 		float: left;
+		min-height: 30px;
 	}
 	.ceed .contingut .cont{
 		clear: both;
