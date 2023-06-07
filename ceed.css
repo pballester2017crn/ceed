@@ -666,7 +666,7 @@ arrow_right
 .ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
 	position: relative;
 	overflow: hidden;
-	height: 0;
+	height: auto;
 }
 .ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe{
 	position: absolute;
@@ -1638,8 +1638,8 @@ arrow_right
 		text-align: left;
 	}
 	.ceed .contingut .media1{
-		width: 100%;
-		display: block !important;
+		width: 49.5%;
+		/*display: block !important;*/
 		padding: 0.15rem;
 		float: none;
 		clear: both;
@@ -1671,8 +1671,8 @@ arrow_right
 	.ceed .contingut .mediavideo1{
 		/*width: 50%;
 		padding-bottom: 28.125%;*/
-		width: 99%;
-		padding-bottom: 55.6875%;
+		width: 48.5%;
+		padding-bottom: 27.28125%;
 		margin: 0.15rem;
 		box-sizing: border-box !important;
 		float: left;
@@ -1954,7 +1954,7 @@ arrow_right
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .media1{
-		width: 100%;
+		width: 49.5%;
 		padding: 0.15rem;
 		display: block !important;
 		float: none;
@@ -2009,8 +2009,8 @@ arrow_right
 	.ceed .contingut .mediavideo1{
 		/*width: 50%;
 		padding-bottom: 28.125%;*/
-		width: 99%;
-		padding-bottom: 55.6875%;
+		width: 48.5%;
+		padding-bottom: 27.28125%;
 		margin: 0.15rem;
 		box-sizing: border-box !important;
 		float: left;
