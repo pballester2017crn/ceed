@@ -666,7 +666,7 @@ arrow_right
 .ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
 	position: relative;
 	overflow: hidden;
-	height: auto;
+	height: 0;
 }
 .ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe{
 	position: absolute;
@@ -2023,7 +2023,6 @@ arrow_right
 		margin: 0.1rem;
 		box-sizing: border-box !important;
 		float: left;
-		min-height: 30px;
 	}
 	.ceed .contingut .cont{
 		clear: both;
