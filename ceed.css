@@ -658,9 +658,13 @@ arrow_right
 .ceed .contingut .media, .ceed .contingut .mediatext, .ceed .contingut .mediavideo, .ceed .contingut .media3, .ceed .contingut .mediatext3, .ceed .contingut .mediavideo3, .ceed .contingut .media4, .ceed .contingut .mediatext4, .ceed .contingut .mediavideo4, .ceed .contingut .media6{
 	box-sizing: border-box !important;
 }
-.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p, .ceed .contingut .media .peu{
+.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p{
 	font-size: 1.0rem;
 	/*list-style-type: none;*/
+	line-height: 1.35;
+}
+.ceed .contingut .media .peu{
+	font-size: 0.90rem;
 	line-height: 1.35;
 }
 .ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
@@ -1282,14 +1286,19 @@ arrow_right
 		/*padding: 0.5rem 0.75rem 0 0.75rem;*/
 		padding: 0.5rem 0 0 0;
 	}
-	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4, .ceed .contingut .media .peu{
+	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4{
 		padding: 0.5rem 0 0 0;
 	}
-	.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p, .ceed .contingut .media .peu{
+	.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p{
 		font-size: 1.1rem;
 		/*list-style-type: none;*/
 		line-height: 1.45;
 		padding: 0rem 0 0.5rem 0rem;
+	}
+	.ceed .contingut .media .peu{
+		padding: 0.5rem 0 0.5rem 0.5rem;
+		font-size: 1.0rem;
+		line-height: 1.45;
 	}
 	.ceed p{
 		font-size: 1.1rem;
@@ -1617,15 +1626,21 @@ arrow_right
 		box-sizing: border-box !important;
 		display: block !important;
 	}
-	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4, .ceed .contingut .media .peu{
+	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4{
 		padding: 0rem 0 0.5rem 0.5rem;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p, .ceed .contingut .media .peu{
+	.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p{
 		font-size: 1rem;
 		/*list-style-type: none;*/
 		line-height: 1.4;
 		padding: 0rem 0 0rem 0rem;
+		box-sizing: border-box !important;
+	}
+	.ceed .contingut .media .peu{
+		font-size: 1rem;
+		line-height: 1.4;
+		padding: 0.5rem 0 0.5rem 0.5rem;
 		box-sizing: border-box !important;
 	}
 	.ceed p{
@@ -1979,13 +1994,17 @@ arrow_right
 		box-sizing: border-box !important;
 		display: block !important;
 	}
-	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4, .ceed .contingut .media .peu{
+	.ceed .contingut .mediatext, .ceed .contingut .mediatext3, .ceed .contingut .mediatext4{
 		padding: 0rem 0 0.5rem 0.5rem;
 		box-sizing: border-box !important;
 		/*width: 66.66%;
 		float: left;*/
 	}
-	.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p, .ceed .contingut .media .peu{
+	.ceed .contingut .media .peu{
+		padding: 0.5rem 0 0.5rem 0.5rem;
+		box-sizing: border-box !important;
+	}
+	.ceed .contingut .mediatext p, .ceed .contingut .mediatext3 p, .ceed .contingut .mediatext4 p{
 		padding: 0rem 0 0 0rem;
 		box-sizing: border-box !important;
 		/*column-count: 2;*/
