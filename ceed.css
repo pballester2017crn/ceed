@@ -663,7 +663,7 @@ arrow_right
 	/*list-style-type: none;*/
 	line-height: 1.35;
 }
-.ceed .contingut .media .peu{
+.ceed .contingut .media .peu, .ceed .contingut .media1 .peu, .ceed .contingut .media3 .peu, .ceed .contingut .media4 .peu, .ceed .contingut .media6 .peu{
 	font-size: 0.90rem;
 	line-height: 1.35;
 }
@@ -1295,7 +1295,7 @@ arrow_right
 		line-height: 1.45;
 		padding: 0rem 0 0.5rem 0rem;
 	}
-	.ceed .contingut .media .peu{
+	.ceed .contingut .media .peu, .ceed .contingut .media1 .peu, .ceed .contingut .media3 .peu, .ceed .contingut .media4 .peu, .ceed .contingut .media6 .peu{
 		padding: 0.5rem 0 0.5rem 0.5rem;
 		font-size: 1.0rem;
 		line-height: 1.45;
@@ -1637,7 +1637,7 @@ arrow_right
 		padding: 0rem 0 0rem 0rem;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .media .peu{
+	.ceed .contingut .media .peu, .ceed .contingut .media1 .peu, .ceed .contingut .media3 .peu, .ceed .contingut .media4 .peu, .ceed .contingut .media6 .peu{
 		font-size: 1rem;
 		line-height: 1.4;
 		padding: 0.5rem 0 0.5rem 0.5rem;
@@ -2000,7 +2000,7 @@ arrow_right
 		/*width: 66.66%;
 		float: left;*/
 	}
-	.ceed .contingut .media .peu{
+	.ceed .contingut .media .peu, .ceed .contingut .media1 .peu, .ceed .contingut .media3 .peu, .ceed .contingut .media4 .peu, .ceed .contingut .media6 .peu{
 		padding: 0.5rem 0 0.5rem 0.5rem;
 		box-sizing: border-box !important;
 	}
