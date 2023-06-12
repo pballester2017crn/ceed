@@ -1394,6 +1394,13 @@ arrow_right
 		line-height: 1.45;
 		text-align: left;
 	}
+	.ceed .contingut .mediaflow6 .mediabloc .media{
+		height: 100% !important;
+		width: auto !important;
+		display: block !important;
+		margin-top: 0.25rem;
+		box-sizing: border-box !important;
+	}
 	.ceed .contingut .media, .ceed .contingut .media3, .ceed .contingut .media4, .media6{
 		width: 100%;
 		display: block !important;
