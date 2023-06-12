@@ -373,7 +373,6 @@ arrow_right
 	margin: 0 !important;
 	line-height: 1.2 !important;
 	display: block !important;
-
 }
 .ceed .seccent .seccions{
   overflow-x: auto;
@@ -406,6 +405,66 @@ arrow_right
 .ceed .seccent .seccions .sec li:first-child{
   border-bottom: none;
 }
+
+.ceed .contingut{
+  margin: 0 !important;
+  padding: 0 !important;
+	width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+}
+
+.ceed .contingut .enrere, .ceed .contingut .avant{
+	margin: 0 !important;
+  padding: 0 !important;
+  max-width: 5%;
+}
+.ceed .contingut .enrere i, .ceed .contingut .avant i{
+	font-size: 1.2rem !important;
+	font-weight: 600 !important;
+	padding: 0.5rem 0px 0px 0px !important;
+	margin: 0 !important;
+	line-height: 1.2 !important;
+	display: block !important;
+}
+/*
+.ceed .contingut .mediaflow, .ceed .contingut .mediaflow6, .ceed .contingut .mediaflow75{
+  overflow-x: auto;
+  /*max-width: 90%;
+}*/
+
+.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
+	margin: 0 !important;
+  padding: 0 !important;
+  width: max-content;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.ceed .contingut .mediaflow .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow6 .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow75 .mediabloc::-webkit-scrollbar{
+	display: none !important;
+}
+/*
+.ceed .contingut .mediaflow .mediabloc li{
+  margin: 0 !important;
+  padding: 5px 10px 0px 10px;
+  float: left;
+  font-size: 1rem;
+  font-weight: 600 !important;
+	color: #4e4e4e;
+	list-style-type: none !important;
+}
+.ceed .contingut .mediaflow .mediabloc li:hover{
+  border-bottom: solid 2px #000;
+	color: #000;
+	font-weight: 700 !important;
+}
+.ceed .contingut .mediaflow .mediabloc li:first-child{
+  border-bottom: none;
+}
+*/
 
 
 /*.ceed .icon::after {
@@ -1205,10 +1264,25 @@ arrow_right
 	.ceed .seccent .seccions .sec li:first-child{
 	  /*padding: 5px 5px 0px 0px;*/
 	}
+
+	.ceed .contingut .mediaflow, .ceed .contingut .mediaflow6, .ceed .contingut .mediaflow75{
+	  overflow-x: auto;
+	  /*max-width: 90%;*/
+	}
+	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
+		margin: 0 !important;
+	  padding: 0 !important;
+	  width: max-content;
+		-ms-overflow-style: none;  /* IE and Edge */
+	  scrollbar-width: none;  /* Firefox */
+	}
+	.ceed .contingut .mediaflow .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow6 .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow75 .mediabloc::-webkit-scrollbar{
+		display: none !important;
+	}
+
 	.ceed .bloc .individu{
 		padding: 0.5rem 0 0 0 !important;
 	}
-
 	.ceed .bloc .colectiu .boto, .ceed .bloc .individu .boto{
 		width: 60%;
 		height: 2.5rem;
@@ -1976,10 +2050,21 @@ arrow_right
 		clear: both;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .media6{
+	.ceed .contingut .media75, .ceed .contingut .mediatext75, .ceed .contingut .mediaflow75{
+		width: 75.00%;
+		float: left;
+		box-sizing: border-box !important;
+		column-count: 3 !important;
+		-moz-column-fill: balance;
+    column-fill: balance;
+	}
+	.ceed .contingut .media6, .ceed .contingut .mediatext6, .ceed .contingut .mediaflow6{
 		width: 66.66%;
 		float: left;
 		box-sizing: border-box !important;
+		column-count: 2 !important;
+		-moz-column-fill: balance;
+    column-fill: balance;
 	}
 	.ceed .contingut .media3, .ceed .contingut .mediatext3{
 		width: 33.33%;
