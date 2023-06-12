@@ -406,65 +406,6 @@ arrow_right
   border-bottom: none;
 }
 
-.ceed .contingut{
-  margin: 0 !important;
-  padding: 0 !important;
-	width: 100%;
-  background-color: #fff;
-  display: flex;
-  align-items: flex-start;
-  align-content: center;
-  justify-content: center;
-}
-
-.ceed .contingut .enrere, .ceed .contingut .avant{
-	margin: 0 !important;
-  padding: 0 !important;
-  max-width: 5%;
-}
-.ceed .contingut .enrere i, .ceed .contingut .avant i{
-	font-size: 1.2rem !important;
-	font-weight: 600 !important;
-	padding: 0.5rem 0px 0px 0px !important;
-	margin: 0 !important;
-	line-height: 1.2 !important;
-	display: block !important;
-}
-/*
-.ceed .contingut .mediaflow, .ceed .contingut .mediaflow6, .ceed .contingut .mediaflow75{
-  overflow-x: auto;
-  /*max-width: 90%;
-}*/
-
-.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
-	margin: 0 !important;
-  padding: 0 !important;
-  width: max-content;
-	-ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-.ceed .contingut .mediaflow .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow6 .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow75 .mediabloc::-webkit-scrollbar{
-	display: none !important;
-}
-/*
-.ceed .contingut .mediaflow .mediabloc li{
-  margin: 0 !important;
-  padding: 5px 10px 0px 10px;
-  float: left;
-  font-size: 1rem;
-  font-weight: 600 !important;
-	color: #4e4e4e;
-	list-style-type: none !important;
-}
-.ceed .contingut .mediaflow .mediabloc li:hover{
-  border-bottom: solid 2px #000;
-	color: #000;
-	font-weight: 700 !important;
-}
-.ceed .contingut .mediaflow .mediabloc li:first-child{
-  border-bottom: none;
-}
-*/
 
 
 /*.ceed .icon::after {
@@ -704,6 +645,66 @@ arrow_right
 	margin: 0;
 	padding: 0;
 }
+
+.ceed .contingut{
+  margin: 0 !important;
+  padding: 0 !important;
+	width: 100%;
+  background-color: #fff;
+  /*display: flex;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;*/
+}
+.ceed .contingut .enrere, .ceed .contingut .avant{
+	margin: 0 !important;
+  padding: 0 !important;
+  max-width: 5%;
+}
+.ceed .contingut .enrere i, .ceed .contingut .avant i{
+	font-size: 1.2rem !important;
+	font-weight: 600 !important;
+	padding: 0.5rem 0px 0px 0px !important;
+	margin: 0 !important;
+	line-height: 1.2 !important;
+	display: block !important;
+}
+/*
+.ceed .contingut .mediaflow, .ceed .contingut .mediaflow6, .ceed .contingut .mediaflow75{
+  overflow-x: auto;
+  /*max-width: 90%;
+}
+
+.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
+	margin: 0 !important;
+  padding: 0 !important;
+  width: max-content;
+	-ms-overflow-style: none;  /* IE and Edge */
+/*  scrollbar-width: none;  /* Firefox */
+/*}
+.ceed .contingut .mediaflow .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow6 .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow75 .mediabloc::-webkit-scrollbar{
+	display: none !important;
+}*/
+/*
+.ceed .contingut .mediaflow .mediabloc li{
+  margin: 0 !important;
+  padding: 5px 10px 0px 10px;
+  float: left;
+  font-size: 1rem;
+  font-weight: 600 !important;
+	color: #4e4e4e;
+	list-style-type: none !important;
+}
+.ceed .contingut .mediaflow .mediabloc li:hover{
+  border-bottom: solid 2px #000;
+	color: #000;
+	font-weight: 700 !important;
+}
+.ceed .contingut .mediaflow .mediabloc li:first-child{
+  border-bottom: none;
+}
+*/
+
 .ceed .contingut{
 	box-sizing: border-box !important;
 }
@@ -1265,20 +1266,7 @@ arrow_right
 	  /*padding: 5px 5px 0px 0px;*/
 	}
 
-	.ceed .contingut .mediaflow, .ceed .contingut .mediaflow6, .ceed .contingut .mediaflow75{
-	  overflow-x: auto;
-	  /*max-width: 90%;*/
-	}
-	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
-		margin: 0 !important;
-	  padding: 0 !important;
-	  width: max-content;
-		-ms-overflow-style: none;  /* IE and Edge */
-	  scrollbar-width: none;  /* Firefox */
-	}
-	.ceed .contingut .mediaflow .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow6 .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow75 .mediabloc::-webkit-scrollbar{
-		display: none !important;
-	}
+
 
 	.ceed .bloc .individu{
 		padding: 0.5rem 0 0 0 !important;
@@ -1356,6 +1344,24 @@ arrow_right
 		margin: 0;
 		padding: 0;
 	}
+
+	.ceed .contingut .mediaflow, .ceed .contingut .mediaflow6, .ceed .contingut .mediaflow75{
+		overflow-x: auto !important;
+		scroll-behavior: smooth !important;
+  	scroll-snap-type: x mandatory !important;
+		/*max-width: 90%;*/
+	}
+	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
+		margin: 0 !important;
+		padding: 0 !important;
+		width: max-content;
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
+	}
+	.ceed .contingut .mediaflow .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow6 .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow75 .mediabloc::-webkit-scrollbar{
+		display: none !important;
+	}
+
 	.ceed .contingut{
 		/*padding: 0.5rem 0.75rem 0 0.75rem;*/
 		padding: 0.5rem 0 0 0;
