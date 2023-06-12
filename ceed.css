@@ -1407,6 +1407,7 @@ arrow_right
 		display: block !important;
 		margin-top: 0.25rem;
 		box-sizing: border-box !important;
+		background-color: yellow;
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
