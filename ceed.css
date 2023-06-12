@@ -1354,7 +1354,8 @@ arrow_right
 	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
 		margin: 0 !important;
 		padding: 0 !important;
-		width: max-content;
+		width: max-content !important;
+		height: 100% !important;
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
 		display: flex;
