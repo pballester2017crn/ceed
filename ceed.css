@@ -1349,7 +1349,7 @@ arrow_right
 		overflow-x: auto !important;
 		scroll-behavior: smooth !important;
   	scroll-snap-type: x mandatory !important;
-		/*max-width: 90%;*/
+		max-width: 90% !important;
 	}
 	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
 		margin: 0 !important;
@@ -1391,9 +1391,13 @@ arrow_right
 	}
 	.ceed .contingut .media, .ceed .contingut .media3, .ceed .contingut .media4, .media6{
 		width: 100%;
-		display: block !important;
+		display: inline-block !important;
 		margin-top: 0.25rem;
 		box-sizing: border-box !important;
+		/*display: flex;
+	  align-items: flex-start;
+	  align-content: center;
+	  justify-content: center;*/
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
