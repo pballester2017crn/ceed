@@ -1380,8 +1380,8 @@ arrow_right
 	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
 		margin: 0 !important;
 		padding: 0 !important;
-		width: max-content !important;
-		/*width: 300vw !important;*/
+		/*width: max-content !important;*/
+		width: 300vw !important;
 		/*overflow: hidden;*/
 		height: 30vh !important;
 		-ms-overflow-style: none;  /* IE and Edge */
