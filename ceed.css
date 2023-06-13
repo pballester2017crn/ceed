@@ -1380,8 +1380,8 @@ arrow_right
 	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
 		margin: 0 !important;
 		padding: 0 !important;
-		/*width: max-content !important;*/
-		width: 300vw !important;
+		width: max-content !important;
+		/*width: 300vw !important;*/
 		/*overflow: hidden;*/
 		height: 30vh !important;
 		-ms-overflow-style: none;  /* IE and Edge */
@@ -1439,9 +1439,9 @@ arrow_right
 		/*float: left;*/
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar img{
-		/*height: 25vh !important;
+		height: 25vh !important;
 		width: auto !important;
-		display: block;*/
+		display: block;
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
