@@ -1347,7 +1347,7 @@ arrow_right
 	}
 
 	.ceed .contingut .grafic .graf2, .ceed .contingut .grafic .graf1{
-		overflow: hidden !important;
+
 		/*display: flex;
 		align-items: flex-start;
 		align-content: center;
@@ -1361,7 +1361,7 @@ arrow_right
 	}
 	.ceed .contingut .grafic .enrere, .ceed .contingut .grafic .avant{
 		height: 30vh;
-		float: left;
+		display: none !important;
 	}
 	.ceed .contingut .grafic .enrere i, .ceed .contingut .grafic .avant i{
 		font-size: 1.4rem;
@@ -1372,10 +1372,10 @@ arrow_right
 		overflow-x: auto !important;
 		scroll-behavior: smooth !important;
   	scroll-snap-type: x mandatory !important;
-		max-width: 90% !important;
+		max-width: 100% !important;
 		height: 30vh;
 		background-color: violet;
-		float: left;
+
 	}
 	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
 		margin: 0 !important;
