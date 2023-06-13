@@ -1357,7 +1357,7 @@ arrow_right
 		display: none !important;
 	}
 	.ceed .contingut .grafic .graf2{
-		height: 30vh;
+		height: 30vh !important;
 	}
 	.ceed .contingut .grafic .enrere, .ceed .contingut .grafic .avant{
 		height: 30vh;
@@ -1373,7 +1373,7 @@ arrow_right
 		scroll-behavior: smooth !important;
   	scroll-snap-type: x mandatory !important;
 		max-width: 100% !important;
-		height: 30vh;
+		height: 100% !important;
 		background-color: violet;
 
 	}
@@ -1428,8 +1428,8 @@ arrow_right
 		margin-top: 0.25rem;
 		box-sizing: border-box !important;
 	}
-	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .medias{
-		height: 30vh !important;
+	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar{
+		height: 100% !important;
 		width: auto !important;
 		display: block !important;
 		margin-top: 0.25rem;
@@ -1437,8 +1437,8 @@ arrow_right
 		background-color: yellow;
 		float: left;
 	}
-	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .medias img{
-		height: 30vh !important;
+	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar img{
+		height: 100% !important;
 		width: auto !important;
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
