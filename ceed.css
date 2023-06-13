@@ -660,6 +660,7 @@ arrow_right
 	margin: 0 !important;
   padding: 0 !important;
   max-width: 5%;
+
 }
 .ceed .contingut .enrere i, .ceed .contingut .avant i{
 	font-size: 1.2rem !important;
@@ -1345,17 +1346,36 @@ arrow_right
 		padding: 0;
 	}
 
+	.ceed .contingut .grafic .graf2, .ceed .contingut .grafic .graf1{
+		display: flex;
+		align-items: flex-start;
+		align-content: center;
+		justify-content: center;
+	}
+	.ceed .contingut .grafic .graf2{
+		height: 30vh;
+	}
+	.ceed .contingut .grafic .enrere, .ceed .contingut .grafic .avant{
+		height: 30vh;
+	}
+	.ceed .contingut .grafic .enrere i, .ceed .contingut .grafic .avant i{
+		font-size: 1.4rem;
+		padding: 7px 0px 0px 0px;
+		line-height: 1.5rem;
+	}
 	.ceed .contingut .mediaflow, .ceed .contingut .mediaflow6, .ceed .contingut .mediaflow75{
 		overflow-x: auto !important;
 		scroll-behavior: smooth !important;
   	scroll-snap-type: x mandatory !important;
 		max-width: 90% !important;
+		height: 30vh;
+		background-color: violet;
 	}
 	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
 		margin: 0 !important;
 		padding: 0 !important;
 		width: max-content !important;
-		height: 100% !important;
+		height: 30vh !important;
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
 		display: flex;
