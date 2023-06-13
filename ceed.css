@@ -1347,10 +1347,11 @@ arrow_right
 	}
 
 	.ceed .contingut .grafic .graf2, .ceed .contingut .grafic .graf1{
-		display: flex;
+		overflow: hidden !important;
+		/*display: flex;
 		align-items: flex-start;
 		align-content: center;
-		justify-content: center;
+		justify-content: center;*/
 	}
 	.ceed .contingut .grafic .graf1{
 		display: none !important;
@@ -1360,6 +1361,7 @@ arrow_right
 	}
 	.ceed .contingut .grafic .enrere, .ceed .contingut .grafic .avant{
 		height: 30vh;
+		float: left;
 	}
 	.ceed .contingut .grafic .enrere i, .ceed .contingut .grafic .avant i{
 		font-size: 1.4rem;
@@ -1373,6 +1375,7 @@ arrow_right
 		max-width: 90% !important;
 		height: 30vh;
 		background-color: violet;
+		float: left;
 	}
 	.ceed .contingut .mediaflow .mediabloc, .ceed .contingut .mediaflow6 .mediabloc, .ceed .contingut .mediaflow75 .mediabloc{
 		margin: 0 !important;
