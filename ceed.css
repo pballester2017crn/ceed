@@ -1422,8 +1422,8 @@ arrow_right
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .medias{
-		height: auto !important;
-		width: 100vw !important;
+		height: 30vh !important;
+		width: auto !important;
 		display: block !important;
 		margin-top: 0.25rem;
 		box-sizing: border-box !important;
