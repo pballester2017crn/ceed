@@ -1437,6 +1437,10 @@ arrow_right
 		background-color: yellow;
 		float: left;
 	}
+	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .medias img{
+		height: 30vh !important;
+		width: auto !important;
+	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
   	padding-bottom: 56.25%;
