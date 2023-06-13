@@ -1352,6 +1352,9 @@ arrow_right
 		align-content: center;
 		justify-content: center;
 	}
+	.ceed .contingut .grafic .graf1{
+		display: none !important;
+	}
 	.ceed .contingut .grafic .graf2{
 		height: 30vh;
 	}
@@ -1375,13 +1378,14 @@ arrow_right
 		margin: 0 !important;
 		padding: 0 !important;
 		width: max-content !important;
+		overflow: hidden;
 		height: 30vh !important;
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
-		display: flex;
+		/*display: flex;
 	  align-items: flex-start;
 	  align-content: center;
-	  justify-content: center;
+	  justify-content: center;*/
 	}
 	.ceed .contingut .mediaflow .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow6 .mediabloc::-webkit-scrollbar, .ceed .contingut .mediaflow75 .mediabloc::-webkit-scrollbar{
 		display: none !important;
@@ -1428,6 +1432,7 @@ arrow_right
 		margin-top: 0.25rem;
 		box-sizing: border-box !important;
 		background-color: yellow;
+		float: left;
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
