@@ -1347,7 +1347,6 @@ arrow_right
 	}
 
 	.ceed .contingut .grafic .graf2, .ceed .contingut .grafic .graf1{
-
 		/*display: flex;
 		align-items: flex-start;
 		align-content: center;
@@ -1436,13 +1435,13 @@ arrow_right
 		height: 30vh !important;
 		width: auto !important;
 		display: inline-block !important;
-		margin-top: 0.25rem;
+		margin-top: 0rem;
 		box-sizing: border-box !important;
 		background-color: yellow;
 		/*float: left;*/
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar img{
-		height: 30vh !important;
+		height: 90% !important;
 		width: auto !important;
 		display: block;
 	}
