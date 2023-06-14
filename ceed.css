@@ -728,12 +728,12 @@ arrow_right
 	font-size: 0.90rem;
 	line-height: 1.35;
 }
-.ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4, .ceed .contingut .mediavideor{
+.ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
 	position: relative;
 	overflow: hidden;
 	height: 0;
 }
-.ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe, .ceed .contingut .mediavideor iframe{
+.ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1448,6 +1448,7 @@ arrow_right
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediavideor{
 		height: 100% !important;
+		width: 0 !important;
   	padding-left: 28.125% !important;
 		/*padding-right: 77.77% !important;*/
 		margin: 0 !important;
