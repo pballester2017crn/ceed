@@ -1356,11 +1356,11 @@ arrow_right
 		display: none !important;
 	}
 	.ceed .contingut .grafic .graf2{
-		height: 36vh !important;
+		height: 39vh !important;
 		position: relative !important;
 	}
 	.ceed .contingut .grafic .enrere, .ceed .contingut .grafic .avant{
-		height: 36vh;
+		height: 39vh;
 		display: none !important;
 	}
 	.ceed .contingut .grafic .enrere i, .ceed .contingut .grafic .avant i{
@@ -1373,7 +1373,7 @@ arrow_right
 		scroll-behavior: smooth !important;
   	scroll-snap-type: x mandatory !important;
 		max-width: 100% !important;
-		height: 36vh !important;
+		height: 39vh !important;
 		background-color: violet;
 		position: relative !important;
 
@@ -1384,7 +1384,7 @@ arrow_right
 		width: max-content !important;
 		/*width: 300vw !important;*/
 		/*overflow: hidden;*/
-		height: 36vh !important;
+		height: 39vh !important;
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
 		position: absolute !important;
@@ -1432,7 +1432,7 @@ arrow_right
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar{
-		height: 36vh !important;
+		height: 39vh !important;
 		width: auto !important;
 		display: inline-block !important;
 		margin: 0 !important;
@@ -1442,7 +1442,7 @@ arrow_right
 		/*float: left;*/
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar img{
-		height: 90% !important;
+		height: 95% !important;
 		width: auto !important;
 		display: block;
 	}
