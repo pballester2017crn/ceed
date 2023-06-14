@@ -1387,7 +1387,7 @@ arrow_right
 		height: 39vh !important;
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
-		position: relative !important;
+		position: absolute !important;
 		/*display: flex;
 	  align-items: flex-start;
 	  align-content: center;
@@ -1439,7 +1439,7 @@ arrow_right
 		padding: 0 !important;
 		box-sizing: border-box !important;
 		background-color: yellow;
-		position: absolute !important;
+
 		/*float: left;*/
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar img{
@@ -1454,7 +1454,10 @@ arrow_right
 		padding-right: 77.77% !important;*/
 		margin: 0 !important;
 		display: inline-block !important;
-		position: absolute !important;
+	}
+	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediavideor{
+		width: 320px !important;
+		height: 180px !important;
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
