@@ -1442,13 +1442,13 @@ arrow_right
 		/*float: left;*/
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar img{
-		height: 100% !important;
+		height: 90% !important;
 		width: auto !important;
 		display: block;
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediavideor{
-		height: 100% !important;
-  	padding-left: 177.77%;
+		/*height: 100% !important;
+  	padding-left: 177.77%;*/
 		margin: 0 !important;
 		display: inline-block !important;
 	}
