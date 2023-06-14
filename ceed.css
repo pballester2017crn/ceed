@@ -724,16 +724,16 @@ arrow_right
 	/*list-style-type: none;*/
 	line-height: 1.35;
 }
-.ceed .contingut .media .peu, .ceed .contingut .media1 .peu, .ceed .contingut .media3 .peu, .ceed .contingut .media4 .peu, .ceed .contingut .media6 .peu{
+.ceed .contingut .media .peu, .ceed .contingut .media1 .peu, .ceed .contingut .media3 .peu, .ceed .contingut .media4 .peu, .ceed .contingut .media6 .peu, .ceed .contingut .mediar .peu{
 	font-size: 0.90rem;
 	line-height: 1.35;
 }
-.ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
+.ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4, .ceed .contingut .mediavideor{
 	position: relative;
 	overflow: hidden;
 	height: 0;
 }
-.ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe{
+.ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe, .ceed .contingut .mediavideor iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
