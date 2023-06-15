@@ -1356,11 +1356,11 @@ arrow_right
 		display: none !important;
 	}
 	.ceed .contingut .grafic .graf2{
-		height: 39vh !important;
+		height: 38vh !important;
 		position: relative !important;
 	}
 	.ceed .contingut .grafic .enrere, .ceed .contingut .grafic .avant{
-		height: 39vh;
+		height: 38vh;
 		display: none !important;
 	}
 	.ceed .contingut .grafic .enrere i, .ceed .contingut .grafic .avant i{
@@ -1373,7 +1373,7 @@ arrow_right
 		scroll-behavior: smooth !important;
   	scroll-snap-type: x mandatory !important;
 		max-width: 100% !important;
-		height: 39vh !important;
+		height: 38vh !important;
 		background-color: violet;
 		position: relative !important;
 
@@ -1384,7 +1384,7 @@ arrow_right
 		width: max-content !important;
 		/*width: 300vw !important;*/
 		/*overflow: hidden;*/
-		height: 39vh !important;
+		height: 38vh !important;
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
 		position: absolute !important;
@@ -1432,7 +1432,7 @@ arrow_right
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediar{
-		height: 39vh !important;
+		height: 38vh !important;
 		width: auto !important;
 		display: inline-block !important;
 		margin: 0 !important;
@@ -1454,19 +1454,19 @@ arrow_right
 		padding-right: 77.77% !important;*/
 		margin: 0 !important;
 		display: inline-block !important;
-		overflow: hidden !important;
+		/*overflow: hidden !important;
 		position: relative !important;
 		padding-left: 28.125% !important;
-  	height: 100% !important;
+  	height: 100% !important;*/
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediavideor iframe{
-		position: absolute;
+		/*position: absolute;
   	top: 0;
   	left: 0;
   	width: 100%;
-  	height: 100%;
-		/*width: 360px !important;
-		height: 202.5px !important;*/
+  	height: 100%;*/
+		width: 360px !important;
+		height: 202.5px !important;
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
