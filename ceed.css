@@ -1454,10 +1454,19 @@ arrow_right
 		padding-right: 77.77% !important;*/
 		margin: 0 !important;
 		display: inline-block !important;
+
+		position: relative !important;
+		padding-bottom: 56.25%; /* 16:9 */
+  	height: 0;
 	}
 	.ceed .contingut .grafic .graf2 .mediaflow6 .mediabloc .mediavideor iframe{
-		width: 360px !important;
-		height: 202.5px !important;
+		position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+		/*width: 360px !important;
+		height: 202.5px !important;*/
 	}
 	.ceed .contingut .mediavideo, .ceed .contingut .mediavideo1, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
   	width: 100%;
