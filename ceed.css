@@ -1454,7 +1454,7 @@ arrow_right
 		padding-right: 77.77% !important;*/
 		margin: 0 !important;
 		display: inline-block !important;
-
+		overflow: hidden !important;
 		position: relative !important;
 		padding-left: 28.125% !important;
   	height: 100% !important;
