@@ -1901,7 +1901,8 @@ arrow_right
 		position: absolute !important;
 		z-index: 1 !important;
 		cursor: pointer;
-		text-shadow: 2px 2px 4px #000000 !important;
+		text-shadow: 2px 2px #000000 !important;
+		text-stroke: 2px #000000 !important;
 	}
 	.ceed .contingut .enrere{
 		left: 0;
@@ -1917,11 +1918,13 @@ arrow_right
 		line-height: 7 !important;
 		display: block !important;
 		color: #999 !important;
-		text-shadow: 2px 2px 4px #000000 !important;
+		text-shadow: 2px 2px #000000 !important;
+		text-stroke: 2px #000000 !important;
 	}
 	.ceed .contingut .enrere i:hover, .ceed .contingut .avant i:hover{
 		color: #fff !important;
-		text-shadow: 2px 2px 4px #000000 !important;
+		text-shadow: 2px 2px #000000 !important;
+		text-stroke: 2px #000000 !important;
 	}
 
 }
@@ -2280,7 +2283,8 @@ arrow_right
 		position: absolute !important;
 		z-index: 1 !important;
 		cursor: pointer;
-		text-shadow: 2px 2px 4px #000000 !important;
+		text-shadow: 2px 2px #000000 !important;
+		text-stroke: 2px #000000 !important;
 	}
 	.ceed .contingut .enrere{
 		left: 0;
@@ -2296,11 +2300,13 @@ arrow_right
 		line-height: 7 !important;
 		display: block !important;
 		color: #999 !important;
-		text-shadow: 2px 2px 4px #000000 !important;
+		text-shadow: 2px 2px #000000 !important;
+		text-stroke: 2px #000000 !important;
 	}
 	.ceed .contingut .enrere i:hover, .ceed .contingut .avant i:hover{
 		color: #fff !important;
-		text-shadow: 2px 2px 4px #000000 !important;
+		text-shadow: 2px 2px #000000 !important;
+		text-stroke: 2px #000000 !important;
 	}
 	.ceed .contingut .cont{
 		clear: both;
