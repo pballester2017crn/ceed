@@ -1374,7 +1374,7 @@ arrow_right
   	scroll-snap-type: x mandatory !important;
 		max-width: 100% !important;
 		height: 38vh !important;
-		background-color: violet;
+
 		position: relative !important;
 
 	}
@@ -1438,7 +1438,7 @@ arrow_right
 		margin: 0 !important;
 		padding: 0 !important;
 		box-sizing: border-box !important;
-		background-color: yellow;
+
 
 		/*float: left;*/
 	}
