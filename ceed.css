@@ -2225,6 +2225,28 @@ arrow_right
 	.ceed .contingut .grafic .graf2{
 		display: none;
 	}
+	.ceed .contingut .enrere, .ceed .contingut .avant{
+		margin: 0 !important;
+	  padding: 0 !important;
+	  max-width: 15%;
+		height: 300px !important;
+		position: relative !important;
+		background-color: yellow;
+	}
+	.ceed .contingut .enrere{
+		left: 0;
+	}
+	.ceed .contingut .avant{
+		right: 0;
+	}
+	.ceed .contingut .enrere i, .ceed .contingut .avant i{
+		font-size: 2.4rem !important;
+		font-weight: 900 !important;
+		padding: 0.5rem 0px 0px 0px !important;
+		margin: 0 !important;
+		line-height: 1.2 !important;
+		display: block !important;
+	}
 	.ceed .contingut .cont{
 		clear: both;
 	}
