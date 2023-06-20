@@ -2216,12 +2216,11 @@ arrow_right
 	}
 	.ceed .contingut .grafic .graf1 .gran{
 		width: 100% !important;
+		padding-bottom: 56.25%;
 		box-sizing: border-box !important;
 	}
 	.ceed .contingut .grafic .graf1 .gran .imgran{
-		width: 100% !important;
-		height: auto;
-		box-sizing: border-box !important;
+
 	}
 	.ceed .contingut .grafic .graf2{
 		display: none;
