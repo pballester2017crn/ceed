@@ -2247,10 +2247,11 @@ arrow_right
 		margin: 0 !important;
 		line-height: 7 !important;
 		display: block !important;
-		color: #bbb;
+		color: #999;
 	}
 	.ceed .contingut .enrere i:hover, .ceed .contingut .avant i:hover{
 		color: #fff;
+		text-shadow: 2px 2px 4px #000000;
 	}
 	.ceed .contingut .cont{
 		clear: both;
