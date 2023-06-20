@@ -1897,7 +1897,7 @@ arrow_right
 		margin: 0 !important;
 	  padding: 25px !important;
 	  max-width: 15%;
-		height: 300px !important;
+		height: 250px !important;
 		position: absolute !important;
 		z-index: 1 !important;
 		cursor: pointer;
@@ -1915,12 +1915,12 @@ arrow_right
 		margin: 0 !important;
 		line-height: 7 !important;
 		display: block !important;
-		color: #999;
-		text-shadow: 2px 2px 4px #000000;
+		color: #999 !important;
+		text-shadow: 2px 2px 4px #000000 !important;
 	}
 	.ceed .contingut .enrere i:hover, .ceed .contingut .avant i:hover{
-		color: #fff;
-		text-shadow: 2px 2px 4px #000000;
+		color: #fff !important;
+		text-shadow: 2px 2px 4px #000000 !important;
 	}
 
 }
@@ -2293,12 +2293,12 @@ arrow_right
 		margin: 0 !important;
 		line-height: 7 !important;
 		display: block !important;
-		color: #999;
-		text-shadow: 2px 2px 4px #000000;
+		color: #999 !important;
+		text-shadow: 2px 2px 4px #000000 !important;
 	}
 	.ceed .contingut .enrere i:hover, .ceed .contingut .avant i:hover{
-		color: #fff;
-		text-shadow: 2px 2px 4px #000000;
+		color: #fff !important;
+		text-shadow: 2px 2px 4px #000000 !important;
 	}
 	.ceed .contingut .cont{
 		clear: both;
