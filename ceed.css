@@ -1895,12 +1895,13 @@ arrow_right
 	}
 	.ceed .contingut .enrere, .ceed .contingut .avant{
 		margin: 0 !important;
-	  padding: 25px !important;
+	  padding: 15px !important;
 	  max-width: 15%;
-		height: 250px !important;
+		height: 260px !important;
 		position: absolute !important;
 		z-index: 1 !important;
 		cursor: pointer;
+		text-shadow: 2px 2px 4px #000000 !important;
 	}
 	.ceed .contingut .enrere{
 		left: 0;
@@ -2273,12 +2274,13 @@ arrow_right
 	}
 	.ceed .contingut .enrere, .ceed .contingut .avant{
 		margin: 0 !important;
-	  padding: 25px !important;
+	  padding: 15px !important;
 	  max-width: 15%;
-		height: 300px !important;
+		height: 320px !important;
 		position: absolute !important;
 		z-index: 1 !important;
 		cursor: pointer;
+		text-shadow: 2px 2px 4px #000000 !important;
 	}
 	.ceed .contingut .enrere{
 		left: 0;
