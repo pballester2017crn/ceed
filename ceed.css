@@ -1895,10 +1895,11 @@ arrow_right
 	}
 	.ceed .contingut .enrere, .ceed .contingut .avant{
 		margin: 0 !important;
-	  padding: 15px !important;
-	  width: 40px;
+	  padding: 10px !important;
+	  width: 50px;
 		height: 50px !important;
 		position: absolute !important;
+		top: 120px !important;
 		z-index: 1 !important;
 		cursor: pointer;
 		color: #fff !important;
@@ -2273,8 +2274,8 @@ arrow_right
 	}
 	.ceed .contingut .enrere, .ceed .contingut .avant{
 		margin: 0 !important;
-		padding: 15px!important;
-	  width: 40px !important;
+		padding: 10px!important;
+	  width: 50px !important;
 		height: 50px !important;
 		position: absolute !important;
 		z-index: 1 !important;
