@@ -2228,12 +2228,14 @@ arrow_right
 	}
 	.ceed .contingut .enrere, .ceed .contingut .avant{
 		margin: 0 !important;
-	  padding: 0 !important;
+	  padding: 25px !important;
 	  max-width: 15%;
 		height: 300px !important;
 		position: absolute !important;
 		background-color: yellow;
-		z-index: 10 !important;
+		z-index: 1 !important;
+		cursor: pointer;
+		vertical-align: center !important;
 	}
 	.ceed .contingut .enrere{
 		left: 0;
@@ -2248,6 +2250,10 @@ arrow_right
 		margin: 0 !important;
 		line-height: 1.2 !important;
 		display: block !important;
+		color: #ddd;
+	}
+	.ceed .contingut .enrere i:hover, .ceed .contingut .avant i:hover{
+		color: #fff;
 	}
 	.ceed .contingut .cont{
 		clear: both;
