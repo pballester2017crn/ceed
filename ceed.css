@@ -728,12 +728,12 @@ arrow_right
 	font-size: 0.90rem;
 	line-height: 1.35;
 }
-.ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4{
+.ceed .contingut .mediavideo, .ceed .contingut .mediavideo3, .ceed .contingut .mediavideo4, .ceed .contingut .grafic .graf1 .gran{
 	position: relative;
 	overflow: hidden;
 	height: 0;
 }
-.ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe{
+.ceed .contingut .mediavideo iframe, .ceed .contingut .mediavideo3 iframe, .ceed .contingut .mediavideo4 iframe, .ceed .contingut .grafic .graf1 .gran iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
