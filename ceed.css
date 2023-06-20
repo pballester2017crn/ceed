@@ -1895,14 +1895,14 @@ arrow_right
 	}
 	.ceed .contingut .enrere, .ceed .contingut .avant{
 		margin: 0 !important;
-	  padding: 15px !important;
-	  max-width: 15%;
-		height: 260px !important;
+	  padding: 10px !important;
+	  width: 40px;
+		height: 50px !important;
 		position: absolute !important;
 		z-index: 1 !important;
 		cursor: pointer;
-		text-shadow: 2px 2px #000000 !important;
-		text-stroke: 2px #000000 !important;
+		color: #fff !important;
+		background-color: rgba(0,0,0,0.5)
 	}
 	.ceed .contingut .enrere{
 		left: 0;
@@ -1911,22 +1911,14 @@ arrow_right
 		right: 0;
 	}
 	.ceed .contingut .enrere i, .ceed .contingut .avant i{
-		font-size: 2.4rem !important;
+		font-size: 2.0rem !important;
 		font-weight: 900 !important;
-		padding: 0.5rem 0px 0px 0px !important;
+		padding: 0rem 0px 0px 0px !important;
 		margin: 0 !important;
-		line-height: 7 !important;
+		line-height: 1 !important;
 		display: block !important;
 		color: #999 !important;
-		text-shadow: 2px 2px #000000 !important;
-		text-stroke: 2px #000000 !important;
 	}
-	.ceed .contingut .enrere i:hover, .ceed .contingut .avant i:hover{
-		color: #fff !important;
-		text-shadow: 2px 2px #000000 !important;
-		text-stroke: 2px #000000 !important;
-	}
-
 }
 
 @media screen and (min-width: 961px){
