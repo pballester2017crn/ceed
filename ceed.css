@@ -2277,13 +2277,13 @@ arrow_right
 	}
 	.ceed .contingut .enrere, .ceed .contingut .avant{
 		margin: 0 !important;
-	  padding: 15px !important;
-	  max-width: 15%;
-		height: 40px !important;
+	  padding: 10px !important;
+	  width: 40px;
+		height: 50px !important;
 		position: absolute !important;
 		z-index: 1 !important;
 		cursor: pointer;
-		top: 300px;
+		top: 150px;
 		color: #999 !important;
 	}
 	.ceed .contingut .enrere{
@@ -2303,7 +2303,7 @@ arrow_right
 	}
 	.ceed .contingut .enrere:hover, .ceed .contingut .avant:hover{
 		color: #fff !important;
-		background-color: rgba(0,0,0,0.7);
+		background-color: rgba(0,0,0,0.5);
 	}
 	.ceed .contingut .cont{
 		clear: both;
